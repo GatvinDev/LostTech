@@ -1,0 +1,985 @@
+#meleeweapons																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	WeaponClass	WeaponSubClass	IsImplicit	RequiredAmmo	OverrideAmmo	DefaultAmmoId	Damage	Firemodes	MagazineCapacity	ReloadDuration	ReloadOneClip	DurabilityLossOnThrow	ThrowRange	MeleeCanAmputate	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory			
+miner_knife_1		Miner Common Worker CResistance UnchainedBelt	1	100	0.1	2	Weapon	Knife	Default	false			implicted_knife	3 7 crit 1.5	knife_single knife_triple	0	1	false	1	5	true	100	0	false	melee
+common_knife_1		Military Police Common Medical Science CResistance UnchainedBelt SheduThousand	1	100	0.35	2	Weapon	Knife	Default	false			implicted_knife	4 8 crit 1.5	knife_single knife_triple	0	1	false	1	5	true	100	0	false	melee
+military_knife_1		Managment Military Police CResistance UnchainedBelt SheduThousand	2	200	0.6	2	Weapon	Knife	Default	false			implicted_knife	5 9 crit 1.5	knife_single knife_triple	0	1	false	1	5	true	100	0	false	melee
+venus_axe_1		Tezctlan XiomaraMasks	1	400	6	2	Weapon	Axe	Default	false			implicted_heavy_axe	19 31 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	venus_weapon
+venus_poleaxe_1		Tezctlan	2	400	6.25	2	Weapon	Axe	Default	false			implicted_heavy_axe	20 32 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	venus_weapon
+venus_mace_1		Tezctlan XiomaraMasks	1	200	4	2	Weapon	Club	Default	false			implicted_club	12 24 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	venus_weapon
+venus_club_1		Tezctlan XiomaraMasks	1	200	4.25	2	Weapon	Club	Default	false			implicted_club	13 25 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	venus_weapon
+worker_crowbar_1		Common Worker Miner UnchainedBelt	1	200	2	2	Weapon	Club	Tool	false			implicted_club	10 20 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	melee
+worker_wrench_1		Common Worker Miner UnchainedBelt	1	200	2.25	2	Weapon	Club	Tool	false			implicted_club	11 21 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	melee
+venus_knife_1		Tezctlan XiomaraMasks	1	200	0.2	2	Weapon	Knife	Default	false			implicted_knife	3 8 crit 1.5	knife_single knife_triple	0	1	false	1	5	true	100	0	false	venus_weapon
+venus_battlefist_1		Tezctlan XiomaraMasks	3	600	0.2	2	Weapon	Fist	Default	false			implicted_combat_knife	1 6 crit 2	blunt_single blunt_duble	0	1	false	1	0	true	100	0	false	venus_weapon
+spider_claw		Tezctlan XiomaraMasks	1	20	0.1	2	Weapon	Knife	Default	false			implicted_knife	3 9 crit 1.7	knife_single	0	1	false	1	5	true	99	0	false	nothing
+bone_knife		Tezctlan XiomaraMasks Possesed Prison	1	10	0.1	2	Weapon	Knife	Default	false			implicted_knife	3 7 crit 1.5	knife_single knife_triple	0	1	false	1	5	true	100	0	false	nothing
+trash_knife_1		Possesed Prison Common	1	10	0.35	1	Weapon	Knife	Default	false			implicted_knife	4 8 crit 1.5	knife_single knife_triple	0	1	false	1	5	true	100	0	false	nothing
+trash_club_1		Possesed Prison UnchainedBelt	1	20	2	2	Weapon	Club	Default	false			implicted_club	10 20 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	true	100	0	false	melee
+police_club_1		Police Military SheduThousand	1	100	2.25	2	Weapon	Club	Default	false			implicted_club	11 21 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	melee
+trash_axe_1		Possesed UnchainedBelt CResistance	1	100	3	2	Weapon	Axe	Default	false			implicted_heavy_axe	16 26 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	melee
+prison_axe_1		Possesed Miner UnchainedBelt Prison CResistance	1	100	3.25	2	Weapon	Axe	Default	false			implicted_heavy_axe	17 27 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	melee
+common_axe_1		Common Worker Miner CResistance UnchainedBelt SheduThousand	1	200	3.5	2	Weapon	Axe	Default	false			implicted_heavy_axe	18 28 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	melee
+military_axe_1		RealWare Military Managment SheduThousand	3	400	3.75	2	Weapon	Axe	Default	false			implicted_heavy_axe	19 29 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	melee
+trash_fist_1		Prison Common UnchainedBelt	1	20	0.1	1	Weapon	Fist	Default	false			implicted_club	1 5 crit 2	blunt_single blunt_duble	0	1	false	1	0	false	100	0	false	melee
+human_hand		Possesed	1	20	2	2	Weapon	Club	Default	false			implicted_body_part	10 20 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	nothing
+human_leg		Possesed	1	20	2.25	2	Weapon	Club	Default	false			implicted_body_part	11 21 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	nothing
+trash_pipe_1		Possesed Prison Worker Common CResistance UnchainedBelt	1	20	2.5	2	Weapon	Club	Default	false			implicted_body_part	12 22 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	nothing
+moon_maul_1		Moon	1	200	4	2	Weapon	Club	Default	false			implicted_club	12 24 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	moon_weapon
+moon_mace_1		Moon	1	800	4.25	2	Weapon	Club	Default	false			implicted_club	13 25 crit 1.3	blunt_single blunt_duble	0	1	false	1	5	false	100	0	false	moon_weapon
+trash_blade_1		Possesed UnchainedBelt Common Prison CResistance UnchainedBelt SheduThousand	1	200	2	2	Weapon	Blade	Default	false			implicted_katana	11 23 crit 1.4	blade_single	0	1	false	1	0	true	99	0	false	melee
+moon_axe_1		Moon	1	400	6	2	Weapon	Axe	Default	false			implicted_heavy_axe	19 31 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	moon_weapon
+tech_blade_1		Managment AnCom Military Medical Science SheduThousand	3	400	2	2	Weapon	Blade	Default	false			implicted_katana	10 20 crit 1.3	blade_single blade_double	0	1	false	1	0	true	100	0	false	melee
+moon_blade_1		Moon	1	800	4	2	Weapon	Blade	Default	false			implicted_katana	13 27 crit 1.4	blade_single	0	1	false	1	0	true	99	0	false	moon_weapon
+military_shovel_1		Miner RealWare CoreWard CResistance	1	200	3	2	Weapon	Axe	Tool	false			implicted_heavy_axe	16 26 crit 1.2	axe_single axe_heavy	0	1	false	1	5	true	100	0	false	melee
+moon_fist_1		Moon	1	20	0.2	2	Weapon	Fist	Default	false			implicted_club	1 6 crit 2	blunt_single blunt_duble	0	1	false	1	0	false	100	0	false	moon_weapon
+scrivnus_blade_1		Scrivnus	1	800	2	2	Weapon	Blade	Default	false			implicted_katana	10 20 crit 1.3	blade_single blade_double	0	1	false	1	0	true	100	0	false	nothing
+mercury_blade_1		Mercury	1	200	4	2	Weapon	Blade	Default	false			implicted_katana	13 27 crit 1.4	blade_single	0	1	false	1	0	true	99	0	false	mercury_weapon
+mercury_sickle_1		Mercury	1	200	0.2	2	Weapon	Knife	Default	false			implicted_combat_knife	3 10 crit 1.7	knife_single	0	1	false	1	5	true	99	0	false	mercury_weapon
+fra_police_club_1		FrancheComte	1	400	2	2	Weapon	Club	Electric	false	BatteryCells	implicted_shockclub	battery_basic_ammo	10 20 crit 1.3	blunt_ammo_single blunt_ammo_duble	6	1	false	1	5	false	90	0	false	tech_weapon
+miner_breaker_1		Worker Miner	2	300	5	2	Weapon	Fist	Tool	false	Gas	implicted_club	gas_ammo	5 15 crit 1.25	blunt_breaker	20	6	false	1	0	false	90	0	false	engineering_weapon
+trash_sawblade_1		Possesed CResistance UnchainedBelt Worker Miner	1	600	4	2	Weapon	Chainsaw	Default	false	Gas	implicted_sawblade	gas_ammo	16 26 crit 1.5	sawsword_single sawsword_heavy	10	6	false	1	0	true	45	0	false	engineering_weapon
+civ_powerfist_1		CResistance	1	400	0.4	2	Weapon	Fist	Default	false	BatteryCells	implicted_club	battery_crafted_ammo	7 17 crit 1.35	blunt_ammo_single blunt_ammo_triple	10	6	false	1	0	false	90	0	false	tech_weapon
+#end																												
+																												
+#rangeweapons																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	WeaponClass	WeaponSubClass	IsImplicit	RequiredAmmo	OverrideAmmo	DefaultAmmoId	DefaultGrenadeId	Damage	Firemodes	Range	MagazineCapacity	MinRandomAmmoCount	ReloadDuration	SilencerShotChance	ReloadOneClip	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory	AllowedGrenadeIds	IsSelfCharge
+mars_headgun		none	1	100	6	2	Weapon	AssaultRifle	Quasi	true			implicted_plasma_shrapnel		23 23 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	12	12	0	false	75	0	true	firearms_weapon		false
+dil_shock_sniper_1		Dilthey	9	2200	3	2	Weapon	MarksmanRifle	Electric	false	BatteryCells	implicted_shockgun	dil_battery_ammo		16 32 crit 1.75	advanced_rifle_single	9	6	5	12	0.15	false	121	0	false	tech_weapon		false
+plasma_shotgun_2		ChurchRevelation	5	800	3	2	Weapon	Shotgun	Plasma	false	BatteryCells	implicted_plasma_shrapnel	battery_basic_ammo		7 32 crit 1.5	basic_energy_shotgun_single basic_energy_shotgun_burst	3	16	6	12	0	false	100	0	false	tech_weapon		false
+common_shotgun_1		Common Police Managment CResistance UnchainedBelt FrancheComte	1	200	3	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		12 48 crit 1.6	basic_shotgun_single	6	8	4	5	0	true	165	0	false	firearms_weapon		false
+trash_shotgun_1		Common Prison Worker Miner CResistance UnchainedBelt	1	200	3.6	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		13 49 crit 1.6	basic_shotgun_single	6	8	3	5	0	true	165	0	false	firearms_weapon		false
+common_shotgun_2		Common Police Managment CResistance UnchainedBelt FrancheComte	2	400	4.2	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		14 49 crit 1.6	basic_shotgun_single	6	8	6	5	0	true	165	0	false	firearms_weapon		false
+grh_revolver_pistol_1		Grasshopper	2	600	0.55	2	Weapon	Pistol	Firearm	false	Heavy		rifle_basic_ammo		7 24 crit 1.65	basic_rifle_single basic_rifle_burst	5	6	2	2	0	true	143	0	false	firearms_weapon		false
+sbn_rail_shotgun_1		SBN	4	1000	6	2	Weapon	Shotgun	Rail	false			implicted_em_ammo		25 25 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	0	12	0.9	true	50	0	false	rail_weapon		false
+rail_marksman_1		PlanetBridge Medical	4	1400	6	2	Weapon	MarksmanRifle	Rail	false			implicted_em_ammo		30 30 crit 1.75	advanced_rifle_single	9	6	0	12	0.9	true	61	0	false	rail_weapon		false
+trucker_marksman_2		Military Managment Police ChurchRevelation	2	800	3	2	Weapon	MarksmanRifle	Firearm	false	Heavy		rifle_basic_ammo		17 34 crit 1.65	advanced_rifle_single advanced_rifle_burst	8	3	2	5	0	true	200	0	false	firearms_weapon		false
+grh_trucker_marksman_2		Grasshopper	4	1200	3.96	2	Weapon	MarksmanRifle	Firearm	false	Heavy		rifle_basic_ammo		16 33 crit 1.65	advanced_rifle_single advanced_rifle_burst	9	3	3	4	0	true	190	0	false	firearms_weapon		false
+trucker_pistol_1		Managment ChurchRevelation Grasshopper	1	100	0.5	2	Weapon	Pistol	Firearm	false	Heavy		rifle_basic_ammo		11 31 crit 1.75	basic_rifle_single	6	6	3	3	0	true	150	0	false	firearms_weapon		false
+trucker_pistol_2		Managment ChurchRevelation Grasshopper	2	200	1.1	2	Weapon	Pistol	Firearm	false	Heavy		rifle_basic_ammo		12 32 crit 1.75	basic_rifle_single	6	6	3	3	0	true	150	0	false	firearms_weapon		false
+trucker_pistol_3		Managment ChurchRevelation Grasshopper	3	400	1.7	2	Weapon	Pistol	Firearm	false	Heavy		rifle_basic_ammo		13 32 crit 1.75	basic_rifle_single	6	6	3	3	0	true	150	0	false	firearms_weapon		false
+chu_trucker_pistol_1		ChurchRevelation	4	600	2.3000002	2	Weapon	Pistol	Firearm	false	Heavy		rifle_basic_ammo		14 32 crit 1.9	basic_rifle_single	6	6	4	3	0	true	143	0	false	firearms_weapon		false
+chu_trucker_pistol_2		ChurchRevelation	5	600	2.9	2	Weapon	Pistol	Firearm	false	Heavy		rifle_basic_ammo		15 32 crit 1.9	basic_rifle_single	6	6	2	3	0	true	143	0	false	firearms_weapon		false
+sun_laser_shotgun_1		Sunlight	5	1000	3	2	Weapon	Shotgun	Laser	false	BatteryCells	implicted_energy_shrapnel	battery_basic_ammo		5 31 crit 1.5	basic_energy_shotgun_single basic_energy_shotgun_burst	3	19	8	12	0	false	100	0	false	laser_weapon		false
+anc_quasi_assault_1		AnCom	6	2000	3	2	Weapon	AssaultRifle	Quasi	false	QuasiCells	implicted_shockgun	quasi_basic_ammo		12 24 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	8	12	0	false	90	0	false	tech_weapon		false
+dil_shock_smg_1		Dilthey	3	800	3	2	Weapon	Smg	Electric	false	BatteryCells	implicted_shockgun	dil_battery_ammo		9 19 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	8	12	0	false	90	0	false	tech_weapon		false
+venus_hand		none	1	100	20	2	Weapon	Machinegun	Quasi	true			implicted_xiomara_range		23 23 crit 1.6	basic_machinegun_shortauto	6	60	9	16	0	false	99	0	true	firearms_weapon		false
+fra_shock_pistol_1		FrancheComte	3	400	0.25	2	Weapon	Pistol	Electric	false	BatteryCells	implicted_shockgun	battery_basic_ammo		8 24 crit 1.75	basic_rifle_single	4	12	4	8	0	false	90	0	false	tech_weapon		false
+civ_marksman_1		CResistance	5	1200	3	2	Weapon	MarksmanRifle	Firearm	false	Medium		medium_basic_ammo		17 34 crit 1.65	advanced_rifle_single advanced_rifle_burst	7	9	5	13	0	false	200	0	false	firearms_weapon		false
+anc_marksman_1		AnCom	7	1400	3.6	2	Weapon	MarksmanRifle	Firearm	false	Medium		medium_basic_ammo		18 35 crit 1.8	advanced_rifle_single advanced_rifle_burst	7	6	3	12	0	false	190	0	false	firearms_weapon		false
+cor_worker_pistol_1		Worker Miner CoreWard	1	400	0.5	2	Weapon	Pistol	Rail	false	Bolts		nail_bolts_ammo		9 26 crit 1.35	basic_rifle_single basic_rifle_burst	3	12	10	8	0.9	false	165	0	false	engineering_weapon		false
+rail_pistol_1		Medical Managment PlanetBridge	1	200	1	2	Weapon	Pistol	Rail	false			implicted_em_ammo		21 21 crit 1.75	basic_rifle_single	5	12	0	8	0.9	true	45	0	false	rail_weapon		false
+rail_pistol_2		Medical Managment PlanetBridge	2	400	2.2	2	Weapon	Pistol	Rail	false			implicted_em_ammo		22 22 crit 1.75	basic_rifle_single	5	12	0	8	0.9	true	45	0	false	rail_weapon		false
+rail_pistol_3		Medical Managment PlanetBridge	3	600	3.4	2	Weapon	Pistol	Rail	false			implicted_em_ammo		23 23 crit 1.75	basic_rifle_single	5	12	0	8	0.9	true	45	0	false	rail_weapon		false
+mercury_arm		Mercury	1	120	3	2	Weapon	Smg	Quasi	false	QuasiCells	implicted_quasi_beam	quasi_basic_ammo		11 21 crit 1.45	basic_energy_smg_auto	4	14	16	12	0	false	149	0	false	nothing		false
+ddr_frost_shotgun_1		DaydreamChems	9	1500	3	2	Weapon	Shotgun	Coldgun	false	BatteryCells	implicted_coldgun_shrapnel	battery_basic_ammo		7 32 crit 1.5	basic_energy_shotgun_single basic_energy_shotgun_burst	3	16	8	12	0	false	100	0	false	tech_weapon		false
+civ_plasma_assault_1		CResistance	7	1200	3	2	Weapon	AssaultRifle	Plasma	false	BatteryCells	implicted_plasma_charge	battery_basic_ammo		12 24 crit 1.75	basic_rifle_single basic_rifle_burst	7	10	2	5	0	true	86	0	false	tech_weapon		false
+pmc_smg_1		Police Military Medical Worker Managment AnCom SBN PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard	1	200	3	2	Weapon	Smg	Firearm	false	Bullets		small_basic_ammo		12 24 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	8	12	0	false	150	0	false	firearms_weapon		false
+pmc_smg_2		Police Military Medical Worker Managment AnCom SBN PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard	2	300	3.6	2	Weapon	Smg	Firearm	false	Bullets		small_basic_ammo		13 25 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	12	12	0	false	150	0	false	firearms_weapon		false
+pmc_smg_3		AnCom	5	400	4.2	2	Weapon	Smg	Firearm	false	Bullets		small_basic_ammo		14 25 crit 1.6	basic_smg_shortauto basic_smg_auto	4	16	16	12	0	false	143	0	false	firearms_weapon		false
+civ_common_smg_2		CResistance	3	600	4.7999997	2	Weapon	Smg	Firearm	false	Bullets		small_basic_ammo		15 25 crit 1.45	basic_smg_shortauto basic_smg_auto	4	19	10	13	0	false	150	0	false	firearms_weapon		false
+grh_common_smg_1		Grasshopper	5	800	5.9399996	2	Weapon	Smg	Firearm	false	Bullets		small_basic_ammo		14 23 crit 1.45	basic_smg_shortauto basic_smg_auto	5	16	8	11	0	false	143	0	false	firearms_weapon		false
+fra_security_smg_1		FrancheComte	4	800	4.799999	2	Weapon	Smg	Firearm	false	Bullets		small_basic_ammo		17 26 crit 1.45	basic_smg_shortauto basic_smg_auto	3	16	8	12	0	false	150	0	false	firearms_weapon		false
+fra_security_smg_2		FrancheComte	6	1000	5.3999996	2	Weapon	Smg	Firearm	false	Bullets		small_basic_ammo		18 26 crit 1.45	basic_smg_shortauto basic_smg_auto	3	16	4	12	0	false	150	0	false	firearms_weapon		false
+dil_sound_pistol_2		Dilthey	5	800	1	2	Weapon	Pistol	Rail	false			implicted_em_blunt_ammo		17 17 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	4	8	0	true	45	0	false	tech_weapon		false
+military_smg_1		Military SheduThousand RealWare	3	600	3	2	Weapon	Smg	Firearm	false	Medium		medium_basic_ammo		12 24 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	12	12	0.25	false	150	0	false	firearms_weapon		false
+pirates_smg_2		UnchainedBelt Prison	3	600	3.6	2	Weapon	Smg	Firearm	false	Medium		medium_basic_ammo		13 25 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	8	12	0	false	150	0	false	firearms_weapon		false
+civ_common_smg_1		CResistance	2	600	4.2	2	Weapon	Smg	Firearm	false	Medium		medium_basic_ammo		14 25 crit 1.45	basic_smg_shortauto basic_smg_auto	4	19	10	13	0	false	150	0	false	firearms_weapon		false
+anc_quasi_smg_1		AnCom	5	1200	4.7999997	2	Weapon	Smg	Firearm	false	Medium		medium_basic_ammo		15 25 crit 1.6	basic_smg_shortauto basic_smg_auto	4	16	20	12	0.25	false	143	0	false	firearms_weapon		false
+rwa_military_smg_1		RealWare SheduThousand	7	1500	5.3999996	2	Weapon	Smg	Firearm	false	Medium		medium_basic_ammo		16 25 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	16	12	0.25	false	150	0	false	firearms_weapon		false
+trash_smg_1		Prison Miner UnchainedBelt	1	200	3	2	Weapon	Smg	Firearm	false	Shells		shotgun_shrapnel_ammo		12 24 crit 1.3000001	basic_shotgun_auto	3	16	8	12	0	false	149	0	false	firearms_weapon		false
+pirates_smg_1		UnchainedBelt Prison	2	300	3.6	2	Weapon	Smg	Firearm	false	Shells		shotgun_shrapnel_ammo		13 25 crit 1.3000001	basic_shotgun_auto	3	16	8	12	0	false	149	0	false	firearms_weapon		false
+police_smg_1		Police UnchainedBelt FrancheComte	2	400	4.2	2	Weapon	Smg	Firearm	false	Shells		shotgun_shrapnel_ammo		14 25 crit 1.3000001	basic_shotgun_auto	3	16	8	12	0	false	149	0	false	firearms_weapon		false
+venus_spear_hmg_1		none	10	9000	10	2	Weapon	Machinegun	Quasi	false	QuasiCells		quasi_basic_ammo		12 24 crit 1.6	basic_machinegun_shortauto	6	60	7	16	0	false	198	0	true	venus_weapon		false
+venus_quasi_shotgun_1		Tezctlan XiomaraMasks	3	400	3	2	Weapon	Shotgun	Quasi	false	QuasiCells		quasi_basic_ammo		9 38 crit 1.6	basic_shotgun_single	5	16	4	12	0	false	165	0	false	venus_weapon		false
+army_pistol_2		Common Prison Police Military DaydreamChems	1	200	0.5	2	Weapon	Pistol	Firearm	false	Shells		shotgun_shrapnel_ammo		9 26 crit 1.5	basic_shotgun_single basic_shotgun_burst	2	12	6	8	0	false	150	0	false	firearms_weapon		false
+army_pistol_4		Military DaydreamChems	3	400	1.1	2	Weapon	Pistol	Firearm	false	Shells		shotgun_shrapnel_ammo		10 27 crit 1.5	basic_shotgun_single basic_shotgun_burst	2	12	6	8	0	false	150	0	false	firearms_weapon		false
+army_pistol_3		Military DaydreamChems	2	400	1.7	2	Weapon	Pistol	Firearm	false	Shells		shotgun_shrapnel_ammo		11 28 crit 1.5	basic_shotgun_single basic_shotgun_burst	2	12	6	8	0	false	150	0	false	firearms_weapon		false
+she_heavy_pistol_1		SheduThousand	1	600	0.5	2	Weapon	Pistol	Firearm	false	Shells		shotgun_shrapnel_ammo		9 26 crit 1.65	basic_shotgun_single basic_shotgun_burst	2	12	4	8	0	false	86	0	false	tech_weapon		false
+mercury_assault_staff_1		Mercury	1	1600	3	2	Weapon	AssaultRifle	Plasma	false	QuasiCells	implicted_quasi_beam	quasi_basic_ammo		15 29 crit 1.7	basic_energy_rifle_single	8	18	12	12	0	false	149	0	false	mercury_weapon		false
+civ_plasma_pistol_1		CResistance	4	600	0.5	2	Weapon	Pistol	Plasma	false	BatteryCells	implicted_plasma_charge	battery_basic_ammo		6 20 crit 1.8	basic_energy_rifle_single basic_energy_rifle_burst	4	6	2	3	0	true	86	0	false	tech_weapon		false
+army_sniper_1		Police Military RealWare SheduThousand UnchainedBelt Dilthey	6	1200	3	2	Weapon	MarksmanRifle	Firearm	false	Heavy		rifle_basic_ammo		20 40 crit 1.75	advanced_rifle_single	9	6	3	12	0	false	200	0	false	firearms_weapon		false
+pirates_sniper_1		UnchainedBelt	5	1200	3.6	2	Weapon	MarksmanRifle	Firearm	false	Heavy		rifle_basic_ammo		21 41 crit 1.9	advanced_rifle_single	9	6	15	12	0	false	190	0	false	firearms_weapon		false
+army_sniper_2		AnCom CoreWard Military SheduThousand	8	1800	4.2	2	Weapon	MarksmanRifle	Firearm	false	Heavy		rifle_basic_ammo		22 41 crit 1.75	advanced_rifle_single	9	6	4	12	0	false	200	0	false	firearms_weapon		false
+sbn_rail_assault_1		SBN	9	2000	6	2	Weapon	AssaultRifle	Rail	false			implicted_em_ammo		23 23 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	0	12	0.8	true	45	0	false	rail_weapon		false
+moon_assault_1		Moon	1	200	3	2	Weapon	AssaultRifle	Quasi	false	Bolts		quasi_bolts_ammo		19 36 crit 1.4	basic_rifle_single	8	18	9	12	0.8	false	164	0	false	moon_weapon		false
+dil_sound_pistol_1		Dilthey	2	600	1	2	Weapon	Pistol	Rail	false			implicted_em_blunt_ammo		21 21 crit 1.75	basic_rifle_single	5	12	4	8	0	true	45	0	false	tech_weapon		false
+venus_quasi_pistol_1		Tezctlan XiomaraMasks	1	400	0.5	2	Weapon	Pistol	Quasi	false	QuasiCells		quasi_basic_ammo		6 20 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	4	8	0	false	150	0	false	venus_weapon		false
+military_minigun_1		RealWare Grasshopper Military	9	2500	10	2	Weapon	Minigun	Firearm	false	Heavy		rifle_basic_ammo		15 30 crit 1.6	basic_machinegun_shortauto basic_machinegun_auto	6	60	40	16	0	false	200	0	false	firearms_weapon		false
+dil_sound_assault_1		Dilthey	8	2000	6	2	Weapon	AssaultRifle	Rail	false			implicted_em_blunt_ammo		23 23 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	0	12	0	true	45	0	false	tech_weapon		false
+sbn_rail_smg_1		SBN	4	1400	6	2	Weapon	Smg	Rail	false			implicted_em_ammo		18 18 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	0	12	0.9	true	45	0	false	rail_weapon		false
+plasma_assault_1		ChurchRevelation SBN Sunlight	6	1600	3	2	Weapon	AssaultRifle	Plasma	false	BatteryCells	implicted_plasma_charge	battery_basic_ammo		12 24 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	12	12	0	false	90	0	false	tech_weapon		false
+mercury_shotgun_staff_1		Mercury	1	400	3	2	Weapon	Shotgun	Quasi	false	QuasiCells	implicted_energy_shrapnel	quasi_basic_ammo		11 40 crit 1.6	basic_shotgun_single	5	14	4	12	0	false	165	0	false	mercury_weapon		false
+fra_shock_smg_1		FrancheComte	5	900	1.8	2	Weapon	Smg	Electric	false	BatteryCells	implicted_shockgun	battery_basic_ammo		9 19 crit 1.45	basic_smg_auto	3	16	4	12	0	false	90	0	false	tech_weapon		false
+laser_smg_1		SBN Sunlight Science	3	500	3	2	Weapon	Smg	Laser	false	BatteryCells		battery_basic_ammo		9 19 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	2	12	0	false	90	0	false	laser_weapon		false
+laser_smg_2		SBN Sunlight Science	4	600	3.6	2	Weapon	Smg	Laser	false	BatteryCells		battery_basic_ammo		10 20 crit 1.45	basic_smg_shortauto basic_smg_auto	4	16	6	12	0	false	90	0	false	laser_weapon		false
+ddr_toxic_pistol_1		Science Medical DaydreamChems	1	400	3	2	Weapon	Smg	Toxic	false	Toxic		toxic_ammo		11 24 crit 1.6500001	basic_smg_single	9	8	4	5	0.8	true	90	0	false	tech_weapon		false
+ddr_frost_pistol_1		DaydreamChems	4	800	0.5	2	Weapon	Pistol	Coldgun	false	BatteryCells	implicted_coldgun	battery_basic_ammo		8 24 crit 1.75	basic_rifle_single	5	12	2	8	0	false	90	0	false	tech_weapon		false
+worker_hmg_1		CResistance Worker Miner	1	600	10	2	Weapon	Machinegun	Rail	false	Bolts		nail_bolts_ammo		15 30 crit 1.3	basic_machinegun_shortauto basic_machinegun_auto	6	60	40	16	0.5	false	220	0	false	engineering_weapon		false
+cor_worker_hmg_1		CoreWard	3	800	11.2	2	Weapon	Machinegun	Rail	false	Bolts		nail_bolts_ammo		16 31 crit 1.3	basic_machinegun_shortauto basic_machinegun_auto	6	60	40	16	0.5	false	220	0	false	engineering_weapon		false
+plb_worker_shockgun_1		PlanetBridge	5	3000	10	2	Weapon	Minigun	Electric	false	BatteryCells	implicted_shockgun	battery_basic_ammo		12 24 crit 1.6	basic_machinegun_shortauto basic_machinegun_auto	6	60	30	16	0	false	121	0	false	tech_weapon		false
+sun_laser_assault_1		Sunlight	8	1800	3	2	Weapon	AssaultRifle	Laser	false	BatteryCells		battery_basic_ammo		10 23 crit 1.6	basic_rifle_single basic_rifle_burst	6	23	8	12	0	false	90	0	false	laser_weapon		false
+pirates_autogun_1		UnchainedBelt	9	3000	10	2	Weapon	Minigun	Firearm	false	SuperHeavy		heavy_basic_ammo		15 30 crit 1.75	basic_machinegun_shortauto	6	60	10	16	0	false	189	0	false	firearms_weapon		false
+she_gas_shotgun_1		SheduThousand	4	600	3	2	Weapon	Shotgun	Firearm	false	Gas	implicted_plasma_shrapnel	gas_ammo		7 32 crit 1.65	basic_energy_shotgun_single basic_energy_shotgun_burst	3	16	8	12	0	false	95	0	false	tech_weapon		false
+worker_pistol_1		Miner Worker CoreWard PlanetBridge CResistance	1	100	0.5	2	Weapon	Pistol	Rail	false	Bolts		nail_bolts_ammo		11 31 crit 1.45	basic_rifle_single	5	12	5	8	0.9	false	165	0	false	engineering_weapon		false
+mercury_hmg_staff_1		Mercury	3	1600	10	2	Weapon	Machinegun	Plasma	false	QuasiCells	implicted_quasi_beam	quasi_basic_ammo		14 26 crit 1.6	basic_energy_machinegun_shortauto	6	58	12	16	0	false	198	0	false	mercury_weapon		false
+anc_quasi_pistol_1		AnCom	4	800	0.5	2	Weapon	Pistol	Quasi	false	QuasiCells	implicted_shockgun	quasi_basic_ammo		6 20 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	8	8	0	false	90	0	false	tech_weapon		false
+army_hmg_1		PlanetBridge FrancheComte DaydreamChems Military	7	1600	10	2	Weapon	Machinegun	Firearm	false	Heavy		rifle_basic_ammo		15 30 crit 1.6	basic_machinegun_shortauto basic_machinegun_auto	6	60	26	16	0	false	200	0	false	firearms_weapon		false
+trash_assault_1		Common Prison Miner Worker UnchainedBelt	1	200	3	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		15 30 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	15	12	0	false	150	0	false	firearms_weapon		false
+common_assault_1		Common Military Police SBN DaydreamChems PlanetBridge Grasshopper Sunlight FrancheComte ChurchRevelation CoreWard UnchainedBelt	2	600	3.6	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		16 31 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	12	12	0	false	150	0	false	firearms_weapon		false
+pmc_assault_1		Military Police AnCom RealWare PlanetBridge SheduThousand Dilthey 	3	600	4.2	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		17 31 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	12	12	0	false	150	0	false	firearms_weapon		false
+grh_trucker_assault_1		Grasshopper	4	600	5.2799997	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		16 29 crit 1.6	basic_rifle_single basic_rifle_burst	7	20	15	11	0	false	143	0	false	firearms_weapon		false
+pirates_assault_1		UnchainedBelt	4	800	5.3999996	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		19 31 crit 1.75	basic_rifle_single basic_rifle_burst	6	20	15	12	0	false	143	0	false	firearms_weapon		false
+civ_common_assault_1		CResistance	4	800	5.9999995	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		20 32 crit 1.6	basic_rifle_single basic_rifle_burst	6	23	20	13	0	false	150	0	false	firearms_weapon		false
+fra_security_assault_1		FrancheComte	7	1000	5.9999995	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		21 32 crit 1.6	basic_rifle_single basic_rifle_burst	5	20	9	12	0	false	150	0	false	firearms_weapon		false
+pirates_assault_2		UnchainedBelt	6	1000	7.1999993	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		22 32 crit 1.75	basic_rifle_single basic_rifle_burst	6	20	15	12	0	false	143	0	false	firearms_weapon		false
+grh_trucker_marksman_1		Grasshopper	3	1200	8.579999	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		21 30 crit 1.6	basic_rifle_single basic_rifle_burst	7	20	8	11	0	false	143	0	false	firearms_weapon		false
+military_assault_1		RealWare Grasshopper Military SheduThousand	4	1200	8.4	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		24 33 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	12	12	0	false	150	0	false	firearms_weapon		false
+she_common_assault_1		SheduThousand	9	1800	9	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		25 33 crit 1.75	basic_rifle_single basic_rifle_burst	6	20	12	12	0	false	143	0	false	firearms_weapon		false
+rwa_military_assault_1		RealWare SheduThousand	8	1800	9.6	2	Weapon	AssaultRifle	Firearm	false	Heavy		rifle_basic_ammo		26 33 crit 1.6	basic_rifle_single basic_rifle_burst	6	20	18	12	0	false	150	0	false	firearms_weapon		false
+plasma_shotgun_1		ChurchRevelation	4	800	3	2	Weapon	Smg	Plasma	false	BatteryCells	implicted_plasma_charge	battery_basic_ammo		11 24 crit 1.6500001	basic_energy_smg_single	8	16	3	12	0	false	90	0	false	tech_weapon		false
+pmc_pistol_2		Managment Police Dilthey AnCom	1	100	0.5	2	Weapon	Pistol	Firearm	false	Medium		medium_basic_ammo		9 26 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	6	8	0.9	false	150	0	false	firearms_weapon		false
+pmc_pistol_1		Managment Worker Miner Common Police Dilthey AnCom	1	100	1.1	2	Weapon	Pistol	Firearm	false	Medium		medium_basic_ammo		10 27 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	4	8	0	false	150	0	false	firearms_weapon		false
+pmc_pistol_3		Managment Police Dilthey AnCom	2	200	1.7	2	Weapon	Pistol	Firearm	false	Medium		medium_basic_ammo		11 28 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	12	8	0	false	150	0	false	firearms_weapon		false
+civ_pistol_2		CResistance	1	100	0.5	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		11 31 crit 1.75	basic_rifle_single	5	15	5	9	0	false	150	0	false	firearms_weapon		false
+common_pistol_1		Common Worker Miner Managment UnchainedBelt	1	100	1.1	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		12 32 crit 1.75	basic_rifle_single	5	12	3	8	0	false	150	0	false	firearms_weapon		false
+mercury_staff_sniper_1		Mercury	1	300	3	2	Weapon	MarksmanRifle	Quasi	false	QuasiCells	implicted_quasi_beam	quasi_basic_ammo		18 34 crit 1.75	advanced_rifle_single	10	1	1	5	0	true	200	0	false	mercury_weapon		false
+ddr_toxic_shotgun_1		DaydreamChems	6	1000	3	2	Weapon	Shotgun	Toxic	false	Toxic	implicted_toxic_shrapnel	toxic_ammo		7 32 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	8	12	0	false	100	0	false	tech_weapon		false
+laser_marksman_1		SBN Sunlight Science	3	1600	3	2	Weapon	MarksmanRifle	Laser	false	BatteryCells		battery_basic_ammo		13 27 crit 1.65	advanced_energy_rifle_single advanced_energy_rifle_shortauto	7	6	5	12	0	false	121	0	false	laser_weapon		false
+sun_laser_sniper_1		Sunlight	5	1800	3.6	2	Weapon	MarksmanRifle	Laser	false	BatteryCells		battery_basic_ammo		12 27 crit 1.65	advanced_energy_rifle_single advanced_energy_rifle_shortauto	7	9	5	12	0.15	false	121	0	false	laser_weapon		false
+sun_laser_marksman_1		Sunlight	9	2000	4.2	2	Weapon	MarksmanRifle	Laser	false	BatteryCells		battery_basic_ammo		13 28 crit 1.65	advanced_energy_rifle_single advanced_energy_rifle_shortauto	7	9	5	12	0.15	false	121	0	false	laser_weapon		false
+dil_sound_shotgun_1		Dilthey	4	750	6	2	Weapon	Shotgun	Rail	false			implicted_em_blunt_ammo		25 25 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	8	12	0	true	50	0	false	tech_weapon		false
+laser_pistol_2		Science Sunlight SBN	2	400	0.5	2	Weapon	Pistol	Laser	false	BatteryCells		battery_basic_ammo		6 20 crit 1.65	basic_energy_rifle_single basic_energy_rifle_burst	3	12	2	8	0	false	90	0	false	laser_weapon		false
+laser_pistol_1		Science Sunlight SBN	1	400	1.1	2	Weapon	Pistol	Laser	false	BatteryCells		battery_basic_ammo		7 21 crit 1.65	basic_energy_rifle_single basic_energy_rifle_burst	3	12	2	8	0	false	90	0	false	laser_weapon		false
+sun_laser_pistol_1		Sunlight	3	600	1.7	2	Weapon	Pistol	Laser	false	BatteryCells		battery_basic_ammo		6 21 crit 1.65	basic_energy_rifle_single basic_energy_rifle_burst	3	15	4	8	0	false	90	0	false	laser_weapon		false
+pmc_shotgun_1		Military Managment AnCom	1	200	3	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		10 40 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	6	12	0	false	165	0	false	firearms_weapon		false
+pmc_shotgun_2		Military Managment AnCom	2	400	3.6	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		11 41 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	12	12	0	false	165	0	false	firearms_weapon		false
+trucker_shotgun_1		Medical Military Managment ChurchRevelation Grasshopper RealWare SheduThousand	2	400	4.2	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		12 42 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	6	12	0	false	165	0	false	firearms_weapon		false
+trucker_shotgun_2		Medical Military Managment ChurchRevelation Grasshopper RealWare SheduThousand	3	600	4.7999997	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		13 43 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	12	12	0	false	165	0	false	firearms_weapon		false
+trucker_shotgun_3		Medical Military Managment ChurchRevelation Grasshopper RealWare SheduThousand	4	800	5.3999996	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		14 44 crit 1.5	basic_shotgun_single basic_shotgun_burst	3	16	12	12	0	false	165	0	false	firearms_weapon		false
+anc_shotgun_1		AnCom	8	800	5.9999995	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		15 45 crit 1.65	basic_shotgun_single basic_shotgun_burst	3	16	5	12	0	false	157	0	false	firearms_weapon		false
+chu_shotgun_1		ChurchRevelation	9	1400	6.5999994	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		16 46 crit 1.65	basic_shotgun_single basic_shotgun_burst	3	16	12	12	0	false	157	0	false	firearms_weapon		false
+fra_security_shotgun_1		FrancheComte	8	1500	5.999999	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		17 47 crit 1.5	basic_shotgun_single basic_shotgun_burst	2	16	4	12	0	false	165	0	false	firearms_weapon		false
+moon_crossbow_sniper_1		Moon	1	300	3	2	Weapon	MarksmanRifle	Quasi	false	Bolts		quasi_bolts_ammo		22 42 crit 1.45	advanced_rifle_single	10	1	1	5	0.8	true	220	0	false	moon_weapon		false
+military_pistol_1		Managment Police Military RealWare SheduThousand	1	100	0.5	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		9 26 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	7	8	0	false	150	0	false	firearms_weapon		false
+military_pistol_2		Managment Police Military RealWare SheduThousand	1	200	1.1	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		10 27 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	7	8	0	false	150	0	false	firearms_weapon		false
+civ_pistol_1		CResistance	2	200	1.7	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		11 28 crit 1.65	basic_rifle_single basic_rifle_burst	3	15	15	9	0	false	150	0	false	firearms_weapon		false
+common_pistol_2		Common Worker Miner Managment UnchainedBelt	2	200	2.3000002	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		12 29 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	3	8	0.9	false	150	0	false	firearms_weapon		false
+common_pistol_3		Common Worker Miner Managment UnchainedBelt	3	300	2.9	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		13 30 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	3	8	0.9	false	150	0	false	firearms_weapon		false
+military_pistol_3		Managment Police Military RealWare SheduThousand	2	400	3.5	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		14 31 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	7	8	0	false	150	0	false	firearms_weapon		false
+fra_security_pistol_1		FrancheComte	1	400	2.8999999	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		15 31 crit 1.65	basic_rifle_single basic_rifle_burst	2	12	4	8	0	false	150	0	false	firearms_weapon		false
+rwa_military_pistol_1		RealWare SheduThousand	5	600	4.7	2	Weapon	Pistol	Firearm	false	Bullets		small_basic_ammo		16 31 crit 1.65	basic_rifle_single basic_rifle_burst	3	12	9	8	0	false	150	0	false	firearms_weapon		false
+venus_marksman_1		Tezctlan XiomaraMasks	2	600	3	2	Weapon	MarksmanRifle	Quasi	false	QuasiCells		quasi_basic_ammo		13 27 crit 1.65	advanced_rifle_single advanced_rifle_burst	7	6	6	12	0	false	200	0	false	venus_weapon		false
+plasma_hmg_1		SBN CResistance CoreWard	7	2000	10	2	Weapon	Machinegun	Plasma	false	BatteryCells	implicted_plasma_charge	battery_basic_ammo		12 24 crit 1.6	basic_machinegun_shortauto basic_machinegun_auto	6	60	24	16	0	false	121	0	false	tech_weapon		false
+mars_urparp_headgun		none	1	100	6	2	Weapon	Shotgun	Quasi	true			implicted_plasma_shrapnel		30 30 crit 1.6	basic_shotgun_single	5	16	9	12	0	false	83	0	true	firearms_weapon		false
+firethrower_turret		none	1	100	10	2	Weapon	Turret	Tool	true	Gas	implicted_flamethrower	gas_ammo		8 16 crit 1.75	flamethrower_single	5	999	40	1	0	false	85	0	true	firearms_weapon		false
+minigun_turret		none	1	100	10	2	Weapon	Turret	Firearm	true	Heavy		rifle_basic_ammo		18 20 crit 1.5	basic_machinegun_auto	6	999	40	1	0	false	90	0	true	firearms_weapon		false
+toxic_launcher_1		none	100	999	1	2	Weapon	Flamethrower	Toxic	false	Toxic		toxic_ammo		99 99 crit 1	basic_pistol_single	7	4	2	4	0	false	45	0	false	tech_weapon		false
+mars_flamehead		none	1	100	1	2	Weapon	Flamethrower	Quasi	true			implicted_flamethrower		20 30 crit 1.75	flamethrower_single	5	80	40	6	0	false	135	0	true	firearms_weapon		false
+grenade_launcher_1		Sunlight CoreWard CResistance Military	7	2000	4	2	Weapon	GrenadeLauncher	Launcher	false	Heavy		rifle_basic_ammo	frag_grenade	99 99 crit 1	basic_grenade_single	10	6	3	3	0	true	60	0	false	firearms_weapon	frag_grenade qwasi_grenade thermal_grenade stun_grenade hellfire_grenade	false
+worker_harpoon_1		none	100	999	1	2	Weapon	Harpoonthrower	Tool	false	Heavy		rifle_basic_ammo		99 99 crit 1	basic_pistol_single	7	4	2	4	0	false	45	0	false	engineering_weapon		false
+moon_harpoon_1		none	100	999	1	2	Weapon	Harpoonthrower	Tool	false	Heavy		rifle_basic_ammo		99 99 crit 1	basic_pistol_single	7	4	2	4	0	false	45	0	false	engineering_weapon		false
+tech_hfg_1		SBN CResistance	10	4000	6	2	Weapon	HFG	Laser	false	BatteryCells		battery_basic_ammo		80 100 crit 2	energy_hfg_single	10	40	20	6	0	false	60	0	false	tech_weapon		false
+laser_turret		none	1	100	10	2	Weapon	Turret	Laser	true	BatteryCells		battery_basic_ammo		16 18 crit 1.6	basic_energy_rifle_single	7	999	40	1	0	false	75	0	true	firearms_weapon		false
+mars_grenade_launcher		none	1	100	1	2	Weapon	GrenadeLauncher	Quasi	true	Heavy		rifle_basic_ammo	frag_grenade	99 99 crit 1	basic_grenade_single	6	6	3	3	0	false	135	0	true	firearms_weapon		false
+worker_disctrower_1		CoreWard Worker CResistance	3	1500	9	2	Weapon	Discthrower	Tool	false	SawBlade		sawblade_ammo		20 40 crit 1.6	basic_sawtrower_single	6	12	6	12	0	false	150	0	false	engineering_weapon		false
+sbn_rail_pistol_1		SBN	2	800	4.6	2	Weapon	Pistol	Rail	false			implicted_em_ammo		20 20 crit 1.6	basic_rifle_burst basic_rifle_single	3	12	0	8	0.9	true	40	0	false	rail_weapon		false
+worker_flametrower_1		CoreWard PlanetBridge Worker Miner CResistance	3	1400	9	2	Weapon	Flamethrower	Tool	false	Gas	implicted_flamethrower	gas_ammo		16 18 crit 1.3	flamethrower_single	4	60	30	12	0	false	200	0	false	engineering_weapon		false
+venus_blowpipe_1		Tezctlan XiomaraMasks	1	600	3.5	2	Weapon	MarksmanRifle	Quasi	false	Darts		quasi_darts_ammo		20 40 crit 1.45	advanced_rifle_single	10	1	1	6	0.9	true	200	0	false	venus_weapon		false
+army_pistol_1		Common Prison Police Military DaydreamChems	1	100	1	2	Weapon	Pistol	Firearm	false	Shells		shotgun_shrapnel_ammo		11 31 crit 1.65	basic_shotgun_single	5	6	2	3	0	true	150	0	false	firearms_weapon		false
+toxic_thrower_1		PlanetBridge DaydreamChems Science	3	2000	9	2	Weapon	Flamethrower	Toxic	false	Toxic	implicted_toxicthrower	toxic_ammo		6 18 crit 1.3	toxicthrower_single	5	60	30	12	0	false	90	0	false	tech_weapon		false
+cor_worker_flametrower_1		CoreWard	4	2000	9.5	2	Weapon	Flamethrower	Tool	false	Gas	implicted_flamethrower	gas_ammo		6 18 crit 1.3	flamethrower_single	5	80	40	12	0	false	150	0	false	engineering_weapon		false
+trucker_marksman_1		Military Managment Police ChurchRevelation	1	600	3	2	Weapon	MarksmanRifle	Firearm	false	Heavy		rifle_basic_ammo		22 40 crit 1.75	advanced_rifle_single	10	1	1	6	0	true	200	0	false	firearms_weapon		false
+chu_meltatrower_1		ChurchRevelation	5	2500	10	2	Weapon	Flamethrower	Plasma	false	Gas	implicted_plasma_charge	gas_ammo		5 15 crit 1.3	plasma_energy_burst plasma_energy_shortauto	5	40	20	12	0	false	150	0	false	engineering_weapon		false
+cor_worker_disctrower_1		CoreWard	4	1800	9	2	Weapon	Discthrower	Tool	false	SawBlade		sawblade_ammo		16 32 crit 1.45	advanced_sawtrower_single advanced_sawtrower_burst	6	15	7	12	0	false	120	0	false	engineering_weapon		false
+military_shotgun_1		Military RealWare SheduThousand	3	600	3.5	2	Weapon	Shotgun	Firearm	false	Shells		shotgun_shrapnel_ammo		17 48 crit 1.65	basic_shotgun_single basic_shotgun_burst	3	2	1	6	0	true	165	0	false	firearms_weapon		false
+she_military_minigun_1		SheduThousand	8	2500	9	2	Weapon	Minigun	Firearm	false	Shells		shotgun_shrapnel_ammo		15 30 crit 1.45	basic_shotgun_single basic_shotgun_burst	5	60	20	18	0	false	300	0	false	firearms_weapon		false
+cor_laser_sniper_1		CoreWard	5	1200	18	2	Weapon	Minigun	Laser	false			battery_basic_ammo		12 12 crit 1.3	advanced_energy_machinegun_shortauto	5	1	0	3	0	false	65	0	false	laser_weapon		true
+laser_sniper_1		SBN PlanetBridge Science	9	1800	3.5	2	Weapon	MarksmanRifle	Laser	false	BatteryCells		battery_basic_ammo		16 32 crit 1.75	advanced_rifle_single advanced_energy_sniper_burst	9	6	3	12	0.15	false	105	0	false	laser_weapon		false
+#end																												
+																												
+#ammo																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	MaxStack	BallisticType	MinAmmoAmount	MaxAmmoAmount	AmmoType	DmgType	DmgCritChance	AccuracyMult	DamageMult	BulletCastsPerShot	TargetBurningChance	TileBurningChance	TileToxicLiquidChance	PierceCreaturesChance	ThrowBackChance	StunChance	StunDuration				
+small_basic_ammo		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt	1	4	0.01	1	Ammo	80	Ballistic	10	20	Bullets	blunt	0.03	1	1	1	0	0	0	0	0.2	0	0				
+small_burst_ammo		Common Worker Miner Military Police Medical Science	2	6	0.01	1	Ammo	80	Ballistic	10	20	Bullets	explosion	0.06	1	0.9	1	0.2	0.1	0	0	0.2	0	0				
+small_expansive_ammo		Common Worker Miner Military Police Medical Science	3	8	0.01	1	Ammo	80	Ballistic	10	20	Bullets	lacer	0.16	1	1.1	1	0	0	0	0	0	0	0				
+nail_bolts_ammo		Common Worker Miner CResistance	1	1	0.01	1	Ammo	80	Ballistic	10	20	Bolts	pierce	0.24	1	1	1	0	0	0	0.8	0	0	0				
+medium_basic_ammo		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt	1	5	0.02	1	Ammo	60	Ballistic	10	20	Medium	pierce	0.03	1	1	1	0	0	0	0.4	0	0	0				
+medium_police_ammo		Common Police	1	5	0.02	1	Ammo	60	Ballistic	10	20	Medium	blunt	0.06	1	1.1	1	0	0	0	0	0.25	0	0				
+shotgun_bullet_ammo		Common Worker Miner Military Police Medical Science	2	6	0.03	1	Ammo	50	Ballistic	10	20	Shells	blunt	0.06	1	0.8	1	0	0	0	0.2	0.3	0	0				
+shotgun_shrapnel_ammo		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt	1	5	0.03	1	Ammo	50	Ballistic	10	20	Shells	lacer	0.16	1	1	4	0	0	0	0	0.1	0	0				
+shotgun_flechette_ammo		ChurchRevelation	4	10	0.03	1	Ammo	50	Ballistic	10	20	Shells	pierce	0.24	1	1.05	4	0	0	0	0.8	0	0	0				
+shotgun_explosion_ammo		ChurchRevelation	6	12	0.03	1	Ammo	50	Ballistic	10	20	Shells	explosion	0.16	1	0.9	4	0.2	0.1	0	0	0.2	0	0				
+shotgun_dragon_ammo		ChurchRevelation	8	14	0.03	1	Ammo	50	Ballistic	10	20	Shells	fire	0.16	1	0.9	4	0.2	0.8	0	0	0.15	0	0				
+rifle_basic_ammo		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt	1	8	0.02	1	Ammo	50	Ballistic	10	20	Heavy	pierce	0.03	1	1	1	0	0	0	0.6	0	0	0				
+rifle_armorpierce_ammo		Common Military Police	4	12	0.02	1	Ammo	50	Ballistic	10	20	Heavy	pierce	0.05	1	1.2	1	0	0	0	0.95	0	0	0				
+rifle_plasma_ammo		SheduThousand	6	16	0.02	1	Ammo	50	Ballistic	10	20	Heavy	plasma	0.05	1	0.95	1	0.8	0	0	0.6	0	0	0				
+battery_basic_ammo		Common Military Medical Science CResistance	2	10	0.02	1	Ammo	40	Ballistic	10	20	BatteryCells	beam	0.06	1	1	1	0.2	0	0	0.7	0	0	0				
+dil_battery_ammo		Dilthey	2	12	0.015	1	Ammo	60	Ballistic	10	20	BatteryCells	beam	0.16	1	0.9	1	0.2	0	0	0.8	0	0	0				
+battery_crafted_ammo		Common Worker Medical Science CResistance	1	3	0.02	1	Ammo	40	Ballistic	10	20	BatteryCells	beam	0.12	1	0.95	1	0.1	0	0	0.5	0	0	0				
+*gas_ammo		Common Worker Miner CResistance	1	1	0.04	1	Ammo	60	Ballistic	10	20	Gas	fire	0	1	1	6	0.8	0.8	0	0	0	0	0				
+sawblade_ammo		Common Worker Miner	1	2	0.04	1	Ammo	20	Richoshet	10	20	SawBlade	lacer	0.16	1	1	1	0	0	0	0.85	0	0	0				
+quasi_basic_ammo		Tezctlan XiomaraMasks	1	2	0.04	1	Ammo	40	Ballistic	10	20	QuasiCells	poison	0.05	1	1	1	0	0	0	0.2	0	0	0				
+quasi_darts_ammo		Tezctlan XiomaraMasks	1	2	0.02	1	Ammo	40	Ballistic	10	20	Darts	pierce	0.15	1	1	1	0	0	0.3	0	0	0	0				
+quasi_bolts_ammo		Moon	1	2	0.04	1	Ammo	30	Ballistic	10	20	Bolts	pierce	1	1	1	1	0	0	0	1	0	0	0				
+quasi_harpoons_ammo		Moon	100	2	0.04	1	Ammo	20	Ballistic	10	20		pierce	1	1	1	1	0	0	0	1	0	0	0				
+quasi_energy_ammo		Mercury	1	4	0.04	1	Ammo	30	Ballistic	10	20	BatteryCells	plasma	0.3	1	1.2	1	1	0.4	0	0	0	0	0				
+toxic_ammo		Common Worker Miner Medical Science	1	1	0.01	1	Ammo	60	Ballistic	10	20	Toxic	poison	0.08	1	1	1	0	0	0.25	0	0	0	0				
+heavy_basic_ammo		UnchainedBelt	8	14	0.05	1	Ammo	30	Ballistic	10	20	SuperHeavy	blunt	0.06	1	1	1	0	0	0	0	0.25	0	0				
+heavy_flack_ammo		UnchainedBelt	8	18	0.05	1	Ammo	30	Ballistic	10	20	SuperHeavy	pierce	0.16	1	1.6	4	0	0	0	0	0.1	0	0				
+implicted_em_ammo		none	1	100	1	1	Ammo	0	Ballistic	0	0	Bolts	pierce	0.05	1	1	1	0	0	0	0.8	0	0	0				
+implicted_em_blunt_ammo		none	1	100	1	1	Ammo	0	Ballistic	0	0	Bolts	blunt	0.03	1	1	1	0	0	0	0.2	0.2	0	0				
+implicted_combat_knife		none	1	100	1	1	Ammo	50	Ballistic	0	0		pierce	0.12	1	1	1	0	0	0	0	0	0	0				
+implicted_knife		none	1	100	1	1	Ammo	50	Ballistic	0	0		pierce	0.05	1	1	1	0	0	0	0	0	0	0				
+implicted_club		none	1	100	1	1	Ammo	50	Ballistic	0	0		blunt	0.06	1	1	1	0	0	0	0	0.3	0	0				
+implicted_shockclub		none	1	100	1	1	Ammo	50	Ballistic	0	0		shock	0.1	1	1	1	0	0	0	0	0.3	0	0				
+implicted_shockgun		none	1	100	1	1	Ammo	50	Ballistic	0	0		shock	0	1	1	1	0	0	0	0	0	0	0				
+implicted_coldgun		none	1	100	1	1	Ammo	50	Ballistic	0	0	BatteryCells	cold	0.06	1	1	1	0	0	0	0	0	0	0				
+implicted_heavy_axe		none	1	100	1	1	Ammo	50	Ballistic	0	0		lacer	0.03	1	1	1	0	0	0	0	0.6	0	0				
+implicted_katana		none	1	100	1	1	Ammo	50	Ballistic	0	0		lacer	0.24	1	1	1	0	0	0	0	0	0	0				
+implicted_body_part		none	1	100	1	1	Ammo	50	Ballistic	0	0		blunt	0.03	1	1	1	0	0	0	0	0.2	0	0				
+implicted_xiomara_range		none	1	100	1	1	Ammo	50	Ballistic	0	0		poison	0	1	1	1	0	0	0	0	0	0	0				
+implicted_flamethrower		none	1	100	1	1	Ammo	0	Flame	0	0		fire	0	1	1	1	1	0.8	0	0	0	0	0				
+implicted_sawblade		none	1	100	1	1	Ammo	0	Ballistic	0	0		lacer	0.12	1	1	1	0	0	0	0	0	0	0				
+implicted_toxic_shrapnel		none	1	100	1	1	Ammo	50	Ballistic	10	20	Toxic	poison	0.08	1	1	4	0	0	0.25	0	0.2	0	0				
+implicted_coldgun_shrapnel		none	1	100	1	1	Ammo	50	Ballistic	10	20	BatteryCells	cold	0.06	1	1	4	0	0	0	0	0.2	0	0				
+implicted_energy_shrapnel		none	1	100	1	1	Ammo	50	Ballistic	10	20		plasma	0.06	1	1	4	0.8	0	0	0.4	0.2	0	0				
+implicted_plasma_shrapnel		none	1	100	1	1	Ammo	50	Ballistic	10	20		plasma	0.06	1	1	4	0.8	0	0	0.4	0.2	0	0				
+implicted_plasma_charge		none	1	100	1	1	Ammo	40	Ballistic	10	20		plasma	0.06	1	1	1	0.2	0	0	0.7	0	0	0				
+implicted_toxicthrower		none	1	100	1	1	Ammo	0	ToxicFlame	0	0		poison	0	1	1	1	0	0	0.8	0	0	0	0				
+implicted_quasi_beam		none	1	100	1	1	Ammo	20	Ballistic	10	20	QuasiCells	beam	0.05	1	1	1	0	0	0	0.2	0	0	0				
+#end																												
+																												
+#backpacks																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	Width	Height	DropChanceOnBroken	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory	AddServoArm	TotalItemsWeightMult	ReloadTurnBonus											
+small_backpack_1		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	20	1	1	Backpack	6	2	0.08	100	0	FALSE	cloth	FALSE	0.6	0											
+medium_backpack_1		Managment Military Police SheduThousand	2	500	2	1	Backpack	6	3	0.08	150	0	FALSE	cloth	FALSE	0.8	0											
+big_backpack_1		Military RealWare SheduThousand	3	1500	4	1	Backpack	6	4	0.08	200	0	FALSE	cloth	FALSE	1	0											
+servo_backpack_1		Worker Miner CResistance	1	500	3	1	Backpack	6	2	0.08	150	0	FALSE	engineering_weapon	TRUE	0.7	1											
+sun_servo_backpack_1		Sunlight	4	1500	4	1	Backpack	5	2	0.08	200	0	FALSE	engineering_weapon	TRUE	0.5	1											
+#end																												
+																												
+#vests																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	SlotCapacity	ReloadTurnBonus	DropChanceOnBroken	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory	ResistSheet													
+pmc_common_vest_1		PlanetBridge CoreWard Military Police SheduThousand	2	800	5	1	Vest	3	1	0.08	150	0	FALSE	cloth	blunt 0 pierce 0 lacer 0 fire 4 cold 0 poison 0 shock 0 beam 4													
+military_armored_vest_1		RealWare DaydreamChems Military SheduThousand	3	1000	6	1	Vest	2	1	0.08	200	0	FALSE	armored_workwear	blunt 8 pierce 8 lacer 0 fire 8 cold 0 poison 0 shock 0 beam 8													
+trash_common_vest_1		Common Prison UnchainedBelt CResistance UnchainedBelt	1	20	1	1	Vest	2	1	0.08	60	0	FALSE	cloth	blunt 0 pierce 0 lacer 0 fire 0 cold 2 poison 0 shock 0 beam 0													
+trash_armored_vest_1		Common Prison UnchainedBelt CResistance UnchainedBelt	1	40	3	1	Vest	2	0	0.08	60	0	FALSE	comp_workwear	blunt 6 pierce 6 lacer 0 fire 0 cold 4 poison 0 shock 0 beam 0													
+military_common_vest_1		PlanetBridge Grasshopper Military Police SheduThousand	2	500	2	1	Vest	2	2	0.08	100	0	FALSE	cloth	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0													
+armored_vest_1		SBN PlanetBridge Military Police SheduThousand	1	500	3	1	Vest	1	0	0.08	150	0	FALSE	aram_armor	blunt 0 pierce 8 lacer 8 fire 0 cold 0 poison 0 shock 0 beam 4													
+armored_expanded_vest_1		Sunlight Grasshopper SBN	4	800	4	1	Vest	2	0	0.08	150	0	FALSE	aram_armor	blunt 4 pierce 8 lacer 8 fire 0 cold 0 poison 0 shock 4 beam 6													
+heavy_armored_vest_1		AnCom CoreWard RealWare SheduThousand	5	1600	7	1	Vest	1	0	0.08	200	0	FALSE	ceramite_shell	blunt 10 pierce 10 lacer 10 fire 0 cold 0 poison 0 shock 8 beam 8													
+snake_vest_1		Managment	6	1000	1	1	Vest	3	0	0.08	50	0	FALSE	cloth	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 10 shock 0 beam 0													
+#end																												
+																												
+#armors																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	ArmorClass	ArmorSubClass	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory	ResistSheet														
+common_shirt_1		Common Possesed Prison	1	10	0.5	1	Armor	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_hybershirt_1		Common Possesed	1	10	0.5	1	Armor	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_blouse_1		Common Managment	1	10	0.5	1	Armor	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_hoodie_1		Common Possesed	1	10	0.5	1	Armor	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_jacket_1		Managment	1	30	0.5	1	Armor	Cloth	Default	50	0	false	plastic_workwear	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_shirt_2		Common Possesed	1	10	0.5	1	Armor	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_hybershirt_2		Common Possesed	1	10	0.5	1	Armor	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_blouse_2		Common Managment	1	10	0.5	1	Armor	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_hoodie_2		Common Possesed	1	10	0.5	1	Armor	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_shirt_3		Common Possesed	1	10	0.5	1	Armor	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_blouse_3		Managment	1	10	0.5	1	Armor	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_blouse_4		Managment	1	10	0.5	1	Armor	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+science_coat_1		Science	1	60	1.25	1	Armor	Cloth	Default	77	0	false	plastic_workwear	blunt 3 pierce 1 lacer 1 fire 1 cold 3 poison 3 shock 3 beam 3														
+science_coat_2		Science	1	60	1.25	1	Armor	Cloth	Default	82	0	false	plastic_workwear	blunt 3 pierce 3 lacer 1 fire 1 cold 1 poison 3 shock 3 beam 3														
+science_reinforced_shirt_1		Science DaydreamChems	2	260	1.25	1	Armor	HardCloth	Default	78	0	false	comp_workwear	blunt 3 pierce 3 lacer 2 fire 1 cold 1 poison 3 shock 3 beam 3														
+science_chem_shirt_1		Science DaydreamChems	2	170	3	1	Armor	Cloth	Default	103	0	false	plastic_workwear	blunt 3 pierce 3 lacer 1 fire 1 cold 1 poison 6 shock 6 beam 6														
+medical_tshirt_1		Medical	1	10	1.25	1	Armor	Cloth	Default	83	0	false	cloth	blunt 1 pierce 1 lacer 3 fire 1 cold 3 poison 3 shock 3 beam 3														
+medical_tshirt_2		Medical	1	10	1.25	1	Armor	Cloth	Default	76	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 3 shock 1 beam 1														
+medical_chem_shirt_1		Medical DaydreamChems	2	160	3	1	Armor	Cloth	Default	103	0	false	plastic_workwear	blunt 3 pierce 3 lacer 1 fire 1 cold 1 poison 6 shock 6 beam 6														
+medical_medium_armor_1		Medical DaydreamChems	4	600	3	1	Armor	MediumArmor	Default	104	0	false	kevlar_armor	blunt 3 pierce 6 lacer 1 fire 1 cold 6 poison 3 shock 1 beam 6														
+medical_heavy_armor_1		Medical DaydreamChems	6	1200	7.5	1	Armor	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+prison_tshirt_1		Prison UnchainedBelt	1	10	1.25	1	Armor	Cloth	Default	85	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+prison_tshirt_2		Prison UnchainedBelt	1	10	1.25	1	Armor	Cloth	Default	76	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+prison_reinforced_shirt_1		Prison UnchainedBelt	3	100	1.25	1	Armor	HardCloth	Default	82	0	false	armored_workwear	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+prison_light_armor_1		Prison UnchainedBelt	2	240	1.25	1	Armor	LightArmor	Default	82	0	false	kevlar_armor	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+prison_medium_armor_1		Prison UnchainedBelt	4	470	7.5	1	Armor	MediumArmor	Default	130	0	false	kevlar_armor	blunt 8 pierce 8 lacer 6 fire 6 cold 8 poison 6 shock 2 beam 1														
+prison_heavy_armor_1		Prison UnchainedBelt	7	1400	7.5	1	Armor	HeavyArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+military_shirt_1		Common Military	1	10	1.25	1	Armor	Cloth	Default	79	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 3														
+military_shirt_2		Military SheduThousand	1	100	1.25	1	Armor	HardCloth	Default	79	0	false	workwear	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 3														
+military_shirt_3		Military SheduThousand	2	170	1.25	1	Armor	HardCloth	Default	79	0	false	workwear	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 3														
+military_doc_armor_1		Military Medical	3	400	3	1	Armor	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 3 cold 3 poison 3 shock 1 beam 1														
+military_light_armor_1		Police Military SheduThousand	2	260	3	1	Armor	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 3 cold 3 poison 3 shock 1 beam 1														
+military_medium_armor_1		Military SheduThousand	5	750	7.5	1	Armor	MediumArmor	Default	124	0	false	aram_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 2 shock 1 beam 8														
+military_heavy_armor_1		Military SheduThousand	6	1300	7.5	1	Armor	HeavyArmor	Default	130	0	false	aram_armor	blunt 8 pierce 8 lacer 6 fire 6 cold 6 poison 2 shock 1 beam 8														
+military_power_armor_1		Military SheduThousand	8	2000	7.5	1	Armor	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+laborer_shirt_1		Worker PlanetBridge Grasshopper	1	20	3	1	Armor	Cloth	Default	104	0	false	cloth	blunt 1 pierce 1 lacer 6 fire 6 cold 3 poison 6 shock 2 beam 3														
+laborer_exoskeleton_1		Worker PlanetBridge Grasshopper	6	1600	3	1	Armor	PowerArmor	Default	104	0	false	industr_spacesuit	blunt 1 pierce 1 lacer 6 fire 6 cold 3 poison 6 shock 2 beam 3														
+laborer_shirt_2		Worker PlanetBridge Grasshopper	1	50	1.25	1	Armor	Cloth	Default	76	0	false	sint_cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+laborer_shirt_3		Worker PlanetBridge Grasshopper	2	140	1.25	1	Armor	HardCloth	Default	76	0	false	sint_cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+laborer_warm_shirt_1		Worker PlanetBridge Grasshopper	2	190	1.25	1	Armor	HardCloth	Default	82	0	false	sint_cloth	blunt 3 pierce 2 lacer 3 fire 1 cold 3 poison 3 shock 3 beam 1														
+laborer_medium_armor_1		Worker PlanetBridge Grasshopper	4	600	3	1	Armor	MediumArmor	Default	111	0	false	spacesuit	blunt 3 pierce 2 lacer 6 fire 6 cold 1 poison 6 shock 3 beam 1														
+miner_shirt_1		Miner CoreWard	1	50	3	1	Armor	Cloth	Default	104	0	false	sint_cloth	blunt 1 pierce 1 lacer 3 fire 6 cold 6 poison 6 shock 3 beam 1														
+miner_exoskeleton_1		Miner CoreWard	6	1600	3	1	Armor	PowerArmor	Default	104	0	false	industr_spacesuit	blunt 1 pierce 1 lacer 3 fire 6 cold 6 poison 6 shock 3 beam 1														
+miner_reinforced_shirt_1		Miner CoreWard	2	210	1.25	1	Armor	HardCloth	Default	82	0	false	comp_workwear	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 3 shock 1 beam 1														
+miner_medium_armor_1		Miner CoreWard	4	640	7.5	1	Armor	MediumArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 8 shock 2 beam 1														
+miner_power_armor_1		Miner CoreWard	7	1800	7.5	1	Armor	PowerArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 8 shock 2 beam 1														
+police_shirt_1		Police AnCom FrancheComte	1	25	1.25	1	Armor	Cloth	Default	76	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+police_reinforced_shirt_1		Police AnCom FrancheComte	1	200	1.25	1	Armor	HardCloth	Default	79	0	false	armored_workwear	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+police_medium_armor_1		FrancheComte Police	4	600	7.5	1	Armor	MediumArmor	Default	130	0	false	aram_armor	blunt 8 pierce 8 lacer 8 fire 6 cold 6 poison 6 shock 2 beam 1														
+police_heavy_armor_1		FrancheComte Police	7	1500	7.5	1	Armor	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 2 shock 8 beam 1														
+civ_shirt_1		CResistance	1	25	1.25	1	Armor	Cloth	Default	80	0	false	cloth	blunt 1 pierce 3 lacer 1 fire 3 cold 3 poison 3 shock 1 beam 3														
+civ_shirt_2		CResistance	1	140	1.25	1	Armor	HardCloth	Default	80	0	false	sint_cloth	blunt 1 pierce 3 lacer 1 fire 3 cold 3 poison 1 shock 3 beam 3														
+civ_shirt_3		CResistance	3	190	1.25	1	Armor	HardCloth	Default	76	0	false	workwear	blunt 3 pierce 3 lacer 2 fire 3 cold 3 poison 1 shock 1 beam 3														
+civ_reinforced_shirt_1		CResistance Miner Worker	2	230	3	1	Armor	HardCloth	Default	104	0	false	armored_workwear	blunt 3 pierce 6 lacer 2 fire 6 cold 1 poison 1 shock 6 beam 3														
+civ_medium_armor_1		CResistance Miner Worker	2	600	3	1	Armor	MediumArmor	Default	104	0	false	spacesuit	blunt 3 pierce 1 lacer 1 fire 6 cold 1 poison 6 shock 3 beam 6														
+civ_medium_armor_2		CResistance	4	850	3	1	Armor	MediumArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6														
+civ_heavy_armor_1		CResistance	6	1600	7.5	1	Armor	HeavyArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 6 fire 8 cold 6 poison 2 shock 1 beam 8														
+pirates_shirt_1		Prison UnchainedBelt	1	30	1.25	1	Armor	Cloth	Default	83	0	false	plastic_workwear	blunt 1 pierce 2 lacer 1 fire 1 cold 3 poison 3 shock 3 beam 3														
+pirates_reinforced_shirt_1		Prison UnchainedBelt	2	190	1.25	1	Armor	HardCloth	Default	86	0	false	comp_workwear	blunt 3 pierce 3 lacer 3 fire 1 cold 3 poison 3 shock 1 beam 2														
+pirates_reinforced_shirt_2		Prison UnchainedBelt	2	190	1.25	1	Armor	HardCloth	Default	76	0	false	armored_workwear	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+pirates_light_armor_1		UnchainedBelt	3	310	3	1	Armor	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 2 lacer 3 fire 1 cold 6 poison 3 shock 1 beam 6														
+pirates_medium_armor_1		UnchainedBelt	6	640	7.5	1	Armor	MediumArmor	Default	124	0	false	metal_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 8 poison 6 shock 2 beam 1														
+pirates_medium_armor_2		UnchainedBelt	4	570	7.5	1	Armor	MediumArmor	Default	124	0	false	aram_armor	blunt 8 pierce 6 lacer 6 fire 6 cold 8 poison 2 shock 1 beam 8														
+possesed_shirt_1		Possesed	1	5	1.25	1	Armor	Cloth	Quasi	82	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+possesed_shirt_2		Possesed	1	10	1.25	1	Armor	Cloth	Quasi	82	0	false	sint_cloth	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 1 shock 3 beam 1														
+possesed_shirt_3		Possesed SheduThousand	1	5	1.25	1	Armor	Cloth	Quasi	85	0	false	human_armor	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+possesed_light_armor_1		Possesed SheduThousand	3	220	3	1	Armor	LightArmor	Quasi	104	0	false	bone_armor	blunt 6 pierce 3 lacer 6 fire 3 cold 3 poison 1 shock 6 beam 1														
+posessed_medium_armor_1		Possesed SheduThousand	5	510	7.5	1	Armor	MediumArmor	Quasi	124	0	false	aram_armor	blunt 8 pierce 6 lacer 6 fire 6 cold 8 poison 1 shock 2 beam 8														
+venus_shirt_1		XiomaraMasks Tezctlan	1	60	1.25	1	Armor	Cloth	Quasi	76	0	false	venus_cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 3 shock 1 beam 1														
+venusXsi_light_armor_1		XiomaraMasks	2	350	1.25	1	Armor	LightArmor	Quasi	76	0	false	venus_armor	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 3 shock 1 beam 1														
+venusXsi_light_armor_2		XiomaraMasks	3	350	1.25	1	Armor	LightArmor	Quasi	82	0	false	venus_armor	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 3 shock 1 beam 1														
+venusXsi_light_armor_3		XiomaraMasks	3	350	1.25	1	Armor	LightArmor	Quasi	82	0	false	venus_armor	blunt 3 pierce 2 lacer 3 fire 1 cold 1 poison 3 shock 3 beam 3														
+venusTez_heavy_armor_1		Tezctlan	2	500	7.5	1	Armor	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 8 shock 2 beam 1														
+venusTez_heavy_armor_2		Tezctlan	3	500	7.5	1	Armor	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 8 shock 2 beam 1														
+venusTez_heavy_armor_3		Tezctlan	5	500	7.5	1	Armor	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 8 shock 2 beam 1														
+mercury_shirt_1		Mercury	1	120	1.25	1	Armor	Cloth	Quasi	81	0	false	mercury_cloth	blunt 1 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 3														
+mercury_shirt_2		Mercury	1	150	1.25	1	Armor	Cloth	Quasi	82	0	false	mercury_cloth	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 3														
+mercury_light_armor_1		Mercury	2	360	1.25	1	Armor	LightArmor	Quasi	79	0	false	mercury_armor	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 3														
+mercury_medium_armor_1		Mercury	3	770	3	1	Armor	MediumArmor	Quasi	104	0	false	mercury_armor	blunt 3 pierce 6 lacer 3 fire 6 cold 2 poison 1 shock 1 beam 6														
+mercury_heavy_armor_1		Mercury	5	1500	7.5	1	Armor	HeavyArmor	Quasi	124	0	false	mercury_armor	blunt 6 pierce 8 lacer 6 fire 8 cold 6 poison 2 shock 1 beam 8														
+anc_shirt_1		AnCom	1	45	1.25	1	Armor	Cloth	Default	82	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 3 shock 1 beam 1														
+anc_reinforced_shirt_1		AnCom	3	160	1.25	1	Armor	HardCloth	Default	82	0	false	comp_workwear	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 3 shock 1 beam 1														
+anc_agent_armor_1		AnCom	4	800	1.25	1	Armor	LightArmor	Default	84	0	false	kevlar_armor	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 3 shock 1 beam 1														
+anc_medium_armor_1		AnCom	7	1200	3	1	Armor	MediumArmor	Default	111	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 2 cold 1 poison 6 shock 1 beam 3														
+anc_medium_armor_2		AnCom	4	800	7.5	1	Armor	MediumArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+sbn_shirt_1		SBN	1	45	1.25	1	Armor	Cloth	Default	81	0	false	cloth	blunt 3 pierce 1 lacer 3 fire 1 cold 2 poison 3 shock 3 beam 3														
+sbn_shirt_2		SBN	2	200	1.25	1	Armor	HardCloth	Default	82	0	false	plastic_workwear	blunt 3 pierce 2 lacer 3 fire 1 cold 1 poison 3 shock 3 beam 3														
+sbn_light_armor_1		SBN	8	1600	3	1	Armor	LightArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6														
+sbn_medium_armor_1		SBN	4	800	7.5	1	Armor	MediumArmor	Default	130	0	false	kevlar_armor	blunt 6 pierce 8 lacer 8 fire 6 cold 8 poison 2 shock 1 beam 6														
+sbn_heavy_armor_1		SBN	7	1900	7.5	1	Armor	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+rwa_shirt_1		RealWare SheduThousand	1	45	1.25	1	Armor	Cloth	Default	79	0	false	cloth	blunt 3 pierce 2 lacer 3 fire 3 cold 3 poison 1 shock 3 beam 1														
+rwa_shirt_2		RealWare SheduThousand	2	65	1.25	1	Armor	Cloth	Default	76	0	false	sint_cloth	blunt 3 pierce 3 lacer 2 fire 3 cold 3 poison 1 shock 3 beam 1														
+rwa_light_armor_1		RealWare SheduThousand	4	560	3	1	Armor	LightArmor	Default	104	0	false	kevlar_armor	blunt 6 pierce 6 lacer 3 fire 6 cold 3 poison 3 shock 1 beam 1														
+rwa_heavy_armor_1		RealWare SheduThousand	8	2100	7.5	1	Armor	HeavyArmor	Default	130	0	false	spacesuit	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 8 shock 2 beam 1														
+rwa_power_armor_1		RealWare SheduThousand	10	3600	7.5	1	Armor	PowerArmor	Default	130	0	false	chobham_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+ddr_coat_1		DaydreamChems	1	90	1.25	1	Armor	Cloth	Default	83	0	false	plastic_workwear	blunt 1 pierce 1 lacer 3 fire 1 cold 3 poison 3 shock 3 beam 3														
+ddr_chem_coat_1		DaydreamChems	4	300	3	1	Armor	Cloth	Default	106	0	false	comp_workwear	blunt 2 pierce 3 lacer 6 fire 1 cold 1 poison 6 shock 6 beam 3														
+ddr_reinforced_chem_coat_1		DaydreamChems	5	600	3	1	Armor	HardCloth	Default	109	0	false	industr_spacesuit	blunt 3 pierce 2 lacer 3 fire 6 cold 1 poison 6 shock 1 beam 6														
+ddr_power_armor_1		DaydreamChems	8	2300	7.5	1	Armor	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+sun_power_armor_1		Sunlight	9	2100	7.5	1	Armor	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+fra_heavy_armor_1		FrancheComte	4	1400	7.5	1	Armor	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 2 shock 8 beam 1														
+dil_light_armor_1		Dilthey	6	1600	1.25	1	Armor	LightArmor	Default	79	0	false	kevlar_armor	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+chu_manager_shirt_1		ChurchRevelation	2	210	3	1	Armor	Cloth	Default	101	0	false	workwear	blunt 6 pierce 3 lacer 6 fire 3 cold 6 poison 1 shock 1 beam 3														
+chu_power_armor_1		ChurchRevelation	8	2400	7.5	1	Armor	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+moon_light_armor_1		Moon	1	350	3	1	Armor	LightArmor	Quasi	104	0	false	moon_armor	blunt 6 pierce 6 lacer 6 fire 3 cold 3 poison 1 shock 3 beam 1														
+moon_medium_armor_2		Moon	3	550	7.5	1	Armor	MediumArmor	Quasi	130	0	false	moon_armor	blunt 8 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 6 beam 1														
+moon_medium_armor_1		Moon	3	500	7.5	1	Armor	MediumArmor	Quasi	124	0	false	moon_armor	blunt 8 pierce 8 lacer 6 fire 8 cold 6 poison 2 shock 6 beam 1														
+moon_heavy_armor_1		Moon	5	850	7.5	1	Armor	HeavyArmor	Quasi	130	0	false	moon_armor	blunt 8 pierce 8 lacer 8 fire 6 cold 6 poison 2 shock 6 beam 1														
+spider_light_armor_1		Tezctlan XiomaraMasks	1	240	3	1	Armor	LightArmor	Quasi	110	0	false	spider_armor	blunt 6 pierce 3 lacer 3 fire 2 cold 1 poison 6 shock 1 beam 6														
+#end																												
+																												
+#helmets																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	ArmorClass	ArmorSubClass	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory	ResistSheet	HideHair													
+common_hat_1		Worker Common	1	25	0.5	1	Helmet	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1	TRUE													
+common_glasses_1		Managment	1	15	0.5	1	Helmet	Cloth	Default	50	0	false		blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1	TRUE													
+common_gasmask_1		Worker Miner Managment	1	40	0.5	1	Helmet	HardCloth	Default	50	0	false	plastic_workwear	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1	TRUE													
+common_hat_2		Managment	1	25	0.5	1	Helmet	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1	TRUE													
+common_glasses_2		Worker Miner Common	1	20	0.5	1	Helmet	Cloth	Default	50	0	false		blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1	TRUE													
+common_hat_3		Common	1	15	0.5	1	Helmet	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1	TRUE													
+common_hat_4		Common	1	10	0.5	1	Helmet	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1	TRUE													
+science_mask_1		Science Medical	1	15	1.25	1	Helmet	Cloth	Default	77	0	false	cloth	blunt 2 pierce 1 lacer 1 fire 1 cold 2 poison 3 shock 3 beam 3	TRUE													
+science_gasmask_1		DaydreamChems Science	2	120	1.25	1	Helmet	HardCloth	Default	77	0	false	comp_workwear	blunt 2 pierce 1 lacer 1 fire 1 cold 2 poison 3 shock 3 beam 3	TRUE													
+science_chem_helmet_1		DaydreamChems Science	2	160	3	1	Helmet	Cloth	Default	103	0	false	plastic_workwear	blunt 3 pierce 2 lacer 1 fire 1 cold 1 poison 6 shock 6 beam 6	TRUE													
+medical_gasmask_1		DaydreamChems Medical	1	100	1.25	1	Helmet	HardCloth	Default	83	0	false	plastic_workwear	blunt 1 pierce 1 lacer 3 fire 1 cold 3 poison 3 shock 2 beam 2	TRUE													
+medical_chem_helmet_1		DaydreamChems Medical	2	120	3	1	Helmet	Cloth	Default	103	0	false	plastic_workwear	blunt 3 pierce 2 lacer 1 fire 1 cold 1 poison 6 shock 6 beam 6	TRUE													
+medical_medium_helmet_1		DaydreamChems Medical	4	300	3	1	Helmet	MediumArmor	Default	104	0	false	kevlar_armor	blunt 3 pierce 6 lacer 1 fire 1 cold 6 poison 3 shock 1 beam 6	TRUE													
+medical_heavy_helmet_1		DaydreamChems Medical	6	700	7.5	1	Helmet	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7	TRUE													
+prison_mask_1		Prison UnchainedBelt Possesed	1	20	1.25	1	Helmet	HardCloth	Default	85	0	false	cloth	blunt 3 pierce 2 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 1	TRUE													
+prison_hat_1		Prison UnchainedBelt	1	5	1.25	1	Helmet	Cloth	Default	85	0	false	cloth	blunt 3 pierce 2 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 1	TRUE													
+prison_mask_2		Prison UnchainedBelt Possesed	1	20	1.25	1	Helmet	Cloth	Default	76	0	false	sint_cloth	blunt 2 pierce 2 lacer 3 fire 1 cold 3 poison 1 shock 3 beam 1	TRUE													
+prison_light_helmet_1		Prison UnchainedBelt	1	120	1.25	1	Helmet	LightArmor	Default	82	0	false	kevlar_armor	blunt 3 pierce 3 lacer 2 fire 2 cold 3 poison 1 shock 1 beam 1	TRUE													
+prison_heavy_helmet_1		Prison UnchainedBelt	7	850	7.5	1	Helmet	HeavyArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 7 fire 7 cold 6 poison 6 shock 1 beam 1	TRUE													
+military_cap_1		Military SheduThousand	1	60	1.25	1	Helmet	Cloth	Default	79	0	false	workwear	blunt 3 pierce 3 lacer 2 fire 1 cold 3 poison 1 shock 1 beam 2	TRUE													
+military_mask_1		Military RealWare SheduThousand UnchainedBelt	1	30	1.25	1	Helmet	Cloth	Default	79	0	false	cloth	blunt 3 pierce 3 lacer 2 fire 1 cold 3 poison 1 shock 1 beam 2	TRUE													
+military_doc_helmet_1		Military Medical	4	300	3	1	Helmet	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 2 cold 3 poison 3 shock 1 beam 1	TRUE													
+military_light_helmet_1		Police Military SheduThousand	2	150	3	1	Helmet	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 2 cold 3 poison 3 shock 1 beam 1	TRUE													
+military_light_gasmask_1		Military SheduThousand	3	300	3	1	Helmet	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 2 cold 3 poison 3 shock 1 beam 1	TRUE													
+military_medium_helmet_1		Military SheduThousand	5	500	7.5	1	Helmet	MediumArmor	Default	124	0	false	aram_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 1 shock 1 beam 7	TRUE													
+military_heavy_helmet_1		Military SheduThousand	6	800	7.5	1	Helmet	HeavyArmor	Default	130	0	false	aram_armor	blunt 7 pierce 7 lacer 6 fire 6 cold 6 poison 1 shock 1 beam 7	TRUE													
+military_power_helmet_1		Military SheduThousand	8	1400	7.5	1	Helmet	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 7 fire 7 cold 6 poison 6 shock 1 beam 1	TRUE													
+laborer_cap_1		Worker PlanetBridge Grasshopper	1	20	3	1	Helmet	Cloth	Default	104	0	false	sint_cloth	blunt 1 pierce 1 lacer 6 fire 6 cold 3 poison 6 shock 1 beam 3	TRUE													
+laborer_warm_hat_1		Worker PlanetBridge Grasshopper	2	100	1.25	1	Helmet	HardCloth	Default	82	0	false	sint_cloth	blunt 2 pierce 1 lacer 3 fire 1 cold 3 poison 2 shock 3 beam 1	TRUE													
+laborer_medium_helmet_1		Worker PlanetBridge Grasshopper	4	370	3	1	Helmet	MediumArmor	Default	111	0	false	spacesuit	blunt 3 pierce 1 lacer 6 fire 6 cold 1 poison 6 shock 3 beam 1	TRUE													
+miner_gasmask_1		Miner CoreWard	2	150	3	1	Helmet	HardCloth	Default	104	0	false	comp_workwear	blunt 1 pierce 1 lacer 3 fire 6 cold 6 poison 6 shock 3 beam 1	TRUE													
+miner_medium_helmet_1		Miner CoreWard	5	500	7.5	1	Helmet	MediumArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 7 shock 1 beam 1	TRUE													
+miner_power_helmet_1		Miner CoreWard	7	1000	7.5	1	Helmet	PowerArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 7 shock 1 beam 1	TRUE													
+police_cap_1		Police FrancheComte	1	25	1.25	1	Helmet	Cloth	Default	76	0	false	sint_cloth	blunt 3 pierce 2 lacer 2 fire 1 cold 3 poison 1 shock 3 beam 1	TRUE													
+police_medium_helmet_1		Police FrancheComte	3	300	7.5	1	Helmet	MediumArmor	Default	130	0	false	aram_armor	blunt 7 pierce 7 lacer 7 fire 6 cold 6 poison 6 shock 1 beam 1	TRUE													
+civ_cap_1		CResistance	1	50	1.25	1	Helmet	Cloth	Default	80	0	false	sint_cloth	blunt 1 pierce 2 lacer 1 fire 3 cold 3 poison 2 shock 1 beam 3	TRUE													
+civ_gasmask_1		CResistance	2	170	1.25	1	Helmet	LightArmor	Default	80	0	false	armored_workwear	blunt 1 pierce 2 lacer 1 fire 3 cold 3 poison 2 shock 1 beam 3	TRUE													
+civ_medium_helmet_1		CResistance	3	370	3	1	Helmet	MediumArmor	Default	104	0	false	spacesuit	blunt 3 pierce 1 lacer 1 fire 6 cold 1 poison 6 shock 3 beam 6	TRUE													
+civ_medium_helmet_2		CResistance	4	500	3	1	Helmet	MediumArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6	TRUE													
+civ_heavy_helmet_1		CResistance	6	800	7.5	1	Helmet	HeavyArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 6 fire 7 cold 6 poison 1 shock 1 beam 7	TRUE													
+pirates_gasmask_1		Prison UnchainedBelt	1	70	1.25	1	Helmet	HardCloth	Default	83	0	false	plastic_workwear	blunt 1 pierce 2 lacer 1 fire 1 cold 3 poison 3 shock 3 beam 2	TRUE													
+pirates_reinforced_cap_1		UnchainedBelt	2	150	1.25	1	Helmet	LightArmor	Default	86	0	false	comp_workwear	blunt 3 pierce 2 lacer 2 fire 1 cold 3 poison 3 shock 1 beam 1	TRUE													
+pirates_light_helmet_1		Prison UnchainedBelt	3	210	3	1	Helmet	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 1 lacer 3 fire 1 cold 6 poison 3 shock 1 beam 6	TRUE													
+pirates_medium_helmet_1		Prison UnchainedBelt	6	370	7.5	1	Helmet	MediumArmor	Default	124	0	false	metal_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 7 poison 6 shock 1 beam 1	TRUE													
+pirates_medium_helmet_2		Prison UnchainedBelt	4	310	7.5	1	Helmet	MediumArmor	Default	124	0	false	aram_armor	blunt 7 pierce 6 lacer 6 fire 6 cold 7 poison 1 shock 1 beam 7	TRUE													
+posessed_medium_helmet_1		Possesed SheduThousand	5	300	7.5	1	Helmet	MediumArmor	Default	124	0	false	aram_armor	blunt 7 pierce 6 lacer 6 fire 6 cold 7 poison 1 shock 1 beam 7	TRUE													
+venus_hat_1		Tezctlan XiomaraMasks	1	20	1.25	1	Helmet	Cloth	Quasi	76	0	false	venus_cloth	blunt 2 pierce 2 lacer 3 fire 1 cold 3 poison 3 shock 1 beam 1	TRUE													
+venusXsi_light_helmet_1		XiomaraMasks	2	220	1.25	1	Helmet	LightArmor	Quasi	76	0	false	venus_armor	blunt 2 pierce 2 lacer 3 fire 1 cold 3 poison 3 shock 1 beam 1	TRUE													
+venusXsi_light_helmet_2		XiomaraMasks	3	260	1.25	1	Helmet	LightArmor	Quasi	82	0	false	venus_armor	blunt 2 pierce 2 lacer 3 fire 3 cold 1 poison 3 shock 1 beam 1	TRUE													
+venusXsi_light_helmet_3		XiomaraMasks	3	300	1.25	1	Helmet	LightArmor	Quasi	82	0	false	venus_armor	blunt 2 pierce 1 lacer 3 fire 1 cold 1 poison 3 shock 3 beam 2	TRUE													
+venusTez_heavy_helmet_1		Tezctlan	2	400	7.5	1	Helmet	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 7 shock 1 beam 1	TRUE													
+venusTez_heavy_helmet_2		Tezctlan	3	500	7.5	1	Helmet	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 7 shock 1 beam 1	TRUE													
+venusTez_heavy_helmet_3		Tezctlan	5	500	7.5	1	Helmet	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 7 shock 1 beam 1	TRUE													
+mercury_hat_1		Mercury	1	80	1.25	1	Helmet	Cloth	Quasi	81	0	false	mercury_cloth	blunt 1 pierce 3 lacer 2 fire 3 cold 2 poison 1 shock 1 beam 3	TRUE													
+mercury_hat_2		Mercury	1	100	1.25	1	Helmet	Cloth	Quasi	82	0	false	mercury_cloth	blunt 2 pierce 2 lacer 3 fire 3 cold 1 poison 1 shock 1 beam 3	TRUE													
+mercury_light_helmet_1		Mercury	2	130	1.25	1	Helmet	LightArmor	Quasi	79	0	false	mercury_armor	blunt 2 pierce 3 lacer 2 fire 3 cold 1 poison 1 shock 1 beam 3	TRUE													
+mercury_medium_helmet_1		Mercury	3	400	3	1	Helmet	MediumArmor	Quasi	104	0	false	mercury_armor	blunt 3 pierce 6 lacer 3 fire 6 cold 1 poison 1 shock 1 beam 6	TRUE													
+mercury_heavy_helmet_1		Mercury	5	900	7.5	1	Helmet	HeavyArmor	Quasi	124	0	false	mercury_armor	blunt 6 pierce 7 lacer 6 fire 7 cold 6 poison 1 shock 1 beam 7	TRUE													
+anc_reinforced_hat_1		AnCom	1	70	1.25	1	Helmet	Cloth	Default	82	0	false	comp_workwear	blunt 3 pierce 3 lacer 2 fire 2 cold 1 poison 3 shock 1 beam 1	TRUE													
+anc_agent_mask_1		AnCom	4	500	1.25	1	Helmet	LightArmor	Default	84	0	false	kevlar_armor	blunt 2 pierce 3 lacer 2 fire 1 cold 3 poison 3 shock 1 beam 1	TRUE													
+anc_medium_mask_1		AnCom	3	370	3	1	Helmet	MediumArmor	Default	111	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 1 cold 1 poison 6 shock 1 beam 3	TRUE													
+anc_medium_helmet_1		AnCom	7	800	3	1	Helmet	MediumArmor	Default	111	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 1 cold 1 poison 6 shock 1 beam 3	TRUE													
+sbn_cap_1		SBN	2	140	1.25	1	Helmet	HardCloth	Default	81	0	false	plastic_workwear	blunt 2 pierce 1 lacer 3 fire 1 cold 1 poison 3 shock 2 beam 3	TRUE													
+sbn_light_helmet_1		SBN	8	1200	3	1	Helmet	LightArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6	TRUE													
+sbn_medium_helmet_1		SBN	4	620	7.5	1	Helmet	MediumArmor	Default	130	0	false	kevlar_armor	blunt 6 pierce 7 lacer 7 fire 6 cold 7 poison 1 shock 1 beam 6	TRUE													
+sbn_heavy_helmet_1		SBN	7	1000	7.5	1	Helmet	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7	TRUE													
+rwa_cap_1		RealWare SheduThousand	1	70	1.25	1	Helmet	Cloth	Default	79	0	false	sint_cloth	blunt 3 pierce 1 lacer 2 fire 3 cold 3 poison 1 shock 2 beam 1	TRUE													
+rwa_light_helmet_1		RealWare SheduThousand	1	150	3	1	Helmet	LightArmor	Default	104	0	false	metal_armor	blunt 6 pierce 6 lacer 3 fire 6 cold 3 poison 2 shock 1 beam 1	TRUE													
+rwa_heavy_helmet_1		RealWare SheduThousand	8	1800	7.5	1	Helmet	HeavyArmor	Default	130	0	false	spacesuit	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 7 shock 1 beam 1	TRUE													
+rwa_power_helmet_1		RealWare SheduThousand	10	3000	7.5	1	Helmet	PowerArmor	Default	130	0	false	chobham_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7	TRUE													
+ddr_gasmask_1		DaydreamChems	1	80	1.25	1	Helmet	HardCloth	Default	83	0	false	plastic_workwear	blunt 1 pierce 1 lacer 3 fire 1 cold 2 poison 3 shock 3 beam 2	TRUE													
+ddr_chem_helmet_1		DaydreamChems	4	180	3	1	Helmet	Cloth	Default	106	0	false	comp_workwear	blunt 1 pierce 3 lacer 6 fire 1 cold 1 poison 6 shock 6 beam 3	TRUE													
+ddr_reinforced_chem_helmet_1		DaydreamChems	5	300	3	1	Helmet	HardCloth	Default	109	0	false	industr_spacesuit	blunt 3 pierce 1 lacer 3 fire 6 cold 1 poison 6 shock 1 beam 6	TRUE													
+ddr_power_helmet_1		DaydreamChems	8	1800	7.5	1	Helmet	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 7 fire 7 cold 6 poison 6 shock 1 beam 1	TRUE													
+sun_power_helmet_1		Sunlight	9	1900	7.5	1	Helmet	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7	TRUE													
+fra_heavy_mask_1		FrancheComte Miner Worker	4	650	7.5	1	Helmet	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 1 shock 7 beam 1	TRUE													
+dil_light_helmet_1		Dilthey	6	1000	1.25	1	Helmet	LightArmor	Default	79	0	false	kevlar_armor	blunt 3 pierce 3 lacer 2 fire 1 cold 3 poison 1 shock 2 beam 1	TRUE													
+chu_manager_mask_1		ChurchRevelation	2	120	3	1	Helmet	Cloth	Default	101	0	false	workwear	blunt 6 pierce 3 lacer 6 fire 2 cold 6 poison 1 shock 1 beam 3	TRUE													
+chu_power_helmet_1		ChurchRevelation	8	2100	7.5	1	Helmet	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7	TRUE													
+moon_light_helmet_1		Moon	1	150	3	1	Helmet	LightArmor	Quasi	104	0	false	moon_armor	blunt 6 pierce 6 lacer 6 fire 3 cold 2 poison 1 shock 3 beam 1	TRUE													
+moon_medium_helmet_1		Moon	2	350	7.5	1	Helmet	MediumArmor	Quasi	124	0	false	moon_armor	blunt 7 pierce 7 lacer 6 fire 7 cold 6 poison 1 shock 6 beam 1	TRUE													
+moon_heavy_helmet_1		Moon	3	600	7.5	1	Helmet	HeavyArmor	Quasi	130	0	false	moon_armor	blunt 7 pierce 7 lacer 7 fire 6 cold 6 poison 1 shock 6 beam 1	TRUE													
+spider_light_helmet_1		Tezctlan Xiomara	1	170	3	1	Helmet	HardCloth	Quasi	110	0	false	spider_armor	blunt 6 pierce 3 lacer 3 fire 1 cold 1 poison 6 shock 1 beam 6	TRUE													
+prison_mask_3		Prison UnchainedBelt Possesed	1	30	1.25	1	Helmet	HardCloth	Default	82	0	false	sint_cloth	blunt 3 pierce 3 lacer 2 fire 2 cold 3 poison 1 shock 1 beam 1	TRUE													
+laborer_hard_cap_1		Worker PlanetBridge Grasshopper	1	85	1.25	1	Helmet	HardCloth	Default	79	0	false	workwear	blunt 2 pierce 3 lacer 3 fire 1 cold 3 poison 1 shock 2 beam 1	TRUE													
+miner_hard_cap_1		Miner CoreWard	1	70	1.25	1	Helmet	HardCloth	Default	85	0	false	armored_workwear	blunt 3 pierce 3 lacer 2 fire 3 cold 1 poison 1 shock 2 beam 1	TRUE													
+miner_hard_cap_2		Miner CoreWard	2	100	1.25	1	Helmet	HardCloth	Default	82	0	false	armored_workwear	blunt 3 pierce 2 lacer 2 fire 3 cold 1 poison 1 shock 3 beam 1	TRUE													
+police_cap_2		Police FrancheComte	1	50	1.25	1	Helmet	HardCloth	Default	83	0	false	workwear	blunt 2 pierce 3 lacer 2 fire 1 cold 3 poison 1 shock 3 beam 1	TRUE													
+police_heavy_helmet_2		Police FrancheComte	6	900	7.5	1	Helmet	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 1 shock 7 beam 1	TRUE													
+posessed_light_helmet_1		Possesed SheduThousand	3	180	1.25	1	Helmet	LightArmor	Quasi	85	0	false	bone_armor	blunt 3 pierce 2 lacer 3 fire 2 cold 1 poison 1 shock 3 beam 1	TRUE													
+rwa_light_helmet_2		RealWare SheduThousand	4	450	1.25	1	Helmet	LightArmor	Default	85	0	false	kevlar_armor	blunt 3 pierce 3 lacer 2 fire 3 cold 2 poison 1 shock 1 beam 1	TRUE													
+chu_head_device_1		none	1	15	1.25	1	Helmet	HardCloth	Default	85	0	false		blunt 3 pierce 2 lacer 3 fire 2 cold 1 poison 1 shock 1 beam 3	TRUE													
+moon_heavy_helmet_2		Moon	3	600	7.5	1	Helmet	HeavyArmor	Quasi	130	0	false	moon_armor	blunt 7 pierce 7 lacer 6 fire 6 cold 7 poison 6 shock 1 beam 1	TRUE													
+ron_mask_1		Ron	1	350	1.25	1	Helmet	MediumArmor	Quasi	76	0	false		blunt 3 pierce 3 lacer 3 fire 2 cold 2 poison 1 shock 1 beam 1	TRUE													
+christmas_hat		none	100	30	1.25	1	Helmet	Cloth	Default	82	0	false	cloth	blunt 3 pierce 3 lacer 2 fire 2 cold 3 poison 1 shock 1 beam 1	TRUE													
+#end																												
+																												
+#leggings																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	ArmorClass	ArmorSubClass	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory	ResistSheet														
+common_pants_1		Common Possesed	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_pants_2		Common Managment	1	20	0.5	1	Leggings	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_pants_3		Common Possesed Managment	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_pants_4		Common Possesed Managment	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+science_pants_1		DaydreamChems Science	1	50	1.25	1	Leggings	Cloth	Default	77	0	false	plastic_workwear	blunt 3 pierce 1 lacer 1 fire 1 cold 3 poison 3 shock 3 beam 3														
+science_pants_2		DaydreamChems Science	1	100	1.25	1	Leggings	Cloth	Default	82	0	false	plastic_workwear	blunt 3 pierce 3 lacer 1 fire 1 cold 1 poison 3 shock 3 beam 3														
+science_reinforced_pants_1		DaydreamChems Science	2	350	1.25	1	Leggings	HardCloth	Default	78	0	false	comp_workwear	blunt 3 pierce 3 lacer 2 fire 1 cold 1 poison 3 shock 3 beam 3														
+science_chem_pants_1		DaydreamChems Science	3	250	3	1	Leggings	Cloth	Default	103	0	false	plastic_workwear	blunt 3 pierce 3 lacer 1 fire 1 cold 1 poison 6 shock 6 beam 6														
+medical_pants_1		DaydreamChems Medical	1	60	1.25	1	Leggings	Cloth	Default	83	0	false	cloth	blunt 1 pierce 1 lacer 3 fire 1 cold 3 poison 3 shock 3 beam 3														
+medical_chem_pants_1		DaydreamChems Medical	2	90	3	1	Leggings	Cloth	Default	103	0	false	plastic_workwear	blunt 3 pierce 3 lacer 1 fire 1 cold 1 poison 6 shock 6 beam 6														
+medical_medium_pants_1		DaydreamChems Medical	4	450	3	1	Leggings	MediumArmor	Default	104	0	false	kevlar_armor	blunt 3 pierce 6 lacer 1 fire 1 cold 6 poison 3 shock 1 beam 6														
+medical_heavy_pants_1		DaydreamChems Medical	6	1100	7.5	1	Leggings	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+prison_pants_1		Prison UnchainedBelt	1	20	1.25	1	Leggings	Cloth	Default	85	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+prison_reinforced_pants_1		Prison UnchainedBelt	3	210	1.25	1	Leggings	HardCloth	Default	82	0	false	armored_workwear	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+prison_light_pants_1		Prison UnchainedBelt	2	200	1.25	1	Leggings	LightArmor	Default	82	0	false	kevlar_armor	blunt 3 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 1														
+prison_medium_pants_1		Prison UnchainedBelt	4	750	7.5	1	Leggings	MediumArmor	Default	130	0	false	kevlar_armor	blunt 8 pierce 8 lacer 6 fire 6 cold 8 poison 6 shock 2 beam 1														
+prison_heavy_pants_1		Prison UnchainedBelt	7	1300	7.5	1	Leggings	HeavyArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+military_pants_1		Military SheduThousand	1	100	1.25	1	Leggings	HardCloth	Default	79	0	false	workwear	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 3														
+military_pants_2		Military SheduThousand	1	170	1.25	1	Leggings	HardCloth	Default	79	0	false	workwear	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 3														
+military_doc_pants_1		Military Medical	3	400	3	1	Leggings	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 3 cold 3 poison 3 shock 1 beam 1														
+military_light_pants_1		Police Military SheduThousand	2	250	3	1	Leggings	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 3 cold 3 poison 3 shock 1 beam 1														
+military_medium_pants_1		Military SheduThousand	3	650	7.5	1	Leggings	MediumArmor	Default	124	0	false	aram_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 2 shock 1 beam 8														
+military_heavy_pants_1		Military SheduThousand	6	1200	7.5	1	Leggings	HeavyArmor	Default	130	0	false	aram_armor	blunt 8 pierce 8 lacer 6 fire 6 cold 6 poison 2 shock 1 beam 8														
+military_power_pants_1		Military SheduThousand	9	2200	7.5	1	Leggings	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+laborer_pants_1		Worker PlanetBridge Grasshopper	1	30	3	1	Leggings	Cloth	Default	104	0	false	cloth	blunt 1 pierce 1 lacer 6 fire 6 cold 3 poison 6 shock 2 beam 3														
+laborer_pants_2		Worker PlanetBridge Grasshopper	1	50	1.25	1	Leggings	Cloth	Default	76	0	false	sint_cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+laborer_pants_3		Worker PlanetBridge Grasshopper	2	70	1.25	1	Leggings	Cloth	Default	76	0	false	sint_cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+laborer_warm_pants_1		Worker PlanetBridge Grasshopper	2	120	1.25	1	Leggings	HardCloth	Default	82	0	false	sint_cloth	blunt 3 pierce 2 lacer 3 fire 1 cold 3 poison 3 shock 3 beam 1														
+laborer_medium_pants_1		Worker PlanetBridge Grasshopper	4	550	3	1	Leggings	MediumArmor	Default	111	0	false	spacesuit	blunt 3 pierce 2 lacer 6 fire 6 cold 1 poison 6 shock 3 beam 1														
+miner_pants_1		Miner CoreWard	1	10	3	1	Leggings	Cloth	Default	104	0	false	plastic_workwear	blunt 1 pierce 1 lacer 3 fire 6 cold 6 poison 6 shock 3 beam 1														
+miner_reinforced_pants_1		Miner CoreWard	2	160	1.25	1	Leggings	HardCloth	Default	82	0	false	comp_workwear	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 3 shock 1 beam 1														
+miner_medium_pants_1		Miner CoreWard	5	800	7.5	1	Leggings	MediumArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 8 shock 2 beam 1														
+miner_power_pants_1		Miner CoreWard	7	1600	7.5	1	Leggings	PowerArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 8 shock 2 beam 1														
+police_pants_1		Police FrancheComte	1	20	1.25	1	Leggings	Cloth	Default	76	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+police_medium_pants_1		Police FrancheComte	3	800	7.5	1	Leggings	MediumArmor	Default	130	0	false	aram_armor	blunt 8 pierce 8 lacer 8 fire 6 cold 6 poison 6 shock 2 beam 1														
+police_heavy_pants_1		Police FrancheComte	7	1200	7.5	1	Leggings	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 2 shock 8 beam 1														
+civ_pants_1		CResistance Miner Worker	1	20	1.25	1	Leggings	Cloth	Default	80	0	false	cloth	blunt 1 pierce 3 lacer 1 fire 3 cold 3 poison 3 shock 1 beam 3														
+civ_pants_2		CResistance Miner Worker	1	20	1.25	1	Leggings	Cloth	Default	80	0	false	sint_cloth	blunt 1 pierce 3 lacer 1 fire 3 cold 3 poison 1 shock 3 beam 3														
+civ_pants_3		CResistance	3	20	1.25	1	Leggings	HardCloth	Default	76	0	false	workwear	blunt 3 pierce 3 lacer 2 fire 3 cold 3 poison 1 shock 1 beam 3														
+civ_medium_pants_1		CResistance Miner Worker	2	600	3	1	Leggings	MediumArmor	Default	104	0	false	spacesuit	blunt 3 pierce 1 lacer 1 fire 6 cold 1 poison 6 shock 3 beam 6														
+civ_medium_pants_2		CResistance	3	800	3	1	Leggings	MediumArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6														
+civ_heavy_pants_1		CResistance	6	1800	7.5	1	Leggings	HeavyArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 6 fire 8 cold 6 poison 2 shock 1 beam 8														
+pirates_pants_1		Prison UnchainedBelt	1	60	1.25	1	Leggings	Cloth	Default	83	0	false	plastic_workwear	blunt 1 pierce 2 lacer 1 fire 1 cold 3 poison 3 shock 3 beam 3														
+pirates_reinforced_pants_1		Prison UnchainedBelt	1	130	1.25	1	Leggings	HardCloth	Default	86	0	false	comp_workwear	blunt 3 pierce 3 lacer 3 fire 1 cold 3 poison 3 shock 1 beam 2														
+pirates_reinforced_pants_2		Prison UnchainedBelt	1	150	1.25	1	Leggings	HardCloth	Default	76	0	false	armored_workwear	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+pirates_light_pants_1		UnchainedBelt	2	250	3	1	Leggings	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 2 lacer 3 fire 1 cold 6 poison 3 shock 1 beam 6														
+pirates_medium_pants_1		UnchainedBelt	6	600	7.5	1	Leggings	MediumArmor	Default	124	0	false	metal_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 8 poison 6 shock 2 beam 1														
+pirates_medium_pants_2		UnchainedBelt	4	450	7.5	1	Leggings	MediumArmor	Default	124	0	false	aram_armor	blunt 8 pierce 6 lacer 6 fire 6 cold 8 poison 2 shock 1 beam 8														
+posessed_medium_pants_1		Possesed SheduThousand	5	320	7.5	1	Leggings	MediumArmor	Default	124	0	false	aram_armor	blunt 8 pierce 6 lacer 6 fire 6 cold 8 poison 1 shock 2 beam 8														
+venus_pants_1		Tezctlan XiomaraMasks	1	70	1.25	1	Leggings	Cloth	Quasi	76	0	false	venus_cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 3 shock 1 beam 1														
+venusTez_heavy_pants_1		Tezctlan	3	700	7.5	1	Leggings	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 8 shock 2 beam 1														
+venusTez_heavy_pants_2		Tezctlan	5	750	7.5	1	Leggings	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 8 shock 2 beam 1														
+mercury_pants_1		Mercury	1	100	1.25	1	Leggings	Cloth	Quasi	81	0	false	mercury_cloth	blunt 1 pierce 3 lacer 3 fire 3 cold 3 poison 2 shock 1 beam 3														
+mercury_medium_pants_1		Mercury	3	730	3	1	Leggings	MediumArmor	Quasi	104	0	false	mercury_armor	blunt 3 pierce 6 lacer 3 fire 6 cold 2 poison 1 shock 1 beam 6														
+mercury_heavy_pants_1		Mercury	5	1400	7.5	1	Leggings	HeavyArmor	Quasi	124	0	false	mercury_armor	blunt 6 pierce 8 lacer 6 fire 8 cold 6 poison 2 shock 1 beam 8														
+anc_pants_1		AnCom	1	25	1.25	1	Leggings	Cloth	Default	82	0	false	cloth	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 3 shock 1 beam 1														
+anc_reinforced_pants_1		AnCom	3	170	1.25	1	Leggings	HardCloth	Default	82	0	false	comp_workwear	blunt 3 pierce 3 lacer 3 fire 3 cold 2 poison 3 shock 1 beam 1														
+anc_agent_pants_1		AnCom	4	650	1.25	1	Leggings	LightArmor	Default	84	0	false	kevlar_armor	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 3 shock 1 beam 1														
+anc_medium_pants_1		AnCom	7	1000	3	1	Leggings	MediumArmor	Default	111	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 2 cold 1 poison 6 shock 1 beam 3														
+anc_medium_pants_2		AnCom	4	780	7.5	1	Leggings	MediumArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+sbn_pants_1		SBN	1	40	1.25	1	Leggings	Cloth	Default	81	0	false	cloth	blunt 3 pierce 1 lacer 3 fire 1 cold 2 poison 3 shock 3 beam 3														
+sbn_pants_2		SBN	2	190	1.25	1	Leggings	HardCloth	Default	82	0	false	plastic_workwear	blunt 3 pierce 2 lacer 3 fire 1 cold 1 poison 3 shock 3 beam 3														
+sbn_light_pants_1		SBN	8	1600	3	1	Leggings	LightArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6														
+sbn_medium_pants_1		SBN	4	800	7.5	1	Leggings	MediumArmor	Default	130	0	false	kevlar_armor	blunt 6 pierce 8 lacer 8 fire 6 cold 8 poison 2 shock 1 beam 6														
+sbn_heavy_pants_1		SBN	7	1900	7.5	1	Leggings	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+rwa_pants_1		RealWare SheduThousand	1	25	1.25	1	Leggings	Cloth	Default	79	0	false	cloth	blunt 3 pierce 2 lacer 3 fire 3 cold 3 poison 1 shock 3 beam 1														
+rwa_light_pants_1		RealWare SheduThousand	4	530	3	1	Leggings	LightArmor	Default	104	0	false	kevlar_armor	blunt 6 pierce 6 lacer 3 fire 6 cold 3 poison 3 shock 1 beam 1														
+rwa_heavy_pants_1		RealWare SheduThousand	8	2000	7.5	1	Leggings	HeavyArmor	Default	130	0	false	spacesuit	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 8 shock 2 beam 1														
+rwa_power_pants_1		RealWare SheduThousand	10	3600	7.5	1	Leggings	PowerArmor	Default	130	0	false	chobham_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+ddr_chem_pants_1		DaydreamChems	4	300	3	1	Leggings	Cloth	Default	106	0	false	comp_workwear	blunt 2 pierce 3 lacer 6 fire 1 cold 1 poison 6 shock 6 beam 3														
+ddr_reinforced_chem_pants_1		DaydreamChems	5	600	3	1	Leggings	HardCloth	Default	109	0	false	industr_spacesuit	blunt 3 pierce 2 lacer 3 fire 6 cold 1 poison 6 shock 1 beam 6														
+ddr_power_pants_1		DaydreamChems	8	2200	7.5	1	Leggings	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 8 lacer 8 fire 8 cold 6 poison 6 shock 2 beam 1														
+sun_power_pants_1		Sunlight	9	2100	7.5	1	Leggings	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+fra_heavy_pants_1		FrancheComte	4	850	7.5	1	Leggings	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 8 pierce 6 lacer 8 fire 6 cold 6 poison 2 shock 8 beam 1														
+dil_light_pants_1		Dilthey	6	1600	1.25	1	Leggings	LightArmor	Default	79	0	false	kevlar_armor	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 1 shock 3 beam 1														
+chu_manager_pants_1		ChurchRevelation	2	150	3	1	Leggings	Cloth	Default	101	0	false	workwear	blunt 6 pierce 3 lacer 6 fire 3 cold 6 poison 1 shock 1 beam 3														
+chu_power_pants_1		ChurchRevelation	8	2300	7.5	1	Leggings	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 8 fire 8 cold 6 poison 2 shock 1 beam 8														
+moon_medium_pants_1		Moon	1	500	7.5	1	Leggings	MediumArmor	Quasi	124	0	false	moon_armor	blunt 8 pierce 8 lacer 6 fire 8 cold 6 poison 2 shock 6 beam 1														
+moon_heavy_pants_1		Moon	5	850	7.5	1	Leggings	HeavyArmor	Quasi	130	0	false	moon_armor	blunt 8 pierce 8 lacer 8 fire 6 cold 6 poison 2 shock 6 beam 1														
+spider_light_pants_1		Tezctlan XiomaraMasks	1	200	3	1	Leggings	LightArmor	Quasi	110	0	false	spider_armor	blunt 6 pierce 3 lacer 3 fire 2 cold 1 poison 6 shock 1 beam 6														
+police_pants_2		Police FrancheComte	1	20	1.25	1	Leggings	HardCloth	Default	83	0	false	armored_workwear	blunt 3 pierce 3 lacer 3 fire 1 cold 3 poison 1 shock 3 beam 2														
+common_pants_5		Common Possesed Managment	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_hyber_pants_1		Common Possesed	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_hyber_pants_2		Common Possesed	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	sint_cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_sport_pants_1		Common Possesed	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_sport_pants_2		Common Possesed	1	10	0.5	1	Leggings	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_reinforced_pants_1		Managment	1	150	0.5	1	Leggings	HardCloth	Default	50	0	false	workwear	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+civ_pants_4		CResistance Miner Worker	3	40	1.25	1	Leggings	Cloth	Default	83	0	false	armored_workwear	blunt 3 pierce 3 lacer 2 fire 3 cold 1 poison 1 shock 3 beam 3														
+venusXsi_pants_1		XiomaraMasks	2	350	1.25	1	Leggings	LightArmor	Quasi	76	0	false	venus_cloth	blunt 3 pierce 3 lacer 3 fire 2 cold 3 poison 3 shock 1 beam 1														
+ddr_pants		DaydreamChems	1	75	1.25	1	Leggings	Cloth	Default	82	0	false	plastic_workwear	blunt 3 pierce 2 lacer 3 fire 1 cold 1 poison 3 shock 3 beam 3														
+#end																												
+																												
+#boots																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	ArmorClass	ArmorSubClass	MaxDurability	MinDurabilityAfterRepair	Unbreakable	RepairCategory	ResistSheet														
+common_sneakers_1		Common Possesed	1	20	0.5	1	Boots	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_boots_1		Common Possesed Managment	1	40	0.5	1	Boots	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+common_sneakers_2		Common Possesed	1	20	0.5	1	Boots	Cloth	Default	50	0	false	cloth	blunt 1 pierce 1 lacer 1 fire 1 cold 1 poison 1 shock 1 beam 1														
+science_reinforced_boots_1		Science Medical	3	160	1.25	1	Boots	HardCloth	Default	78	0	false	comp_workwear	blunt 3 pierce 2 lacer 1 fire 1 cold 1 poison 3 shock 3 beam 2														
+science_chem_boots_1		Science Medical	2	120	3	1	Boots	Cloth	Default	103	0	false	plastic_workwear	blunt 3 pierce 2 lacer 1 fire 1 cold 1 poison 6 shock 6 beam 6														
+medical_sneakers_1		Science Medical	1	50	1.25	1	Boots	Cloth	Default	83	0	false	cloth	blunt 1 pierce 1 lacer 3 fire 1 cold 3 poison 3 shock 2 beam 2														
+medical_sneakers_2		Science Medical	1	20	1.25	1	Boots	Cloth	Default	76	0	false	cloth	blunt 3 pierce 2 lacer 2 fire 1 cold 3 poison 3 shock 1 beam 1														
+medical_medium_boots_1		Medical	4	370	3	1	Boots	MediumArmor	Default	104	0	false	kevlar_armor	blunt 3 pierce 6 lacer 1 fire 1 cold 6 poison 3 shock 1 beam 6														
+medical_heavy_boots_1		Medical	6	580	7.5	1	Boots	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7														
+prison_sneakers_1		Prison UnchainedBelt	1	20	1.25	1	Boots	Cloth	Default	85	0	false	cloth	blunt 3 pierce 2 lacer 3 fire 2 cold 3 poison 1 shock 1 beam 1														
+prison_light_boots_1		Prison UnchainedBelt	2	100	1.25	1	Boots	LightArmor	Default	82	0	false	kevlar_armor	blunt 3 pierce 3 lacer 2 fire 2 cold 3 poison 1 shock 1 beam 1														
+prison_medium_boots_1		Prison UnchainedBelt	3	320	7.5	1	Boots	MediumArmor	Default	130	0	false	kevlar_armor	blunt 7 pierce 7 lacer 6 fire 6 cold 7 poison 6 shock 1 beam 1														
+military_boots_1		Military SheduThousand	1	60	1.25	1	Boots	HardCloth	Default	79	0	false	workwear	blunt 3 pierce 3 lacer 2 fire 1 cold 3 poison 1 shock 1 beam 2														
+military_light_boots_1		Police Military SheduThousand	2	200	3	1	Boots	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 6 lacer 6 fire 2 cold 3 poison 3 shock 1 beam 1														
+military_medium_boots_1		Military RealWare SheduThousand	3	400	7.5	1	Boots	MediumArmor	Default	124	0	false	aram_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 1 shock 1 beam 7														
+military_heavy_boots_1		Military RealWare DaydreamChems SheduThousand	6	740	7.5	1	Boots	HeavyArmor	Default	130	0	false	aram_armor	blunt 7 pierce 7 lacer 6 fire 6 cold 6 poison 1 shock 1 beam 7														
+military_power_boots_1		Sunlight ChurchRevelation Military SheduThousand	9	1400	7.5	1	Boots	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 7 fire 7 cold 6 poison 6 shock 1 beam 1														
+laborer_boots_1		Worker PlanetBridge Grasshopper	1	30	3	1	Boots	Cloth	Default	104	0	false	sint_cloth	blunt 1 pierce 1 lacer 6 fire 6 cold 3 poison 6 shock 1 beam 3														
+laborer_warm_boots_1		Worker PlanetBridge Grasshopper	2	150	1.25	1	Boots	HardCloth	Default	82	0	false	sint_cloth	blunt 2 pierce 1 lacer 3 fire 1 cold 3 poison 2 shock 3 beam 1														
+laborer_medium_boots_1		Worker PlanetBridge Grasshopper	4	300	3	1	Boots	MediumArmor	Default	111	0	false	spacesuit	blunt 3 pierce 1 lacer 6 fire 6 cold 1 poison 6 shock 3 beam 1														
+miner_boots_1		Miner CoreWard	1	40	3	1	Boots	Cloth	Default	104	0	false	plastic_workwear	blunt 1 pierce 1 lacer 3 fire 6 cold 6 poison 6 shock 3 beam 1														
+miner_reinforced_boots_1		Miner CoreWard	2	160	1.25	1	Boots	HardCloth	Default	82	0	false	comp_workwear	blunt 3 pierce 2 lacer 2 fire 3 cold 1 poison 3 shock 1 beam 1														
+miner_medium_boots_1		Miner CoreWard	5	400	7.5	1	Boots	MediumArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 7 shock 1 beam 1														
+miner_power_boots_1		Miner CoreWard	7	900	7.5	1	Boots	PowerArmor	Default	130	0	false	industr_spacesuit	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 7 shock 1 beam 1														
+police_medium_boots_1		Police FrancheComte	3	420	7.5	1	Boots	MediumArmor	Default	130	0	false	aram_armor	blunt 7 pierce 7 lacer 7 fire 6 cold 6 poison 6 shock 1 beam 1														
+police_heavy_boots_1		Police FrancheComte	7	1200	7.5	1	Boots	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 1 shock 7 beam 1														
+civ_boots_1		Worker Miner CResistance	1	75	1.25	1	Boots	Cloth	Default	80	0	false	cloth	blunt 1 pierce 2 lacer 1 fire 3 cold 3 poison 2 shock 1 beam 3														
+civ_boots_2		Worker Miner CResistance	1	75	1.25	1	Boots	HardCloth	Default	80	0	false	armored_workwear	blunt 1 pierce 2 lacer 1 fire 3 cold 2 poison 1 shock 3 beam 3														
+civ_medium_boots_1		Worker Miner CResistance	2	310	3	1	Boots	MediumArmor	Default	104	0	false	spacesuit	blunt 3 pierce 1 lacer 1 fire 6 cold 1 poison 6 shock 3 beam 6														
+civ_medium_boots_2		CResistance	3	420	3	1	Boots	MediumArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6														
+civ_heavy_boots_1		CResistance	6	1300	7.5	1	Boots	HeavyArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 6 fire 7 cold 6 poison 1 shock 1 beam 7														
+pirates_boots_1		Prison UnchainedBelt	1	40	1.25	1	Boots	Cloth	Default	83	0	false	armored_workwear	blunt 1 pierce 2 lacer 1 fire 1 cold 3 poison 3 shock 3 beam 2														
+pirates_light_boots_1		UnchainedBelt	2	200	3	1	Boots	LightArmor	Default	102	0	false	metal_armor	blunt 6 pierce 1 lacer 3 fire 1 cold 6 poison 3 shock 1 beam 6														
+pirates_medium_boots_1		UnchainedBelt	6	400	7.5	1	Boots	MediumArmor	Default	124	0	false	metal_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 7 poison 6 shock 1 beam 1														
+pirates_medium_boots_2		UnchainedBelt	4	240	7.5	1	Boots	MediumArmor	Default	124	0	false	aram_armor	blunt 7 pierce 6 lacer 6 fire 6 cold 7 poison 1 shock 1 beam 7														
+posessed_medium_boots_1		Possesed SheduThousand	5	200	7.5	1	Boots	MediumArmor	Quasi	124	0	false	aram_armor	blunt 7 pierce 6 lacer 6 fire 6 cold 7 poison 1 shock 1 beam 7														
+venus_boots_1		Tezctlan XiomaraMasks	1	70	1.25	1	Boots	Cloth	Quasi	76	0	false	venus_cloth	blunt 2 pierce 2 lacer 3 fire 1 cold 3 poison 3 shock 1 beam 1														
+venusXsi_light_boots_1		XiomaraMasks	2	190	1.25	1	Boots	LightArmor	Quasi	76	0	false	venus_armor	blunt 2 pierce 2 lacer 3 fire 1 cold 3 poison 3 shock 1 beam 1														
+venusTez_heavy_boots_1		Tezctlan	3	490	7.5	1	Boots	HeavyArmor	Quasi	124	0	false	venus_armor	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 7 shock 1 beam 1														
+mercury_boots_1		Mercury	1	85	1.25	1	Boots	LightArmor	Quasi	81	0	false	mercury_cloth	blunt 1 pierce 3 lacer 2 fire 3 cold 2 poison 1 shock 1 beam 3														
+mercury_medium_boots_1		Mercury	3	370	3	1	Boots	MediumArmor	Quasi	104	0	false	mercury_armor	blunt 3 pierce 6 lacer 3 fire 6 cold 1 poison 1 shock 1 beam 6														
+anc_boots_1		AnCom	1	30	1.25	1	Boots	HardCloth	Default	82	0	false	cloth	blunt 3 pierce 3 lacer 2 fire 2 cold 1 poison 3 shock 1 beam 1														
+anc_agent_boots_1		AnCom	4	500	1.25	1	Boots	LightArmor	Default	84	0	false	kevlar_armor	blunt 2 pierce 3 lacer 2 fire 1 cold 3 poison 3 shock 1 beam 1														
+anc_medium_boots_1		AnCom	7	800	3	1	Boots	MediumArmor	Default	111	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 1 cold 1 poison 6 shock 1 beam 3														
+anc_medium_boots_2		AnCom	4	780	7.5	1	Boots	MediumArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 7 fire 7 cold 6 poison 6 shock 1 beam 1														
+sbn_boots_1		SBN	2	145	1.25	1	Boots	HardCloth	Default	81	0	false	plastic_workwear	blunt 2 pierce 1 lacer 3 fire 1 cold 1 poison 3 shock 2 beam 3														
+sbn_light_boots_1		SBN	8	1200	3	1	Boots	LightArmor	Default	104	0	false	aram_armor	blunt 6 pierce 6 lacer 3 fire 3 cold 2 poison 1 shock 1 beam 6														
+sbn_medium_boots_1		SBN	4	600	7.5	1	Boots	MediumArmor	Default	130	0	false	kevlar_armor	blunt 6 pierce 7 lacer 7 fire 6 cold 7 poison 1 shock 1 beam 6														
+sbn_heavy_boots_1		SBN	7	1100	7.5	1	Boots	HeavyArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7														
+rwa_boots_1		RealWare SheduThousand	1	30	1.25	1	Boots	HardCloth	Default	79	0	false	cloth	blunt 3 pierce 1 lacer 2 fire 3 cold 3 poison 1 shock 2 beam 1														
+rwa_light_boots_1		RealWare SheduThousand	4	470	3	1	Boots	LightArmor	Default	104	0	false	kevlar_armor	blunt 6 pierce 6 lacer 3 fire 6 cold 3 poison 2 shock 1 beam 1														
+rwa_heavy_boots_1		RealWare SheduThousand	8	1800	7.5	1	Boots	HeavyArmor	Default	130	0	false	spacesuit	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 7 shock 1 beam 1														
+rwa_power_boots_1		RealWare SheduThousand	10	2600	7.5	1	Boots	PowerArmor	Default	130	0	false	chobham_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7														
+ddr_chem_boots_1		DaydreamChems Science	2	300	3	1	Boots	HardCloth	Default	106	0	false	comp_workwear	blunt 1 pierce 3 lacer 6 fire 1 cold 1 poison 6 shock 6 beam 3														
+ddr_power_boots_1		DaydreamChems	8	1900	7.5	1	Boots	PowerArmor	Default	124	0	false	chobham_shell	blunt 6 pierce 7 lacer 7 fire 7 cold 6 poison 6 shock 1 beam 1														
+sun_power_boots_1		Sunlight	9	1500	7.5	1	Boots	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7														
+fra_heavy_boots_1		FrancheComte	4	800	7.5	1	Boots	HeavyArmor	Default	124	0	false	ceramite_shell	blunt 7 pierce 6 lacer 7 fire 6 cold 6 poison 1 shock 7 beam 1														
+dil_light_boots_1		Dilthey	6	1000	1.25	1	Boots	LightArmor	Default	79	0	false	kevlar_armor	blunt 3 pierce 3 lacer 2 fire 1 cold 3 poison 1 shock 2 beam 1														
+chu_manager_boots_1		ChurchRevelation	2	80	3	1	Boots	Cloth	Default	101	0	false	workwear	blunt 6 pierce 3 lacer 6 fire 2 cold 6 poison 1 shock 1 beam 3														
+chu_power_boots_1		ChurchRevelation	8	1400	7.5	1	Boots	PowerArmor	Default	130	0	false	ceramite_shell	blunt 6 pierce 6 lacer 7 fire 7 cold 6 poison 1 shock 1 beam 7														
+moon_medium_boots_1		Moon	1	350	7.5	1	Boots	MediumArmor	Quasi	124	0	false	moon_armor	blunt 7 pierce 7 lacer 6 fire 7 cold 6 poison 1 shock 6 beam 1														
+moon_heavy_boots_1		Moon	5	700	7.5	1	Boots	HeavyArmor	Quasi	130	0	false	moon_armor	blunt 7 pierce 7 lacer 7 fire 6 cold 6 poison 1 shock 6 beam 1														
+spider_light_boots_1		Tezctlan XiomaraMasks	1	190	3	1	Boots	LightArmor	Quasi	110	0	false	spider_armor	blunt 6 pierce 3 lacer 3 fire 1 cold 1 poison 6 shock 1 beam 6														
+police_boots_2		Police FrancheComte	1	65	1.25	1	Boots	HardCloth	Default	83	0	false	armored_workwear	blunt 2 pierce 3 lacer 2 fire 1 cold 3 poison 1 shock 3 beam 1														
+#end																												
+																												
+#consumables																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	GarbageItemId	MaxStack	MaxUsage	UsageCost	StarvationValue	HealthValue	HealDuration	MaxHealthValue	QmorphosValue	PainValue	PainDuration	FixAllWoundsChance	HealAllWoundsChance	FixWeights	Buffs	EffectChance	EffectProgression				
+soda_can_1		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	1	0.3	1	Drink	tin	5	10	10	300	0	0	0	0	0	0	0	0								
+soda_can_2		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	1	0.3	1	Drink	tin	5	10	10	300	0	0	0	0	0	0	0	0								
+juice_pack_1		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	1	0.3	1	Drink	plastic	5	10	10	350	1	5	0	0	0	0	0	0								
+juice_pack_2		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	1	0.3	1	Drink	plastic	5	10	10	350	1	5	0	0	0	0	0	0								
+water_bottle_1		Common Worker Miner Military Police Medical Science Prison CResistance UnchainedBelt SheduThousand	1	1	0.5	1	Drink	plastic	5	10	10	0	2	5	0	0	0	0	0	0								
+energy_can_1		Common Worker Miner Military Police Medical Science UnchainedBelt SheduThousand	1	1	0.3	1	Drink	tin	5	10	10	400	0	0	0	0	0	0	0	0								
+soup_can_1		Tezctlan XiomaraMasks	1	2	1	1	Drink	tin	5	10	10	600	0	0	0	0	0	0	0	0								
+rotten_soup_can_1		Tezctlan XiomaraMasks	1	2	1	1	Drink	tin	5	10	10	600	-5	0	0	0	0	0	0	0			poisonEffect 0.2					
+oil_bottle_1		Common Managment	1	40	0.4	1	Drink	glassBottle	10	10	10	500	0	0	5	0	0	0	0	0								
+beer_can_1		Common Worker Miner Police Medical Science UnchainedBelt SheduThousand	1	40	0.5	1	Alcohol	tin	5	10	10	400	0	0	0	-25	0	0	0	0			alcoholAddiction 0.05					
+vodka_bottle_1		Common Managment Worker Miner Military Police Medical Science UnchainedBelt SheduThousand	1	100	1	1	Alcohol	glassBottle	2	10	10	700	0	0	0	-100	0	0	0	0			alcoholAddiction 0.15	beamEffect -20				
+wiskey_bottle_1		Common Managment Medical Science UnchainedBelt SheduThousand	1	150	1	1	Alcohol	glassBottle	2	10	10	800	0	0	0	-100	0	0	0	0			alcoholAddiction 0.1	beamEffect -20				
+armagnac_bottle_1		Common Managment Medical Science UnchainedBelt SheduThousand	1	200	1	1	Alcohol	glassBottle	2	10	10	900	0	0	0	-100	0	0	0	0			alcoholAddiction 0.1	beamEffect -30				
+human_meat		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	1	1	1	Food	human_rib	5	10	10	400	-5	2	0	100	0	0	0	0		cannibalism 1	infectionEffect 0.2					
+rotten_human_meat		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus UnchainedBelt SheduThousand	1	1	1.2	1	Food	human_rib	5	10	10	200	-25	0	0	0	2	5	0	0		cannibalism 1	infectionEffect 0.2					
+roasted_human_meat		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus UnchainedBelt SheduThousand	1	1	1	1	Food	human_rib	5	10	10	500	0	0	0	100	0	0	0	0		cannibalism 1						
+spider_meat		Tezctlan XiomaraMasks	1	1	1	1	Food		5	10	10	400	0	0	0	100	0	0	0	0			poisonEffect 0.2					
+rotten_spider_meat		Tezctlan XiomaraMasks	1	1	1	1	Food		5	10	10	200	-25	0	0	100	0	0	0	0			poisonEffect 0.2					
+roasted_spider_meat		Tezctlan XiomaraMasks	1	1	1	1	Food		5	10	10	400	0	0	0	100	0	0	0	0			poisonEffect 0.05					
+canned_food_1		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	20	0.6	1	Food	tin	2	10	10	1200	0	0	0	0	0	0	0	0								
+canned_food_2		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	20	0.4	1	Food	tin	2	10	10	600	0	0	0	0	0	0	0	0								
+canned_food_3		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	20	0.4	1	Food	tin	2	10	10	600	0	0	0	0	0	0	0	0								
+chocolate_pack_1		Common Worker Miner Military Police Medical Science Prison UnchainedBelt SheduThousand	1	1	0.08	1	Food	plastic	10	10	10	150	0	0	0	0	0	0	0	0								
+mre_pack_1		Common Military Police CResistance SheduThousand	3	200	0.6	1	Food	plastic	2	30	10	1400	0	0	0	0	0	0	0	0								
+ration_pack_1		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	4	0.28	1	Food	plastic	5	10	10	450	0	0	0	0	0	0	0	0								
+ration_pack_2		Common Worker Miner Military Police Medical Science CResistance UnchainedBelt SheduThousand	1	4	0.24	1	Food	plastic	5	10	10	450	0	0	0	0	0	0	0	0								
+chips_pack_1		Common Worker Miner Military Police Medical Science UnchainedBelt	1	4	0.24	1	Food	plastic	5	10	10	300	0	0	0	0	0	0	0	0								
+chips_pack_2		Common Worker Miner Military Police Medical Science UnchainedBelt	1	4	0.24	1	Food	plastic	5	10	10	300	0	0	0	0	0	0	0	0								
+burger_pack_1		Common Worker Miner Military Police Medical Science UnchainedBelt SheduThousand	1	5	0.34	1	Food	plastic	5	10	10	500	0	0	0	0	0	0	0	0								
+rotten_burger_pack_1		Common Possesed UnchainedBelt SheduThousand	1	5	0.34	1	Food	plastic	5	10	10	250	-15	0	0	0	0	0	0	0			poisonEffect 0.2					
+burger_pack_2		Common Worker Miner Military Police Medical Science UnchainedBelt SheduThousand	1	5	0.24	1	Food	plastic	5	10	10	450	0	0	0	0	0	0	0	0								
+rotten_burger_pack_2		Common Possesed UnchainedBelt SheduThousand	1	5	0.24	1	Food	plastic	5	10	10	200	-15	0	0	0	0	0	0	0			poisonEffect 0.2					
+ration_pack_3		Common Worker Miner Military Police Medical Science Prison CResistance UnchainedBelt SheduThousand	1	2	0.2	1	Food	plastic	5	10	10	350	0	0	0	0	0	0	0	0								
+ration_pack_4		Common Worker Miner Military Police Medical Science Prison CResistance UnchainedBelt SheduThousand	1	2	0.2	1	Food	plastic	5	10	10	400	0	0	0	0	0	0	0	0								
+candy_1		Common Managment Prison UnchainedBelt	1	100	0.01	1	Food	plastic	10	10	10	100	0	0	0	0	0	0	0	0								
+human_organ_1		Tezctlan XiomaraMasks SheduThousand Possesed	1	40	1	1	Food		5	10	10	300	-5	1	0	100	0	0	0	0		cannibalism 1	infectionEffect 0.2					
+roasted_human_skin		Common Possesed Prison CResistance UnchainedBelt SheduThousand	1	1	1	1	Food		5	10	10	500	0	0	0	100	0	0	0	0		cannibalism 1						
+rotten_human_skin		Common Possesed Prison UnchainedBelt SheduThousand	1	1	1	1	Food		5	10	10	500	-25	0	0	100	0	0	0	0		cannibalism 1	poisonEffect 0.2					
+luxury_canned_food_1		Managment	1	120	0.4	1	Food	tin	5	10	10	500	0	0	5	0	0	0	0	0								
+luxury_ration_pack_1		Managment	1	120	0.4	1	Food	plastic	5	10	10	500	0	0	5	0	0	0	0	0								
+luxury_ration_pack_2		Managment	1	120	0.4	1	Food	plastic	5	10	10	500	0	0	5	0	0	0	0	0								
+watermelon_slice		Common Managment	1	20	0.4	1	Food		5	10	10	500	0	0	1	0	0	0	0	0								
+medical_kit_1		Common Medical Police CResistance UnchainedBelt SheduThousand	1	100	0.5	1	Medpack		5	30	10	0	15	4	0	0	-5	2	1	0	all 0.45			infectionEffect -20 poisonEffect -20				
+medical_kit_2		Common Military Medical SheduThousand	1	200	0.7	1	Medpack		5	30	10	0	20	4	0	0	-10	2	1	0	all 0.65			infectionEffect -30 poisonEffect -30 beamEffect -30				
+quasi_medical_kit_1		Tezctlan XiomaraMasks Moon Mercury Ron Scrivnus Cattaram SheduThousand	1	120	1	1	QuasiArtefact		5	10	10	0	100	0	10	0	-100	0	1	1			gavaahAddiction 0.15					
+pills_antibiotics		Common Medical Military Police Managment Worker Miner CResistance UnchainedBelt SheduThousand	1	150	0.01	1	Pills		10	20	4	0	0	0	0	0	0	0	0	0				infectionEffect -80 poisonEffect -40				
+pills_sorbent		Common Medical Military Police Managment Worker Miner CResistance UnchainedBelt SheduThousand	1	20	0.04	1	Pills		10	10	10	-100	0	0	0	0	0	0	0	0				alcoholAddiction -40 infectionEffect -40 poisonEffect -40				
+pills_antiradin		Common Medical Military Police UnchainedBelt SheduThousand	1	150	0.05	1	Pills		10	20	4	0	0	10	0	0	0	0	0	0	beam 0.25	healEfficiency 1		beamEffect -80				
+pills_fibromine		Common Medical Military Police SheduThousand	1	150	0.05	1	Pills		10	20	4	0	0	10	0	0	-2	5	0	0	fire 0.20 beam 0.15 shock 0.15 plasma 0.15	healEfficiency 1						
+pills_cryopentol		Common Medical Military Police SheduThousand	1	150	0.05	1	Pills		10	20	4	0	0	10	0	0	-2	5	0	0	cold 0.20	healEfficiency 1		coldEffect -20				
+pills_tranexam		Common Medical Military Police SheduThousand	1	150	0.05	1	Pills		10	20	4	0	0	10	0	0	-2	5	0	0	pierce 0.20 lacer 0.20	healEfficiency 1						
+pills_osteodron		Common Medical Military Police SheduThousand	1	150	0.05	1	Pills		10	20	4	0	0	10	0	0	-2	5	0	0	blunt 0.20 explosion 0.10	healEfficiency 1						
+pills_painkillers		Common Medical Military Police UnchainedBelt SheduThousand	1	100	0.05	1	Pills		10	20	4	0	0	0	0	0	-5	5	0	0				nicotineAddiction -50				
+syringe_morphine		Common Medical Prison Police CResistance UnchainedBelt SheduThousand	1	200	0.05	1	Syringe		5	10	10	0	0	0	0	-100	-25	5	0	0			morphineAddiction 0.2					
+syringe_naloxone		Common Medical Prison CResistance UnchainedBelt SheduThousand	1	100	0.05	1	Syringe		5	10	10	0	0	0	0	0	-2	3	0	0				morphineAddiction -80 alcoholAddiction -50 gavaahAddiction -20				
+syringe_green		none	100	10	0.27	1	Syringe		10	10	10	0	0	0														
+syringe_purple		none	100	10	0.28	1	Syringe		10	10	10	0	0	0														
+syringe_red		none	100	10	0.29	1	Syringe		10	10	10	0	0	0														
+syringe_yellow		none	100	10	0.3	1	Syringe		10	10	10	0	0	0	0													
+syringe_adrenaline		none	100	100	0.05	1	Syringe		5	10	10	0	10	3	0	-100	-20	3	0	0								
+cigarettes_1		Common Worker Miner Military Police UnchainedBelt SheduThousand	1	40	0.1	1	Syringe		5	5	1	0	0	0	0	-50	0	0	0	0			nicotineAddiction 0.15					
+syringe_antidote		Common Medical CResistance UnchainedBelt SheduThousand	1	100	0.05	1	Syringe		5	10	10	0	0	10		0	0	0	0	0	poison 0.25	healEfficiency 1		poisonEffect -80 alcoholAddiction -40				
+syringe_bloodbag		Common Medical CResistance UnchainedBelt SheduThousand	1	50	0.7	1	Syringe		5	10	10	0	10	10	0	50	0	0	0	0								
+syringe_nanoinjection		Common Medical Military Police UnchainedBelt SheduThousand	1	200	0.2	1	Syringe		5	10	10	0	8	6	0	0	-2	8	0	0	beam 0.65 shock 0.65 plasma 0.65			shockEffect -80				
+quasi_ron_medicine_1		Ron	1	10	0.36	1	Syringe		10	10	10	0	10	0	0	0	-10	0	1	1			gavaahAddiction 0.15					
+#end																												
+																												
+#fixation_medicine																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	FixWeights	MaxStack	MaxUsage	UsageCost	HealthValue	QmorphosValue	PainValue	FixResolutionTurns	EffectChance	EffectProgression											
+paper_towel		Common CResistance UnchainedBelt SheduThousand	1	5	0.1	1	Dressing	pierce 0.15 lacer 0.15 cold 0.05	10	10	10	0	0	0	5	infectionEffect 0.10												
+rubber		Common CResistance UnchainedBelt SheduThousand	1	1	0.2	1	Dressing	pierce 0.15 lacer 0.15	20	10	10	0	0	0	10	infectionEffect 0.10												
+bandage		Common Medical CResistance UnchainedBelt SheduThousand	1	20	0.1	1	Dressing	pierce 0.75 lacer 0.75 cold 0.55	5	10	10	2	0	0	5													
+plastic		Common CResistance UnchainedBelt SheduThousand	1	1	0.1	1	Dressing	blunt 0.25 explosion 0.15	20	10	10	0	0	0	10	infectionEffect 0.10												
+splint		Common Medical Military CResistance UnchainedBelt SheduThousand	1	20	0.1	1	Dressing	blunt 0.65 explosion 0.65	5	10	10	2	0	0	5													
+plaster		Common Medical Military CResistance UnchainedBelt SheduThousand	1	40	0.5	1	Dressing	blunt 0.75 explosion 0.75	5	10	10	4	0	0	5													
+hydrogel_bandage		Common Medical CResistance UnchainedBelt SheduThousand	1	40	0.2	1	Dressing	fire 0.65 plasma 0.65 shock 0.65 poison 0.65 beam 0.65	5	10	10	2	0	0	5													
+medicalClue		Common Medical CResistance UnchainedBelt SheduThousand	1	50	0.2	1	Dressing	pierce 0.35 lacer 0.35 fire 0.65 plasma 0.65 shock 0.65 poison 0.55	5	10	10	4	0	-1	8													
+mustard_patch		Common Medical CResistance UnchainedBelt SheduThousand	1	50	0.2	1	Dressing	cold 0.75	5	10	5	0	0	2	5		coldEffect -40											
+goldenstar_balm		Common Medical CResistance UnchainedBelt SheduThousand	1	40	0.02	1	Dressing	cold 0.4 shock 0.4	5	12	3	2	0	0	10		coldEffect -20											
+tape		Common CResistance UnchainedBelt SheduThousand	1	40	0.2	1	Dressing	pierce 0.3 lacer 0.3 blunt 0.2	5	10	10	0	0	0	10													
+surgicalKit		Medical Military Managment CResistance UnchainedBelt SheduThousand	1	110	4	1	Dressing	all 0.95	1	20	5	60	0	-20	1													
+rags		Common CResistance UnchainedBelt SheduThousand	1	1	0.2	1	Dressing	pierce 0.2 lacer 0.2 cold 0.25	20	10	10	0	0	0	10	infectionEffect 0.10												
+*quasi_venus_rags		Tezctlan XiomaraMasks	1	60	0.3	1	Dressing	all 0.65	5	10	10	4	50	0	10	poisonEffect 0.1												
+mercury_rags		Mercury	1	1	0.2	1	Dressing	all 0.65	10	10	10	4	50	0	10	beamEffect 1	beamEffect 10											
+#end																												
+																												
+#repairs																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	RepairCategories	MaxStack	MaxUsage	UsageCost	RestoreAmount	MaxCapacity															
+*rags		Common Worker Miner Police Military Science Prison CResistance UnchainedBelt SheduThousand	1	1	0.2	1	Parts	cloth sint_cloth workwear kevlar_armor	20	10	10	30	-10															
+*plastic		Common Worker Miner Police Military Science Prison CResistance UnchainedBelt SheduThousand	1	1	0.1	1	Parts	sint_cloth plastic_workwear armored_workwear spacesuit	20	10	10	15	-5															
+*rubber		Common Worker Miner Police Military Science Prison CResistance UnchainedBelt SheduThousand	1	1	0.2	1	Parts	cloth plastic_workwear comp_workwear industr_spacesuit	20	10	10	15	-5															
+rusty_plates		Common Worker Miner Police Military Science Prison CResistance UnchainedBelt SheduThousand	1	1	1.2	1	Parts	workwear comp_workwear metal_armor aram_armor	10	10	10	15	-5															
+armor_plates		Common Worker Miner Police Military Science Prison CResistance UnchainedBelt SheduThousand	1	2	1	1	Parts	armored_workwear aram_armor kevlar_armor chobham_shell	10	10	10	30	-10															
+ceramite_plates		Common Military Science SheduThousand	1	5	0.8	1	Parts	spacesuit industr_spacesuit ceramite_shell chobham_shell	10	10	10	30	-10															
+armor_repair_kit		Common Worker Military CResistance SheduThousand	1	450	1.2	1	RepairKit	all_armors	3	25	5	100	10															
+rod_parts		Common Worker Miner CResistance UnchainedBelt SheduThousand	1	1	0.5	1	Parts	engineering_weapon	20	10	10	30	-10															
+coarse_parts		Common Worker Miner CResistance SheduThousand	1	1	1	1	Parts	engineering_weapon	10	10	10	30	-10															
+engineering_repair_kit		Common Worker Miner CResistance SheduThousand	1	450	1.3	1	Parts	engineering_weapon	3	25	5	100	10															
+pierce_parts		Common Worker Miner Police Military Science Prison CResistance UnchainedBelt SheduThousand	1	2	0.3	1	Parts	melee	20	10	10	30	-10															
+blunt_parts		Common Worker Miner Police Military Science Prison CResistance UnchainedBelt SheduThousand	1	2	0.3	1	Parts	melee	20	10	10	30	-10															
+melee_repair_kit		Common Worker Miner CResistance SheduThousand	1	450	1.2	1	RepairKit	melee	3	25	5	100	10															
+*spring		Common Worker Miner Military CResistance SheduThousand	1	1	0.1	1	Parts	firearms_weapon	10	10	10	15	-5															
+weapon_parts		Common Police Military CResistance UnchainedBelt SheduThousand	1	2	0.4	1	Parts	firearms_weapon	20	10	10	30	-10															
+firearm_repair_kit		Common Police Military CResistance SheduThousand	1	450	1.2	1	RepairKit	firearms_weapon	3	25	5	100	10															
+microelectronics_parts		Common Worker Science CResistance SheduThousand	1	10	0.05	1	Parts	tech_weapon	20	10	10	30	-5															
+*circuit_board		Common Worker Science CResistance SheduThousand	1	1	0.3	1	Parts	tech_weapon	10	10	10	15	-2															
+tech_repair_kit		Common Worker Science CResistance SheduThousand	1	450	1.1	1	Parts	tech_weapon	3	25	5	100	10															
+*transformer		Common Worker Science CResistance SheduThousand	1	1	0.3	1	Parts	rail_weapon	10	10	10	15	-2															
+capacitor_parts		Common Worker Science CResistance SheduThousand	1	10	0.5	1	Parts	rail_weapon	20	10	10	30	-5															
+rail_repair_kit		Common Science CResistance SheduThousand	1	450	1.1	1	Parts	rail_weapon	3	25	5	100	10															
+*bulb		Common Worker Science CResistance SheduThousand	1	1	0.1	1	Parts	laser_weapon	10	10	10	15	-2															
+*lens		Common Worker Science CResistance SheduThousand	1	1	0.1	1	Parts	laser_weapon	10	10	10	15	-2															
+laser_repair_kit		Common Science CResistance SheduThousand	1	450	1.1	1	Parts	laser_weapon	3	25	5	100	10															
+*tape		Common CResistance UnchainedBelt SheduThousand	1	20	0.1	1	RepairKit	all	10	10	10	20	0															
+human_skin		Common Possesed UnchainedBelt SheduThousand	1	10	0.3	1	Parts	human_armor	10	10	10	15	-5															
+human_rib		Common Possesed UnchainedBelt SheduThousand	1	10	0.1	1	Parts	bone_armor	20	10	10	15	-5															
+spider_chitin		Tezctlan XiomaraMasks SheduThousand	1	5	0.5	1	Parts	spider_armor	20	10	10	15	-5															
+quasi_venus_feather		Tezctlan XiomaraMasks	1	1	0.05	1	Parts	venus_cloth	10	10	10	15	5															
+quasi_venus_rags		Tezctlan XiomaraMasks	1	1	0.3	1	Parts	venus_cloth venus_armor	10	10	10	15	5															
+venus_armor_plates		Tezctlan XiomaraMasks	1	10	0.5	1	Parts	venus_armor	20	10	10	40	5															
+venus_melee_parts		Tezctlan XiomaraMasks	1	1	0.4	1	Parts	venus_weapon	10	10	10	15	5															
+venus_weapon_parts		Tezctlan XiomaraMasks	1	10	0.5	1	Parts	venus_weapon	20	10	10	40	5															
+*mercury_rags		Mercury	1	1	0.2	1	Parts	mercury_cloth	10	10	10	15	5															
+mercury_glass		Mercury	1	1	0.4	1	Parts	mercury_armor mercury_weapon	10	10	10	15	5															
+moon_armor_plates		Moon	1	10	0.6	1	Parts	moon_armor	20	10	10	40	5															
+*moon_weapon_parts		Moon	1	10	0.6	1	Parts	moon_weapon	20	10	10	40	5															
+quasi_repair_kit		Tezctlan XiomaraMasks Moon Mercury Ron Scrivnus Cattaram SheduThousand	1	100	0.5	1	RepairKit	all_weapons moon_weapon venus_weapon mercury_weapon	1	10	10	500	5															
+broken_weapon		Common CResistance	1	1	0.1	1	Parts	trash_weapon	50	10	10	15	5															
+#end																												
+																												
+#general_devices																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	ShowConfirmBox	MaxStack	MaxUsage	UsageCost	UseEffect	Duration															
+automap		Science Military Managment SheduThousand	1	82	0.5	1	MilitaryBarter	FALSE	1	30	10	DestroyJammer 1																
+demonic_aye		Tezctlan XiomaraMasks Moon Mercury Ron Scrivnus Cattaram SheduThousand	1	150	0.4	1	QuasiArtefact	FALSE	1	10	10	RevealMap 1																
+quasi_sensor_device		Science Military SheduThousand	1	0	0	0	ScienceBarter	FALSE	1	30	10	RevealQuasiCreatures 1	5															
+anulator		Moon Mercury Ron Cattaram Scrivnus Tezctlan Science XiomaraMasks SheduThousand	1	200	1	1	QuasiArtefact	TRUE	1	5	5	BreakPact 1																
+#end																												
+																												
+#placeable_devices																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	MaxStack	MaxUsage	UsageCost	TargetObjectId	Explosion	TurnsToActivation															
+*defibrillator_device		Medical Science	1	350	0.5	1	ScienceBarter	1	10	10	Human		0															
+*robot_resurrect_device		Worker Miner Science	1	129	0.7	1	ScienceBarter	1	10	10	Cyborg		0															
+stationary_turret		Military CResistance SheduThousand	1	1000	10	2	Turret	1	10	10	turretbalistic		0															
+fire_turret		Military CResistance SheduThousand	3	1000	10	2	Turret	1	10	10	turretfire		0															
+energy_turret		AnCom SBN Sunlight	5	1000	10	2	Turret	1	10	10	turretenergy		0															
+quest_emiBurner			1	1000	10	2	Turret	1	10	10	turretempquest		0															
+packaged_industrial_robot		Common Worker Miner Police Military Science CResistance	1	93	10	2	Cyborg	1	10	10	workerrobot		0															
+packaged_security_robot		Police Military CResistance SheduThousand	3	124	10	2	Cyborg	1	10	10	warrobot		0															
+packaged_recreational_robot		Common Managment UnchainedBelt	2	118	10	2	Cyborg	1	10	10	recreationrobot		0															
+frag_mine		CoreWard RealWare CResistance UnchainedBelt Dilthey Military SheduThousand	1	20	0.55	1	Mine	3	10	10	frag_mine	frag_big_explosion	1															
+cattaram_mine		Cattaram	1	80	0.55	1	Mine	3	10	10	cattaram_mine	cattaram_explosion	1															
+#end																												
+																												
+#skulls																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	PerkId	CanBaronUse	Unbreakable																		
+skull_explosion		Mercury	100	300	1	1	QuasiPact	ultimate_explosion	TRUE	TRUE																		
+skull_ray		Mercury	100	300	1	1	QuasiPact	ultimate_ray	TRUE	TRUE																		
+skull_contract_mercury		Mercury	100	300	1	1	QuasiPact	ultimate_contract_mercury	FALSE	TRUE																		
+skull_bloodstrike		Tezctlan XiomaraMasks	100	300	1	1	QuasiPact	ultimate_blood_strike	TRUE	TRUE																		
+skull_bloodlust		Tezctlan XiomaraMasks	100	300	1	1	QuasiPact	ultimate_bloodlust	TRUE	TRUE																		
+skull_call_of_blood		Tezctlan XiomaraMasks	100	300	1	1	QuasiPact	ultimate_call_of_blood	TRUE	TRUE																		
+skull_contract_venus		Tezctlan XiomaraMasks	100	300	1	1	QuasiPact	ultimate_contract_venus	FALSE	TRUE																		
+skull_feathered_serpent		XiomaraMasks	100	300	1	1	QuasiPact	ultimate_feathered_serpent	FALSE	TRUE																		
+skull_blood_revival		Tezctlan	100	300	1	1	QuasiPact	ultimate_blood_revival	TRUE	TRUE																		
+skull_transformation		Moon	100	300	1	1	QuasiPact	ultimate_transformation	TRUE	TRUE																		
+skull_resurrection		Moon	100	300	1	1	QuasiPact	ultimate_resurrection	TRUE	TRUE																		
+skull_contract_luna		Moon	100	300	1	1	QuasiPact	ultimate_contract_luna	FALSE	TRUE																		
+skull_contract_mars		Mars	100	300	1	1	QuasiPact	ultimate_contract_mars	FALSE	TRUE																		
+skull_fire_breath		Mars	100	300	1	1	QuasiPact	ultimate_fire_breath	TRUE	TRUE																		
+skull_fire_wall		Mars	100	300	1	1	QuasiPact	ultimate_fire_wall	TRUE	TRUE																		
+skull_contract_ron		Ron	100	300	1	1	QuasiPact	ultimate_contract_ron	FALSE	TRUE																		
+skull_illusion		Ron	100	300	1	1	QuasiPact	ultimate_illusion	TRUE	TRUE																		
+skull_contract_cattaram		Cattaram	100	300	1	1	QuasiPact	ultimate_contract_cattaram	FALSE	TRUE																		
+skull_stoneskin		Cattaram	100	300	1	1	QuasiPact	ultimate_stoneskin	TRUE	TRUE																		
+skull_contract_scrivnus		Scrivnus	100	300	1	1	QuasiPact	ultimate_contract_scrivnus	FALSE	TRUE																		
+skull_massacre_dance		Scrivnus	100	300	1	1	QuasiPact	ultimate_massacre_dance	TRUE	TRUE																		
+#end																												
+																												
+#grenades																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	MaxStack	TurnsToExplode	RicochetTrajectory	Range	MaxUnderthrowDistance	MaxOverthrowDistance	IgnorePenaltyChance	Explosion													
+frag_grenade		Military CResistance SheduThousand	1	100	0.3	1	Grenade	3	2	TRUE	7	1	2	0.2	frag_explosion													
+qwasi_grenade		Tezctlan XiomaraMasks SheduThousand	1	100	0.1	1	Grenade	3	1	TRUE	7	1	2	0.2	qwasi_explosion													
+thermal_grenade		Common Police Military CResistance SheduThousand	1	100	0.4	1	Grenade	3	1	TRUE	7	1	2	0.2	thermal_explosion													
+stun_grenade		Police Military CResistance SheduThousand	1	100	0.2	1	Grenade	3	1	TRUE	7	1	2	0.2	stun_explosion													
+trowable_heart		Common Medical SheduThousand	1	10	0.33	1	ThrowableWeapon	3	0	TRUE	7	1	1	0.2	heart_explosion													
+trowing_knife		Common Military CResistance UnchainedBelt SheduThousand	1	20	1	1	ThrowableWeapon	10	0	FALSE	7	1	1	0.9	knife_explosion													
+skrivnus_knife		Scrivnus	1	10	1	1	ThrowableWeapon	5	0	TRUE	8	1	1	0.9	skrivnus_explosion													
+handmade_frag_grenade		Worker Miner Prison CResistance UnchainedBelt	1	10	0.2	1	Grenade	3	2	TRUE	7	1	2	0.2	frag_low_explosion													
+handmade_thermal_grenade		Common Worker Miner Prison CResistance UnchainedBelt	1	10	1	1	Grenade	3	0	FALSE	7	1	2	0.2	thermal_low_explosion													
+toxic_grenade		DaydreamChems	1	100	0.4	1	Grenade	3	0	FALSE	7	1	2	0.2	toxic_explosion													
+frost_grenade		DaydreamChems	1	100	0.2	1	Grenade	3	0	FALSE	7	1	2	0.2	frost_explosion													
+urparp_grenade			1	100	0.1	1	Grenade	3	1	TRUE	7	1	2	0.2	urparp_explosion													
+hellfire_grenade		ChurchRevelation	1	150	0.3	1	Grenade	3	1	TRUE	7	1	2	0.2	thermal_big_explosion													
+nanorobot_grenade		Military Science	1	169	1	1	Grenade	3	1	FALSE	7	1	2	0.2	nano_explosion													
+phase_bomb			1	10	0.3	1	Grenade	3	2	TRUE	7	1	2	0.2	phase_explosion													
+#end																												
+																												
+#trash																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	MaxStack	SubType																			
+human_wrist		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	5	0.6	1	Organ	5	Resource																			
+human_feet		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	5	0.7	1	Organ	5	Resource																			
+*human_skin		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	5	0.3	1	Organ	10	Resource																			
+human_poop		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	1	0.2	1	Organ	10	Resource																			
+*human_rib		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	5	0.1	1	Organ	20	Resource																			
+human_skull		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	5	2.5	1	Organ	5	Resource																			
+human_ear		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	2	0.1	1	Organ	20	Resource																			
+human_aye		Common Possesed Medical Tezctlan XiomaraMasks Moon Mercury Ron Cattaram Scrivnus CResistance UnchainedBelt SheduThousand	1	2	0.1	1	Organ	20	Resource																			
+spider_brain		Tezctlan XiomaraMasks	1	5	0.8	1	QuasiOrgan	10	Resource																			
+spider_joint		Tezctlan XiomaraMasks	1	5	0.3	1	QuasiOrgan	10	Resource																			
+spider_cocoon		Tezctlan XiomaraMasks	1	5	0.5	1	QuasiOrgan	10	Resource																			
+spider_aye		Tezctlan XiomaraMasks	1	5	0.1	1	QuasiOrgan	20	Resource																			
+*spider_chitin		Tezctlan XiomaraMasks	1	5	0.5	1	QuasiOrgan	20	Resource																			
+spider_meat		Tezctlan XiomaraMasks	1	5	1	1	QuasiOrgan	10	Resource																			
+spider_poisongland		Tezctlan XiomaraMasks	1	20	0.1	1	QuasiOrgan	20	Resource																			
+*broken_weapon		Common CResistance	1	5	0.1	1	Parts	50	Resource																			
+plastic		Common Worker Miner CResistance UnchainedBelt SheduThousand	1	5	0.1	1	Parts	20	Resource																			
+powder		Common Military Police CResistance UnchainedBelt SheduThousand	1	1	0.01	1	Parts	100	Resource																			
+glass		Common CResistance UnchainedBelt SheduThousand	1	5	0.05	1	Parts	50	Resource																			
+metal_tread		Common Worker CResistance UnchainedBelt SheduThousand	1	10	0.4	1	Parts	20	Resource																			
+tape		Common Worker CResistance UnchainedBelt SheduThousand	1	20	0.1	1	Parts	20	Resource																			
+wire		Common Worker CResistance UnchainedBelt SheduThousand	1	15	0.2	1	Parts	20	Resource																			
+rubber		Common Worker CResistance UnchainedBelt SheduThousand	1	5	0.3	1	Parts	20	Resource																			
+tread		Common Worker CResistance UnchainedBelt SheduThousand	1	1	0.01	1	Parts	20	Resource																			
+explosives		Common Miner CResistance SheduThousand	1	10	0.6	1	Parts	20	Resource																			
+acid		Common Science CResistance SheduThousand	1	1	0.01	1	Parts	20	Resource																			
+tin		Common CResistance UnchainedBelt SheduThousand	1	1	0.1	1	Parts	10	Resource																			
+nail_bolts_ammo		Common Worker Miner CResistance	1	1	0.01	1	Ammo	1	Resource																			
+gas_ammo		Common CResistance	1	1	0.02	1	Ammo	1	Resource																			
+quest_fresco_data			1	999	1	1	QuestItem	1	QuestItem																			
+quest_prison_head			1	999	1	1	QuestItem	1	QuestItem																			
+aztKey			1	999	1	1	QuestItem	1	QuestItem																			
+glassBottle		Common Worker Miner CResistance UnchainedBelt	1	1	0.35	1	Parts	10	Resource																			
+organsBox		Common Science Medical SheduThousand	1	100	1.5	1	ScienceBarter	10	Container																			
+itemsBox		Common	100	999	5	1	QuestItem	1	Container																			
+personalKey		Common Managment	1	20	0.02	1	Data	10	Resource																			
+cyborg_head		Common Worker Miner CResistance	1	20	1.5	1	Parts	5	Resource																			
+moon_weapon_parts		Moon	1	20	0.6	1	QuasiOrgan	20	Resource																			
+moon_guts		Moon	1	20	0.4	1	QuasiOrgan	20	Resource																			
+aztec_guts		Tezctlan XiomaraMasks	1	20	0.4	1	QuasiOrgan	20	Resource																			
+mercury_guts		Mercury	1	20	0.4	1	QuasiOrgan	20	Resource																			
+mercury_scales		Mercury	1	20	0.6	1	QuasiOrgan	20	Resource																			
+circuit_board		Common Worker Science CResistance	1	10	0.1	1	Parts	20	Resource																			
+ledgerBook		Common Managment	1	30	0.8	1	Data	10	Resource																			
+poppy_box		Common Science Medical	1	20	0.05	1	Parts	20	Resource																			
+spring		Common Worker Miner CResistance	1	1	0.1	1	Parts	20	Resource																			
+lens		Common Worker Science CResistance	1	5	0.1	1	Parts	20	Resource																			
+transformer		Common Worker Science CResistance	1	10	1.2	1	Parts	10	Resource																			
+bulb		Common Worker Science CResistance	1	5	0.3	1	Parts	20	Resource																			
+quest_device			1	0	1	1	QuestItem	1	QuestItem																			
+quest_igvalit			1	0	1	1	QuestItem	1	QuestItem																			
+quest_artefact			1	0	1	1	QuestItem	1	QuestItem																			
+quest_AncomData			1	0	1	1	QuestItem	1	QuestItem																			
+quest_secret_data			1	0	1	1	QuestItem	3	QuestItem																			
+quest_dislocatorDetal			1	0	1	1	QuestItem	4	QuestItem																			
+quest_goldenSkull			1	0	1	1	QuestItem	4	QuestItem																			
+quest_redChip			1	0	1	1	QuestItem	4	QuestItem																			
+quest_hackedPcpu			1	0	1	1	QuestItem	4	QuestItem																			
+*quest_emiBurner			1	0	1	2	QuestItem	1	QuestItem																			
+regular_food_container		Common	1	100	2.2	2	Food	1	Container																			
+military_food_container		Military Managment SheduThousand	1	120	2.2	2	Food	1	Container																			
+luxury_food_container		Managment	1	130	1.5	1	Food	2	Container																			
+water_container		Common Worker Miner UnchainedBelt	1	25	1.5	1	Drink	2	Container																			
+alcogol_container		Common Worker Miner UnchainedBelt	1	100	1.5	1	Alcohol	2	Container																			
+regular_clothing_container		Common	1	55	4.2	1	IndustrialBarter	2	Container																			
+miner_clothing_container		Common Miner	1	70	4.2	1	IndustrialBarter	2	Container																			
+worker_clothing_container		Common Worker	1	70	4.2	1	IndustrialBarter	2	Container																			
+scientist_clothing_container		Common Science	1	80	4.2	1	ScienceBarter	2	Container																			
+security_clothing_container		Police Military SheduThousand	1	85	4.2	1	MilitaryBarter	2	Container																			
+weapon_container		Police Military SheduThousand	1	280	2.3	1	MilitaryBarter	2	Container																			
+armor_container		Police Military SheduThousand	1	280	2.3	1	MilitaryBarter	2	Container																			
+tool_container		Common Worker Miner	1	65	2.3	1	IndustrialBarter	2	Container																			
+robot_parts_container		Worker Miner Science	1	70	1.8	1	IndustrialBarter	2	Container																			
+electrical_parts_container		Worker Miner Science CResistance SheduThousand	1	80	1.2	1	IndustrialBarter	2	Container																			
+military_parts_container		Worker Military Science CResistance SheduThousand	1	90	1.2	1	MilitaryBarter	2	Container																			
+engineering_parts_container		Common Worker Science CResistance	1	70	1.2	1	IndustrialBarter	2	Container																			
+ai_module		Military Science SheduThousand	1	120	0.3	1	MilitaryBarter	10	BartherResource																			
+communication_relay		Common Managment CResistance UnchainedBelt	1	95	0.4	1	IndustrialBarter	5	BartherResource																			
+defibrillator_device		Medical Science	1	99	0.5	1	ScienceBarter	1	BartherResource																			
+robot_resurrect_device		Worker Miner Science	1	120	0.7	1	ScienceBarter	1	BartherResource																			
+*quasi_sensor_device		Military Science SheduThousand	1	85	0.5	1	ScienceBarter	1	BartherResource																			
+geoscanner_device		Worker Managment	1	70	0.5	1	ScienceBarter	1	BartherResource																			
+welding_machine_device		Common Worker Miner	1	60	0.5	1	IndustrialBarter	1	BartherResource																			
+medical_equipment		Medical Science	1	260	5.8	2	ScienceBarter	1	BartherResource																			
+scientific_equipment		Medical Science	1	240	5.6	2	ScienceBarter	1	BartherResource																			
+mining_equipment		Miner	1	230	6.2	2	IndustrialBarter	1	BartherResource																			
+construction_equipment		Worker	1	250	6.2	2	IndustrialBarter	1	BartherResource																			
+chemical_analyzer		Science Medical	1	110	1.4	1	ScienceBarter	1	BartherResource																			
+hydraulic_pump		Worker Miner	1	95	1.6	1	IndustrialBarter	1	BartherResource																			
+quasiresearch_disk		Military Science SheduThousand	1	118	0.2	1	ScienceBarter	5	BartherResource																			
+research_disk		Managment Science	1	104	0.2	1	Data	5	BartherResource																			
+prototype_schematics		Science Worker Managment	1	69	0.1	1	Data	10	BartherResource																			
+*management_unit		Managment	1	114	0.1	1	Data	10	BartherResource																			
+*darknet_unit		Prison CResistance UnchainedBelt	1	160	0.1	1	Data	10	BartherResource																			
+*military_unit		Military CResistance UnchainedBelt SheduThousand	1	132	0.1	1	Data	10	BartherResource																			
+*memory_software		Common Managment UnchainedBelt	1	68	0.1	1	Data	10	BartherResource																			
+*entertainment_software		Common Managment UnchainedBelt	1	54	0.1	1	Data	10	BartherResource																			
+expert_disk		Managment Science UnchainedBelt	1	100	0.1	1	Data	10	BartherResource																			
+quasisamples		Science Medical	1	150	1.4	1	ScienceBarter	5	BartherResource																			
+biomass_tank		Medical Science	1	80	2.6	1	ScienceBarter	5	BartherResource																			
+precious_metals		Managment UnchainedBelt	1	350	1	1	ValuableBarter	10	BartherResource																			
+drug_cargo		Managment Prison CResistance UnchainedBelt	1	250	1	1	ValuableBarter	2	BartherResource																			
+*gunbang_magazine		Common Worker Miner UnchainedBelt	1	60	0.1	1	Data	10	BartherResource																			
+medical_components		Medical Science CResistance	1	80	2.2	1	ScienceBarter	2	BartherResource																			
+watermelon		Managment	1	120	0.4	1	Food	5	Container																			
+#end																												
+																												
+#datadisks																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	UnlockType	UnlockIds																			
+itemChip		Common	1	150	0.1	1	Blueprint	ProductionItem	worker_pistol_1 police_club_1 vodka_bottle_1 trash_common_vest_1 army_pistol_1 common_axe_1 army_pistol_2 pmc_pistol_2 military_pistol_2 trucker_pistol_2 rail_pistol_2 laser_pistol_2 common_pistol_2 common_pistol_3 pmc_shotgun_1 trucker_shotgun_1 pmc_smg_1 pmc_smg_2 police_smg_1 pmc_assault_1 common_assault_1 trucker_marksman_1 small_burst_ammo shotgun_bullet_ammo medicalClue mre_pack_1 pmc_common_vest_1 trash_armored_vest_1 military_common_vest_1 armored_vest_1 military_light_armor_1 military_light_gasmask_1 military_mask_1 military_light_pants_1 military_light_boots_1 frag_grenade thermal_grenade stun_grenade frag_mine nail_bolts_ammo police_reinforced_shirt_1 military_doc_helmet_1 military_doc_armor_1 military_doc_pants_1 miner_gasmask_1 laborer_warm_hat_1 laborer_warm_shirt_1 laborer_warm_pants_1 laborer_warm_boots_1 medical_medium_helmet_1 medical_medium_armor_1 medical_medium_pants_1 medical_medium_boots_1 common_reinforced_pants_1 common_gasmask_1 medical_gasmask_1 medical_chem_helmet_1 medical_chem_shirt_1 medical_chem_pants_1 science_gasmask_1 science_reinforced_shirt_1 science_reinforced_pants_1 science_reinforced_boots_1 science_chem_helmet_1 science_chem_shirt_1 science_chem_pants_1 science_chem_boots_1 goldenstar_balm engineering_repair_kit tech_repair_kit rail_repair_kit laser_repair_kit pills_fibromine pills_cryopentol pills_tranexam pills_osteodron																			
+mediumItemChip		Common	4	300	0.1	1	Blueprint	ProductionItem	tech_blade_1 army_pistol_3 pmc_pistol_3 military_pistol_3 trucker_pistol_3 rail_pistol_3 laser_smg_1 trucker_shotgun_2 common_shotgun_2 military_shotgun_1 military_smg_1 laser_smg_2 plasma_assault_1 military_assault_1 plasma_shotgun_1 army_sniper_1 trucker_marksman_2 laser_marksman_1 army_hmg_1 small_expansive_ammo shotgun_flechette_ammo shotgun_dragon_ammo medium_police_ammo surgicalKit syringe_antidote syringe_bloodbag pills_painkillers medium_backpack_1 servo_backpack_1 military_armored_vest_1 armored_expanded_vest_1 military_heavy_armor_1 military_heavy_helmet_1 military_heavy_pants_1 military_heavy_boots_1 stationary_turret fire_turret energy_turret medium_basic_ammo medium_police_ammo rifle_basic_ammo military_medium_helmet_1 military_medium_armor_1 military_medium_pants_1 military_medium_boots_1 miner_power_helmet_1 miner_power_armor_1 miner_power_pants_1 miner_power_boots_1 medical_heavy_armor_1 medical_heavy_pants_1 medical_heavy_boots_1 police_heavy_helmet_2 police_heavy_armor_1 police_heavy_pants_1 police_heavy_boots_1 miner_exoskeleton_1 laborer_medium_armor_1 laborer_medium_helmet_1 laborer_medium_pants_1 laborer_medium_boots_1 medical_heavy_helmet_1 laborer_exoskeleton_1 army_pistol_4																			
+highItemChip		Common	7	550	0.1	1	Blueprint	ProductionItem	medical_kit_2 plasma_shotgun_1 army_sniper_2 laser_sniper_1 plasma_hmg_1 military_minigun_1 rifle_armorpierce_ammo big_backpack_1 heavy_armored_vest_1 automap rifle_plasma_ammo military_power_armor_1 military_power_helmet_1 military_power_pants_1 military_power_boots_1																			
+RealWareItemChip		RealWare	10	750	0.1	1	Blueprint	ProductionItem	military_axe_1 rwa_military_pistol_1 rwa_military_smg_1 rwa_military_assault_1 rwa_heavy_armor_1 military_shirt_3 rwa_power_armor_1 rwa_heavy_helmet_1 military_light_helmet_1 rwa_power_helmet_1 rwa_heavy_pants_1 military_pants_2 rwa_power_pants_1 rwa_heavy_boots_1 rwa_power_boots_1 rwa_light_armor_1 rwa_light_helmet_2 rwa_light_pants_1 rwa_light_boots_1																			
+SBNItemChip		SBN	10	750	0.1	1	Blueprint	ProductionItem	sbn_rail_pistol_1 sbn_rail_shotgun_1 sbn_rail_smg_1 sbn_light_armor_1 sbn_heavy_armor_1 sbn_light_helmet_1 sbn_heavy_helmet_1 sbn_light_pants_1 sbn_heavy_pants_1 sbn_light_boots_1 sbn_heavy_boots_1 sbn_rail_assault_1 sbn_medium_helmet_1 sbn_medium_armor_1 sbn_medium_pants_1 sbn_medium_boots_1																			
+AncomItemChip		AnCom	10	750	0.1	1	Blueprint	ProductionItem	anc_quasi_pistol_1 pmc_shotgun_2 anc_shotgun_1 pmc_smg_3 anc_quasi_smg_1 anc_quasi_assault_1 anc_marksman_1 anc_medium_armor_1 anc_medium_armor_2 anc_agent_armor_1 anc_medium_helmet_1 anc_medium_mask_1 anc_agent_mask_1 anc_medium_pants_1 police_pants_2 anc_agent_pants_1 anc_medium_boots_1 anc_agent_boots_1 anc_reinforced_shirt_1 anc_reinforced_pants_1 anc_reinforced_hat_1 anc_medium_pants_2 anc_medium_boots_2																			
+DayDreamItemChip		DaydreamChems	10	750	0.1	1	Blueprint	ProductionItem	ddr_frost_pistol_1 ddr_toxic_pistol_1 toxic_thrower_1 ddr_chem_coat_1 ddr_reinforced_chem_coat_1 ddr_chem_helmet_1 ddr_reinforced_chem_helmet_1 ddr_chem_pants_1 ddr_reinforced_chem_pants_1 ddr_chem_boots_1 ddr_toxic_shotgun_1 ddr_frost_shotgun_1 toxic_grenade frost_grenade ddr_power_boots_1 ddr_power_helmet_1 ddr_power_pants_1 ddr_power_armor_1																			
+SunLightItemChip		Sunlight	10	750	0.1	1	Blueprint	ProductionItem	chu_trucker_pistol_1 chu_trucker_pistol_2 sun_laser_pistol_1 sun_laser_shotgun_1 sun_laser_sniper_1 sun_power_armor_1 sun_power_helmet_1 sun_power_pants_1 sun_power_boots_1 sun_laser_assault_1 sun_laser_marksman_1 sun_servo_backpack_1																			
+CoreItemChip		CoreWard	10	750	0.1	1	Blueprint	ProductionItem	military_shovel_1 cor_worker_pistol_1 cor_worker_hmg_1 cor_laser_sniper_1 cor_worker_disctrower_1 cor_worker_flametrower_1 miner_reinforced_shirt_1 miner_power_armor_1 miner_hard_cap_2 miner_power_helmet_1 miner_power_pants_1 common_boots_1 miner_power_boots_1																			
+PlanetBridgeItemChip		PlanetBridge	10	750	0.1	1	Blueprint	ProductionItem	rail_marksman_1 plb_worker_shockgun_1 miner_shirt_1 miner_medium_armor_1 miner_hard_cap_1 miner_medium_helmet_1 miner_pants_1 miner_medium_pants_1 miner_boots_1 miner_medium_boots_1																			
+GrassHopperItemChip		Grasshopper	10	750	0.1	1	Blueprint	ProductionItem	grh_revolver_pistol_1 grh_trucker_assault_1 grh_trucker_marksman_2 grh_common_smg_1 grh_trucker_marksman_1																			
+ChurchItemChip		ChurchRevelation	10	750	0.1	1	Blueprint	ProductionItem	trucker_shotgun_3 chu_shotgun_1 chu_manager_shirt_1 chu_power_armor_1 chu_manager_mask_1 chu_power_helmet_1 chu_manager_pants_1 chu_power_pants_1 chu_manager_boots_1 chu_power_boots_1 shotgun_explosion_ammo chu_meltatrower_1																			
+FrancheItemChip		FrancheComte	10	750	0.1	1	Blueprint	ProductionItem	fra_police_club_1 fra_security_pistol_1 fra_security_smg_1 fra_security_assault_1 grenade_launcher_1 police_medium_armor_1 fra_heavy_armor_1 police_medium_helmet_1 fra_heavy_mask_1 police_medium_pants_1 fra_heavy_pants_1 police_medium_boots_1 fra_heavy_boots_1 fra_shock_pistol_1 fra_security_shotgun_1 fra_security_smg_2 fra_shock_smg_1																			
+DiltheyItemChip		Dilthey	10	750	0.1	1	Blueprint	ProductionItem	dil_battery_ammo dil_sound_pistol_1 dil_sound_pistol_2 dil_sound_shotgun_1 dil_shock_smg_1 dil_sound_assault_1 dil_shock_sniper_1 dil_light_armor_1 dil_light_helmet_1 dil_light_pants_1 dil_light_boots_1																			
+merkUSB		Common	1	600	0.1	1	Blueprint	Mercenary	francis_reid_daly victoria_boudicca persival_fawcett Isabella_capet maximilian_rohr jacques_kennet mirza_aishatu kenzie_yukio marika_wulfnod auberon_lukas niko_medich priya_marlon																			
+classUSB		Common	1	750	0.1	1	Blueprint	MercenaryClass	scouts_of_hades ecclipse_blades tifton_elite tunnel_rats phoenix_brigade spaceborn_ghosts angels_of_spades doppelganger_pack valkyrie_squad																			
+#end																												
+																												
+#expgainers																												
+Id		Categories	TechLevel	Price	Weight	InventoryWidthSize	ItemClass	MaxStack	ExpAmount	ExpPerkCount	AllowedPerkIds																	
+gunbang_magazine		Common Worker Miner UnchainedBelt	1			1	Data	10	300	3	cold_weapon_wielding pyromaniac piersing_burst precise_shot tactical_reloading perfect_opener weak_point																	
+management_unit		Managment	1			1	Data	10	300	3	reaction_training hitech_spec reinforced_battery cheap_shot																	
+darknet_unit		Prison CResistance UnchainedBelt	1			1	Data	10	300	3	covermaster cautious marauder handmade_shotgun_ammo enhanced_heavy_ammo war_crime																	
+military_unit		Military CResistance UnchainedBelt SheduThousand	1			1	Data	10	300	3	military_training cqc_specialist battle_concentration last_bullet heavy_weaponary stationary_defense grenadier																	
+memory_software		Common Managment UnchainedBelt	1			1	Data	10	300	3	surgeon emergency_revival first_aid duty_shift arsonist proper_nutrition																	
+entertainment_software		Common Managment UnchainedBelt	1			1	Data	10	300	3	blind_fury cannibalism carnage taste_of_blood possession ritualism masochism insanity axe_rage																	
+*pills_steroids		Common Medical Military Police CResistance UnchainedBelt SheduThousand	1	100	0.37	1	Pills	5	300	3	bodybuilding hardening insensitivity athletics addict immune_response elemental_resist																	
+#end																												

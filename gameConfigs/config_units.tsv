@@ -1,0 +1,353 @@
+#bodytypes																															
+Id	ActorId	CreatureClass	Eccolapse	MutateBodyTypeId	Health	PainThresholdLimit	PainThresholdRegen	MeleeDamage	ResistSheet	WoundSlots	BaseActionPoints	MeleeAccuracy	RangeAccuracy	Dodge	MeleeThrowbackChance	ReceiveAmputationChance	ReceiveWoundChanceMult	AttackWoundChanceMult	QuazimorphosisReward	ScaleQuasimorphStats	IgnoreThrowback	HasInventoryWeaponSlots	HasInventoryEquipmentSlots	DeathExplosionRadius	DeathExplosionDamageType	DeathExplosionDamage	Immunity	Immobile	CanFly	HairTypesList	HairColorsList
+man	human_male	Human	TRUE	possessedman	35	10	1	blunt 10 15 crit 2.00 critchance 0.1	blunt 2 pierce 2 lacer 2 fire 2 cold 2 poison 2 shock 2 beam 2	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	1	0.4	0.2	0.02	0.2	0.25	1	1	5	FALSE	FALSE	TRUE	TRUE					FALSE	FALSE	none hair1 hair2 hair3	#633D08 #908E87 #FF3100 #FFC400
+woman	human_female	Human	TRUE	possessedwoman	15	8	1	blunt 8 12 crit 2.00 critchance 0.25	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.4	0.2	0.1	0.2	0.25	1	1	5	FALSE	FALSE	TRUE	TRUE					FALSE	FALSE	hair1 hair2 hair3	#633D08 #908E87 #FF3100 #FFC400
+possessedman	possessed_male	Human	TRUE		50	14	1	blunt 16 24 crit 1.80 critchance 0.15	blunt 4 pierce 4 lacer 4 fire 2 cold 2 poison 4 shock 4 beam 2	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	1	0.5	0.15	0.02	0.2	0.3	1	1	5	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+possessedwoman	possessed_female	Human	TRUE		30	10	1	lacer 14 22 crit 1.85 critchance 0.3	blunt 2 pierce 2 lacer 2 fire 0 cold 0 poison 2 shock 2 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.5	0.15	0.1	0.2	0.3	1	1	5	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+aztknight	qmorph_venus_lesser_knight	Quasimorph	FALSE		80	100	1	blunt 16 24 crit 1.45 critchance 0.2	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 30 shock 0 beam 0	VenusHead VenusCatFeet VenusShoulder VenusArm VenusChest VenusStomach VenusBody VenusThigh VenusKnee	2	0.6	0.3	0.1	0.5	0.15	1	1	20	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+aztservitor	qmorph_venus_servitor	Quasimorph	FALSE		40	45	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 30 shock 0 beam 0	SkinlessHead SkinlessShoulder SkinlessArm SkinlessThigh SkinlessFeet SkinlessChest SkinlessBody SkinlessStomach SkinlessKnee	1	0.35	0.1	0.15	0.4	0.15	1	1	15	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+bigposman	possessed_bigarm	Quasimorph	FALSE		60	15	1	blunt 20 28 crit 1.85 critchance 0.2	blunt 4 pierce 4 lacer 4 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	1	0.65	0.35	0.1	0.6	0.25	1	1	15	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+blobposman	possessed_blob	Quasimorph	FALSE		50	12	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 4 pierce 4 lacer 4 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	1	0.65	0.35	0.1	0.3	0.25	1	1	15	TRUE	TRUE	TRUE	TRUE	3	poison	30		FALSE	FALSE		
+cattarambaron	qmorph_cattaram_baron	QuasimorphBaron	FALSE		120	900	1	blunt 26 36 crit 2.00 critchance 0.25	blunt 40 pierce 40 lacer 40 fire 90 cold 0 poison 0 shock 0 beam 0	CattaramHead CattaramThigh CattaramShoulder CattaramArm CattaramChest CattaramStomach CattaramBody CattaramFeet CattaramKnee	2	0.7	0.5	0.2	0.3	0.01	0.5	1	0	TRUE	TRUE	FALSE	FALSE					FALSE	FALSE		
+cattaramknight	qmorph_cattaram_knight	Quasimorph	FALSE		70	100	1	blunt 18 24 crit 1.85 critchance 0.2	blunt 30 pierce 30 lacer 30 fire 40 cold 0 poison 0 shock 0 beam 0	CattaramDogHead CattaramThigh CattaramShoulder CattaramArm CattaramChest CattaramStomach CattaramBody CattaramFeet CattaramKnee	1	0.6	0.45	0.15	0.3	0.01	0.75	1	25	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+cattaramservitor	qmorph_cattaram_servitor	Quasimorph	FALSE		50	100	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 24 pierce 24 lacer 24 fire 30 cold 0 poison 0 shock 0 beam 0	CattaramDogHead CattaramThigh CattaramShoulder CattaramArm CattaramChest CattaramStomach CattaramBody CattaramFeet CattaramKnee	1	0.6	0.4	0.15	0.3	0.05	1	1	15	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+centaurposman	possessed_centaur	Quasimorph	FALSE		80	20	1	blunt 20 28 crit 2.05 critchance 0.2	blunt 4 pierce 4 lacer 4 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.75	0.35	0.15	0.5	0.25	1	1	15	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+cyborg	cyborg_civil	Cyborg	FALSE		60	100	10	blunt 14 22 crit 1.85 critchance 0.15	blunt 20 pierce 20 lacer 10 fire 40 cold 20 poison 40 shock 0 beam 10	CyborgHead CyborgShoulder CyborgArm CyborgThigh CyborgFeet CyborgChest CyborgBody CyborgKnee	1	0.5	0.35	0.05	0.2	0.1	1	1	0	FALSE	FALSE	TRUE	TRUE					FALSE	FALSE		
+cyborgbattle	cyborg_battle	Cyborg	FALSE		80	100	10	blunt 20 28 crit 2.05 critchance 0.2	blunt 20 pierce 20 lacer 12 fire 40 cold 20 poison 40 shock 0 beam 20	CyborgHead CyborgShoulder CyborgArm CyborgThigh CyborgFeet CyborgChest CyborgBody CyborgKnee	2	0.5	0.47	0.05	0.2	0.1	1	1	0	FALSE	FALSE	TRUE	TRUE					FALSE	FALSE		
+cyborgrecreation	cyborg_recreation	Cyborg	FALSE		40	14	1	blunt 8 12 crit 2.00 critchance 0.4	blunt 9 pierce 9 lacer 4 fire 40 cold 30 poison 40 shock 0 beam 0	CyborgHead CyborgShoulder CyborgArm CyborgThigh CyborgFeet CyborgChest CyborgBody CyborgKnee	3	0.7	0.5	0.2	0.2	0.1	1	1	0	FALSE	FALSE	TRUE	TRUE					FALSE	FALSE		
+empturret	turret_emp	Cyborg	FALSE		40	100	10	blunt 5 6 crit 1.15 critchance 0.2	blunt 20 pierce 20 lacer 10 fire 40 cold 20 poison 40 shock 0 beam 10		1	0.65	0.35	0.1	0.2	0	1	1	0	FALSE	TRUE	TRUE	FALSE					TRUE	FALSE		
+energyturret	turret_energy	Cyborg	FALSE		40	100	10	blunt 5 6 crit 1.15 critchance 0.2	blunt 20 pierce 20 lacer 10 fire 40 cold 20 poison 40 shock 0 beam 10		1	0.65	0.35	0.1	0.2	0	1	1	0	FALSE	TRUE	TRUE	FALSE					TRUE	FALSE		
+fireturret	turret_firethrower	Cyborg	FALSE		40	100	10	blunt 5 6 crit 1.15 critchance 0.2	blunt 20 pierce 20 lacer 10 fire 40 cold 20 poison 40 shock 0 beam 10		1	0.65	0.35	0.1	0.2	0	1	1	0	FALSE	TRUE	TRUE	FALSE					TRUE	FALSE		
+turret	turret_firearm	Cyborg	FALSE		40	100	10	blunt 5 6 crit 1.15 critchance 0.2	blunt 20 pierce 20 lacer 10 fire 40 cold 20 poison 40 shock 0 beam 10		1	0.65	0.35	0.1	0.2	0	1	1	0	FALSE	TRUE	TRUE	FALSE					TRUE	FALSE		
+marsbaron	qmorph_mars_baron	QuasimorphBaron	FALSE		120	900	1	blunt 20 28 crit 1.5 critchance 0.2	blunt 40 pierce 95 lacer 40 fire 90 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.7	0.5	0.2	0.3	0.05	0.5	1	0	TRUE	TRUE	FALSE	FALSE					FALSE	FALSE		
+marsbattle	qmorph_mars_battle	Quasimorph	FALSE		70	100	1	blunt 20 28 crit 1.85 critchance 0.2	blunt 24 pierce 24 lacer 24 fire 90 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.6	0.45	0.15	0.3	0.15	1	1	25	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+marscrab	qmorph_mars_crab	Quasimorph	FALSE		40	45	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 24 pierce 24 lacer 24 fire 90 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.6	0.35	0.15	0.3	0.15	1	1	15	TRUE	FALSE	FALSE	FALSE					FALSE	FALSE		
+marssupport	qmorph_mars_support	Quasimorph	FALSE		50	100	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 24 pierce 24 lacer 24 fire 90 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	1	0.6	0.4	0.15	0.3	0.15	1	1	15	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+mercurybaron	qmorph_mercury_baron	QuasimorphBaron	FALSE		120	100	5	blunt 20 28 crit 1.5 critchance 0.2	blunt 0 pierce 40 lacer 12 fire 90 cold 30 poison 0 shock 0 beam 90	MercuryCentralAye MercuryShoulder MercuryArm MercuryChest MercuryBody MercuryStomach	3	0.7	0.5	0.2	0.3	0.05	0.5	1	0	TRUE	FALSE	FALSE	TRUE					FALSE	TRUE		
+mercuryhead	qmorph_mercury_head	Quasimorph	FALSE		40	45	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 0 pierce 24 lacer 12 fire 24 cold 12 poison 0 shock 0 beam 60	MercuryHead MercuryLeftAye MercuryScroll	3	0.6	0.35	0.15	0.3	0.15	1	1	20	TRUE	FALSE	FALSE	FALSE					FALSE	TRUE		
+mercuryknight	qmorph_mercury_knight	Quasimorph	FALSE		100	100	1	blunt 20 28 crit 1.85 critchance 0.2	blunt 0 pierce 24 lacer 12 fire 24 cold 12 poison 0 shock 0 beam 60	MercuryHead MercuryRightAye MercuryLeftAye MercuryBottomAye MercuryFeet MercuryKnee MercuryStomach	1	0.6	0.4	0.15	0.3	0.15	1	1	25	TRUE	FALSE	FALSE	TRUE	3	beam	40		FALSE	FALSE		
+mercuryslave	qmorph_mercury_slave	Quasimorph	FALSE		50	45	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 0 pierce 24 lacer 12 fire 24 cold 12 poison 0 shock 0 beam 60	MercuryCentralAye MercuryShoulder MercuryArm MercuryThigh MercuryFeet MercuryChest MercuryBody MercuryStomach MercuryKnee	2	0.6	0.35	0.15	0.3	0.15	1	1	15	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+moonbaron	qmorph_moon_baron	QuasimorphBaron	FALSE		200	900	1	blunt 26 32 crit 1.5 critchance 0.2	blunt 95 pierce 24 lacer 0 fire 95 cold 0 poison 30 shock 24 beam 0	MoonHead MoonStomach MoonShoulder MoonThigh MoonChest MoonBody MoonKnee MoonFeet MoonArm	1	0.7	0.45	0.1	0.6	0.05	0.5	1	0	TRUE	TRUE	FALSE	FALSE					FALSE	FALSE		
+mooncage	qmorph_moon_cage	Quasimorph	FALSE		70	100	1	blunt 16 24 crit 1.45 critchance 0.2	blunt 30 pierce 30 lacer 0 fire 30 cold 0 poison 24 shock 12 beam 0	MoonHead MoonUpperMechanism MoonStomach MoonCarapace MoonLowerMechanism MoonBasement	1	0.65	0.4	0.25	0.25	0.15	1	1	25	TRUE	FALSE	FALSE	FALSE					FALSE	FALSE		
+moonknight	qmorph_moon_knight	Quasimorph	FALSE		60	100	1	pierce 20 28 crit 1.85 critchance 0.2	blunt 24 pierce 24 lacer 0 fire 30 cold 0 poison 30 shock 12 beam 0	MoonHead MoonStomach MoonShoulder MoonThorn MoonThigh MoonWheel MoonChest MoonBody MoonKnee	3	0.65	0.4	0.25	0.25	0.15	1	1	20	TRUE	FALSE	FALSE	FALSE					FALSE	FALSE		
+moonservitor	qmorph_moon_servitor	Quasimorph	FALSE		50	45	1	blunt 16 24 crit 1.45 critchance 0.2	blunt 12 pierce 12 lacer 0 fire 24 cold 0 poison 30 shock 24 beam 0	MoonHead MoonStomach MoonShoulder MoonThigh MoonChest MoonBody MoonKnee MoonFeet MoonArm	1	0.65	0.3	0.25	0.25	0.15	1	1	20	TRUE	FALSE	TRUE	TRUE					FALSE	FALSE		
+moonslave	qmorph_moon_slave	Quasimorph	FALSE		40	45	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 12 pierce 12 lacer 0 fire 30 cold 0 poison 30 shock 24 beam 0	MoonThigh MoonChest MoonBody MoonKnee MoonFeet MoonStomach	2	0.6	0.3	0.25	0.2	0.15	1	1	15	TRUE	FALSE	FALSE	FALSE					FALSE	FALSE		
+ronbaron	qmorph_ron_baron	QuasimorphBaron	FALSE		140	900	1	blunt 20 28 crit 1.5 critchance 0.2	blunt 40 pierce 40 lacer 40 fire 90 cold 0 poison 0 shock 0 beam 0	RonHead RonCarapace RonKnifeArm RonStomach RonBody	2	0.7	0.5	0.2	0.3	0.05	0.5	1	0	TRUE	TRUE	FALSE	FALSE					FALSE	FALSE		
+ronknight	qmorph_ron_knight	Quasimorph	FALSE		90	100	1	blunt 18 24 crit 1.85 critchance 0.2	blunt 30 pierce 30 lacer 30 fire 40 cold 0 poison 0 shock 0 beam 0	RonHead RonCarapace RonTentacle RonStomach	1	0.6	0.45	0.15	0.3	0.15	0.75	1	25	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+ronslave	qmorph_ron_slave	Quasimorph	FALSE		70	100	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 24 pierce 24 lacer 24 fire 30 cold 0 poison 0 shock 0 beam 0	RonHead RonCarapace RonTentacle RonStomach	1	0.6	0.4	0.15	0.3	0.2	1	1	15	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+scrivnusbaron	qmorph_scrivnus_baron	QuasimorphBaron	FALSE		110	900	1	lacer 20 28 crit 2.20 critchance 0.25	blunt 0 pierce 30 lacer 90 fire 90 cold 0 poison 0 shock 24 beam 30	ScrivnusHead ScrivnusThigh ScrivnusShoulder ScrivnusArm ScrivnusChest ScrivnusStomach ScrivnusBody ScrivnusFeet ScrivnusKnee	2	0.7	0.5	0.2	0.3	0.05	0.5	1	0	TRUE	TRUE	FALSE	FALSE					FALSE	FALSE		
+scrivnusknight	qmorph_scrivnus_knight	Quasimorph	FALSE		60	100	1	lacer 18 24 crit 1.85 critchance 0.2	blunt 0 pierce 24 lacer 30 fire 40 cold 0 poison 0 shock 24 beam 30	ScrivnusHead ScrivnusThigh ScrivnusShoulder ScrivnusArm ScrivnusChest ScrivnusStomach ScrivnusBody ScrivnusFeet ScrivnusKnee	2	0.6	0.45	0.15	0.3	0.1	0.75	1	25	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+scrivnusservitor	qmorph_scrivnus_servitor	Quasimorph	FALSE		40	100	1	lacer 16 20 crit 1.85 critchance 0.2	blunt 0 pierce 12 lacer 24 fire 30 cold 0 poison 0 shock 0 beam 24	ScrivnusHead ScrivnusThigh ScrivnusShoulder ScrivnusArm ScrivnusChest ScrivnusStomach ScrivnusBody ScrivnusFeet ScrivnusKnee	2	0.6	0.4	0.15	0.3	0.15	1	1	15	TRUE	FALSE	TRUE	FALSE					FALSE	FALSE		
+spider	fauna_spider	Fauna	FALSE		20	5	1	poison 10 14 crit 1.70 critchance 0.2	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	SpiderHead SpiderBody SpiderFeet SpiderKnee SpiderStomach SpiderThigh	4	0.45	0.35	0.3	0	0.4	1	1	5	FALSE	FALSE	FALSE	FALSE				poison	FALSE	FALSE		
+urparpboss	qmorph_mars_urparp	Quasimorph	FALSE		300	900	1	blunt 20 28 crit 1.85 critchance 0.2	blunt 100 pierce 100 lacer 100 fire 100 cold 24 poison 30 shock 24 beam 12	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.7	0.5	0.2	0.3	0.05	0.5	1	0	TRUE	TRUE	TRUE	FALSE					TRUE	FALSE		
+venusdemoncat	qmorph_venus_cat	Quasimorph	FALSE		50	100	1	blunt 14 18 crit 1.85 critchance 0.2	blunt 8 pierce 0 lacer 8 fire 0 cold 0 poison 50 shock 0 beam 0	VenusCatHead VenusCatFeet VenusCatSting VenusBody VenusStomach VenusThigh VenusKnee	2	0.7	0.35	0.2	0.2	0.15	1	1	20	TRUE	FALSE	FALSE	FALSE					FALSE	FALSE		
+venusdemonspider	qmorph_venus_baron	QuasimorphBaron	FALSE		240	900	1	blunt 20 28 crit 1.5 critchance 0.2	blunt 24 pierce 0 lacer 24 fire 0 cold 0 poison 80 shock 0 beam 0	VenusHead VenusSpiderThigh VenusSpiderFeet VenusSpiderKnee VenusShoulder VenusArm VenusChest VenusStomach VenusBody	2	0.7	0.35	0.1	0.2	0.05	0.05	1	0	TRUE	TRUE	TRUE	TRUE					FALSE	FALSE		
+venusdemonwarrior	qmorph_venus_knight	Quasimorph	FALSE		100	100	1	blunt 20 28 crit 1.85 critchance 0.2	blunt 12 pierce 0 lacer 12 fire 00 cold 0 poison 50 shock 0 beam 0	VenusHead VenusCatFeet VenusShoulder VenusArm VenusChest VenusStomach VenusBody VenusThigh VenusKnee	1	0.7	0.35	0.1	0.6	0.15	1	1	25	TRUE	TRUE	FALSE	TRUE					FALSE	FALSE		
+merc_illusion_male	human_male	Illusion	FALSE		100	999	1	blunt 8 18 crit 1.60 critchance 0.2	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.7	0.7	0.15	0.1	0	0	1	0	FALSE	FALSE	TRUE	TRUE					FALSE	FALSE		
+merc_illusion_female	human_female	Illusion	FALSE		100	999	1	blunt 8 18 crit 1.60 critchance 0.2	blunt 0 pierce 0 lacer 0 fire 0 cold 0 poison 0 shock 0 beam 0	HumanHead HumanShoulder HumanArm HumanThigh HumanFeet HumanChest HumanBody HumanStomach HumanKnee	2	0.7	0.7	0.15	0.1	0	0	1	0	FALSE	FALSE	TRUE	TRUE					FALSE	FALSE		
+#end																															
+																															
+#mobclasses																															
+Id	BodyTypes	PortraitId	VoiceBank	AiPresetId	ItemCategoriesWhitelist	ItemConditionPercent	PrimaryWeapon	SecondaryWeapon	Head	Armor	Leggings	Boots	AdditAmmo	AdditItemCount	AdditItemClasses	GrantedItems	Los	HealthMod	PainLimitMod	PainRegenMod	MeleeDamageMod	ResistMod	MeleeAccuracyMod	RangeAccuracyMod	DodgeMod	ActionPointsMod	MutateBonusChance	AdditImmunity	AllowEccolapse	AllowMutate	DefaultItemFactionTag
+prisoner	man woman		class_prisonier	human_armed_civilian	Prison 1	0 35	AssaultRifle 0.1 Pistol 0.1 Knife 0.6 Fist 0.4 Blade 0.4 None 0.4	None 1	Cloth 0.5 None 0.5	Cloth 1	Cloth 1	Cloth 0.5 None 0.5	0 0	0 1	Food 0.10 Drink 0.10 Organ 0.05 Parts 0.15		6	0	0	0	2 4 -0.2 -0.10		0	0	0	1	0		TRUE	TRUE	
+civilian	man woman		class_civilian	human_armed_civilian	Common 0.8 Faction 0.2	10 90	Fist 0.2 Knife 0.4 Pistol 0.3 None 0.1	None 1	Cloth 0.5 None 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	4 8	0 2	Food 0.15 Alcohol 0.05 Drink 0.15 Parts 0.35 Pills 0.15 Syringe 0.05 Data 0.01 ThrowableWeapon 0.01		6	0	0	0	0 0 -0.2 -0.10		0	0	0	0	0		TRUE	TRUE	
+mindcontrolled	possessedman possessedwoman		possessed	human_armed_civilian	Possesed 0.8 Common 0.2	0 35	Knife 0.2 Club 0.4 Axe 0.4 None 0.2	None 1	None 1	Cloth 0.5 None 0.5	Cloth 1	Cloth 1	0 0	0 1	Food 0.10 Alcohol 0.05 Drink 0.15 Parts 0.35 Pills 0.05	chu_head_device_1	6	10	3	0	0 0 -0.4 -0.10		0	0	0	1	0		FALSE	FALSE	
+possessed	possessedman possessedwoman		possessed	human_armed_civilian	Possesed 0.8 Common 0.2	0 35	Knife 0.4 Fist 0.2 Club 0.4 Axe 0.2 None 0.2	None 1	None 1	Cloth 0.5 None 0.5	Cloth 1	Cloth 1	0 0	0 1	Food 0.10 Alcohol 0.05 Drink 0.15 Parts 0.35 Pills 0.05		6	10	3	0	0 0 -0.4 -0.10		0	0	0	1	0		FALSE	FALSE	
+worker_lowskill	man woman		class_worker	human_armed_civilian	Common 0.4 Worker 0.6	20 60	Knife 0.3 Club 0.5 Axe 0.3 Chainsaw 0.4 None 0.1 Pistol 0.1 Fist 0.2	None 1	None 0.5 Cloth 0.3 HardCloth 0.3	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	0 0	0 1	Food 0.10 Alcohol 0.05 Drink 0.10 Parts 0.35 RepairKit 0.02 IndustrialBarter 0.01 Pills 0.05 Data 0.03		6	0	0	0	0 0 -0.2 -0.10	blunt 1 fire 1 shock 1	0	0	0	0	0		TRUE	TRUE	
+worker	man woman		class_worker	human_armed_civilian	Common 0.2 Worker 0.8	40 70	Club 0.3 Axe 0.3 Fist 0.2 Pistol 0.4 Chainsaw 0.4 Discthrower 0.2 Flamethrower 0.2 AssaultRifle 0.1 Machinegun 0.2	None 1	None 0.2 Cloth 0.7 HardCloth 0.6 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	Cloth 0.6 HardCloth 0.6 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	Cloth 0.6 HardCloth 0.6 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	Cloth 0.6 HardCloth 0.6 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	5 10	0 1	Food 0.10 Alcohol 0.05 Drink 0.10 Parts 0.35 RepairKit 0.05 IndustrialBarter 0.01 Pills 0.05 Data 0.04		6	10	0	0	0 0 -0.2 0.10	blunt 2 fire 2 shock 2	0	0	0	0	0		TRUE	TRUE	
+miner	man woman		class_miner	human_armed_civilian	Common 0.2 Miner 0.2	50 70	Club 0.3 Axe 0.3 Pistol 0.4 Chainsaw 0.4 Discthrower 0.2 Flamethrower 0.2 AssaultRifle 0.1 Machinegun 0.2	None 1	None 0.2 Cloth 0.7 HardCloth 0.8 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	Cloth 0.6 HardCloth 0.6 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	Cloth 0.6 HardCloth 0.6 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	Cloth 0.6 HardCloth 0.6 LightArmor 0.4 MediumArmor 0.1 HeavyArmor 0.1 PowerArmor 0.1	5 10	0 1	Food 0.10 Alcohol 0.05 Drink 0.10 Parts 0.35 RepairKit 0.05 IndustrialBarter 0.01 Pills 0.05 Data 0.04		6	10	0	0	0 0 -0.2 0.10	blunt 2 fire 2 beam 2	0	0	0	0	0		TRUE	TRUE	
+medic	man woman		class_medic	human_armed_civilian	Common 0.1 Medical 0.9	50 80	Pistol 0.6 Smg 0.4	None 0.8 Knife 0.2	None 0.2 Cloth 0.6 HardCloth 0.2 LightArmor 0.2	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	5 10	0 1	Food 0.10 Alcohol 0.05 Drink 0.10 Parts 0.10 Medpack 0.15 Pills 0.15 ScienceBarter 0.01 Data 0.01 Organ 0.05 Dressing 0.25		6	10	0	0	0 0 -0.4 -0.10		0.05	0.05	0.1	0	0		TRUE	TRUE	
+combatmedic	man woman		class_medic	human_military	Medical 0.6 Military 0.4	70 95	Pistol 0.2 Smg 0.4 Shotgun 0.4 AssaultRifle 0.2	None 1	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	4 14	0 2	Food 0.10 Alcohol 0.05 Grenade 0.15 Drink 0.15 Parts 0.10 Medpack 0.20 Pills 0.15 ScienceBarter 0.01 Data 0.01 Organ 0.05 Dressing 0.35		6	30	10	0	2 4 -0.3 -0.10	pierce 2 lacer 2 poison 2	0.05	0.1	0.1	0	0		TRUE	TRUE	
+scientist	man woman		class_scientist	human_armed_civilian	Science 1	50 80	Pistol 0.4 Smg 0.4 Shotgun 0.2	None 1	Cloth 0.5 None 0.5	Cloth 1	Cloth 1	Cloth 1	5 10	0 1	Food 0.20 Alcohol 0.15 Drink 0.25 Parts 0.25 Syringe 0.10 ScienceBarter 0.05 Data 0.05 Organ 0.15 Blueprint 0.001 ValuableBarter 0.005		6	0	0	0	0 0 0.0 0.00		0	0.1	0	0	0		TRUE	TRUE	
+professor	man woman		class_scientist	human_armed_civilian	Science 0.5 Faction 0.4	50 80	AssaultRifle 0.4 MarksmanRifle 0.2 Smg 0.6 Flamethrower 0.2	None 0.4 Knife 0.6	Cloth 0.2 None 0.6 HardCloth 0.2	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	5 10	0 2	Food 0.20 Alcohol 0.15 Drink 0.25 Parts 0.25 Syringe 0.10 ScienceBarter 0.05 Data 0.05 Organ 0.15 Blueprint 0.001 ValuableBarter 0.005 Grenade 0.15		6	50	6	0	0 0 0.0 0.00	cold 2 poison 2 shock 2 beam 2	0.05	0.05	0	0	0		TRUE	TRUE	
+manager	man woman		class_civilian	human_armed_civilian	Common 0.1 Managment 0.9	50 80	Pistol 0.6 Smg 0.4 Shotgun 0.2	None 0.6 Blade 0.4	None 0.4 Cloth 0.4 HardCloth 0.4 LightArmor 0.4	Cloth 0.8 HardCloth 0.6 LightArmor 0.2 MediumArmor 0.2	Cloth 0.8 HardCloth 0.6 LightArmor 0.2 MediumArmor 0.2	Cloth 0.8 HardCloth 0.6 LightArmor 0.2 MediumArmor 0.2	5 10	0 1	Food 0.20 Alcohol 0.15 Drink 0.25 Syringe 0.10 Data 0.05		6	10	6	0	4 6 -0.15 0.05		0	0.05	0.05	0	0.2		TRUE	TRUE	
+security	man woman		class_police	human_military	Police 0.4 Faction 0.6	40 80	Club 0.6 Pistol 0.4 Shotgun 0.4 Smg 0.4	None 1	HardCloth 0.4 Cloth 0.2	HardCloth 0.4 Cloth 0.4	HardCloth 0.4 Cloth 0.4	HardCloth 0.4 Cloth 0.4	5 10	0 1	Food 0.20 Drink 0.20 Vest 0.15 Pills 0.05 Syringe 0.05 MilitaryBarter 0.01		6	10	4	0	6 7 -0.20 -0.05		0	0.15	0	0	0		TRUE	TRUE	
+security_she	possessedman possessedwoman		possessed	human_military	Military 0.2 SheduThousand 0.8	40 80	Smg 0.3 Shotgun 0.5 AssaultRifle 0.2	None 0.6 Blade 0.2 Axe 0.2	MediumArmor 0.2 LightArmor 0.3 HardCloth 0.4 Cloth 0.2	MediumArmor 0.2 LightArmor 0.6 HeavyArmor 0.2 HardCloth 0.4	MediumArmor 0.2 LightArmor 0.6 HeavyArmor 0.2 HardCloth 0.4	MediumArmor 0.2 LightArmor 0.6 HeavyArmor 0.2 HardCloth 0.4	6 16	0 1	Food 0.20 Drink 0.20 Vest 0.15 Pills 0.05 Syringe 0.05 MilitaryBarter 0.01		6	10	4	0	6 7 -0.20 -0.05		0	0.15	0	0	0		FALSE	FALSE	
+heavysecurity	man woman		class_police	human_military	Police 0.4 Faction 0.6	60 80	Club 0.6 Pistol 0.2 Shotgun 0.4 Smg 0.4 AssaultRifle 0.2 MarksmanRifle 0.4	None 0.5 Club 0.5	MediumArmor 0.5 HeavyArmor 0.5	MediumArmor 0.5 HeavyArmor 0.5	MediumArmor 0.5 HeavyArmor 0.5	MediumArmor 0.5 HeavyArmor 0.5	4 16	0 2	Food 0.20 Drink 0.20 ThrowableWeapon 0.10 Vest 0.15 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.05 Grenade 0.15		6	50	8	1	6 7 -0.20 -0.05		0	0.15	0.1	0	0		TRUE	TRUE	
+pmc	man woman		class_military	human_military	Military 1	65 85	Club 0.1 Pistol 0.2 Shotgun 0.4 Smg 0.3	None 0.6 Club 0.2 Axe 0.2	MediumArmor 0.6 LightArmor 0.4	MediumArmor 0.6 LightArmor 0.4 HeavyArmor 0.4	MediumArmor 0.6 LightArmor 0.4 HeavyArmor 0.4	MediumArmor 0.6 LightArmor 0.4 HeavyArmor 0.4	4 16	0 1	Food 0.20 Drink 0.20 Vest 0.15 Backpack 0.05 Pills 0.05 Syringe 0.05 MilitaryBarter 0.01 Grenade 0.15		6	20	4	0	6 7 -0.20 -0.05		0	0.15	0	0	0		TRUE	TRUE	
+heavypmc	man woman		class_military	human_military	Military 0.4 Faction 0.6	60 90	Smg 0.3 Shotgun 0.2 AssaultRifle 0.5	None 0.6 Club 0.2 Axe 0.2	MediumArmor 0.4 HeavyArmor 0.6	MediumArmor 0.4 HeavyArmor 0.6	MediumArmor 0.4 HeavyArmor 0.6	MediumArmor 0.4 HeavyArmor 0.6	4 16	0 2	Food 0.20 Drink 0.20 ThrowableWeapon 0.10 Vest 0.15 Backpack 0.05 Pills 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.05 Grenade 0.15		6	50	8	1	6 7 -0.20 -0.05		0	0.15	0.1	0	0		TRUE	TRUE	
+soldier	man woman		class_military	human_military	Military 0.2 Faction 0.8	60 90	Smg 0.2 Shotgun 0.2 AssaultRifle 0.6 MarksmanRifle 0.6 Machinegun 0.4	None 0.6 Club 0.2 Blade 0.2 Knife 0.2 Axe 0.2	Cloth 0.1 HardCloth 0.1 LightArmor 0.2 MediumArmor 0.3 HeavyArmor 0.4 PowerArmor 0.2	LightArmor 0.2 MediumArmor 0.3 HeavyArmor 0.4 PowerArmor 0.2	LightArmor 0.2 MediumArmor 0.3 HeavyArmor 0.4 PowerArmor 0.2	LightArmor 0.2 MediumArmor 0.3 HeavyArmor 0.4 PowerArmor 0.2	8 16	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.25 Backpack 0.05 Pills 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.05		6	30	4	0	4 6 -0.15 0.05		0.05	0.2	0	0	0		TRUE	TRUE	
+agent	man woman		class_military	human_military	Military 0.4 Faction 0.6	60 90	Smg 0.2 MarksmanRifle 0.8	None 1	LightArmor 0.5 MediumArmor 0.5	HardCloth 0.1 LightArmor 0.4 MediumArmor 0.4	HardCloth 0.1 LightArmor 0.4 MediumArmor 0.4	HardCloth 0.1 LightArmor 0.4 MediumArmor 0.4	5 10	0 2	Food 0.20 Drink 0.20 ThrowableWeapon 0.10 Vest 0.25 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.05		6	30	4	0	4 6 -0.15 0.05		0.05	0.25	0	0	0		TRUE	FALSE	
+enforcer	man woman		class_military	human_military	Military 0.4 Faction 0.6	80 100	AssaultRifle 0.2 Discthrower 0.2 Flamethrower 0.4 Machinegun 0.4 Minigun 0.4 GrenadeLauncher 0.4 HFG 0.1	None 1	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	5 10	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05		6	40	8	1	4 6 -0.15 0.05		0	0.15	0	0	0		TRUE	FALSE	
+enforcer_pirates	man woman		corp_unchained	human_military	Prison 0.1 UnchainedBelt 0.9	60 90	Smg 0.4 AssaultRifle 0.4 MarksmanRifle 0.2 Minigun 0.2	None 1	HardCloth 0.5 LightArmor 0.4 MediumArmor 0.4 None 0.2	HardCloth 0.4 LightArmor 0.4 MediumArmor 0.5	HardCloth 0.4 LightArmor 0.4 MediumArmor 0.5	HardCloth 0.4 LightArmor 0.4 MediumArmor 0.5	5 15	0 2	Food 0.20 Drink 0.20 ThrowableWeapon 0.10 Vest 0.25 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05		6	30	0	0	4 6 -0.15 0.05		0	0.2	0	0	0		TRUE	TRUE	
+enforcer_she	possessedman possessedwoman		possessed	human_military	Military 0.2 SheduThousand 0.8	65 85	AssaultRifle 0.2 Minigun 0.4 GrenadeLauncher 0.4	None 1	HardCloth 0.2 LightArmor 0.4 MediumArmor 0.4	HardCloth 0.2 LightArmor 0.4 MediumArmor 0.4	HardCloth 0.2 LightArmor 0.4 MediumArmor 0.4	HardCloth 0.2 LightArmor 0.4 MediumArmor 0.4	5 10	0 2	Food 0.20 Drink 0.20 Pills 0.05 Medpack 0.05 Syringe 0.05		6	30	8	1	4 6 -0.15 0.05		0	0.15	0	0	0		FALSE	FALSE	
+elite	man woman		class_military	human_military	Military 0.2 Faction 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.05		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_anc	man woman		corp_ancom	human_military	Military 0.2 AnCom 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.06		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_sbn	man woman		corp_sbn	human_military	Military 0.2 SBN 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.07		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_ddr	man woman		corp_daydream	human_military	Military 0.2 DaydreamChems 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.08		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_dil	man woman		corp_dilthey	human_military	Military 0.2 Dilthey 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.09		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_fra	man woman		corp_franche	human_military	Military 0.2 FrancheComte 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.10		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_rwa	man woman		corp_realware	human_military	Military 0.2 RealWare 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.11		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_sun	man woman		corp_sunlight	human_military	Military 0.2 Sunlight 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.12		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_chu	man woman		corp_church	human_military	Military 0.2 ChurchRevelation 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.13		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_gra	man woman		corp_grasshopper	human_military	Military 0.2 Grasshopper 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.14		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_pirates	man woman		corp_unchained	human_military	Military 0.2 UnchainedBelt 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.05		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_cor	man woman		corp_coreward	human_military	Military 0.2 CoreWard 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.06		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_pla	man woman		corp_planetbridge	human_military	Military 0.2 PlanetBridge 0.8	95 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.07		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_she	man woman		corp_shedu	human_military	Military 0.2 SheduThousand 0.8	100 100	AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	Blade 0.5 Axe 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5	15 25	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.10 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.08		6	70	0	0	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+drone_civ	man woman		corp_civres	human_armed_civilian	CResistance 1	50 75	Pistol 0.4 Shotgun 0.3 Smg 0.3	None 1	None 0.2 Cloth 0.2 HardCloth 0.6 LightArmor 0.2	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	10 18	0 1	Food 0.10 Drink 0.15 Parts 0.45 RepairKit 0.05 Pills 0.05 Medpack 0.01		6	10	10	0	0 0 -0.2 0.10		0	0	0	0	0		FALSE	FALSE	
+medic_civ	man woman		class_medic	human_armed_civilian	Medical 0.6 CResistance 0.4	50 80	Pistol 0.6 Smg 0.4	None 0.8 Knife 0.2	None 0.2 Cloth 0.6 HardCloth 0.2 LightArmor 0.2	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	5 10	0 1	Food 0.10 Drink 0.15 Parts 0.10 Medpack 0.15 Pills 0.15 ScienceBarter 0.01 Data 0.01 Organ 0.05 Dressing 0.25		6	10	10	0	0 0 -0.4 -0.10		0.05	0.05	0.1	0	0		FALSE	FALSE	
+combatmedic_civ	man woman		class_medic	human_military	Medical 0.4 CResistance 0.6	70 95	Pistol 0.2 Smg 0.4 Shotgun 0.4 AssaultRifle 0.2	None 1	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	LightArmor 0.6 MediumArmor 0.2 HeavyArmor 0.2	6 18	0 2	Food 0.10 Alcohol 0.05 Grenade 0.15 Drink 0.15 Parts 0.10 Medpack 0.20 Pills 0.15 ScienceBarter 0.01 Data 0.01 Organ 0.05 Dressing 0.35		6	30	20	0	2 4 -0.3 -0.10	pierce 2 lacer 2 poison 2	0.05	0.05	0.1	0	0		FALSE	FALSE	
+security_civ	man woman		class_police	human_military	Military 0.2 CResistance 0.8	40 80	Club 0.6 Pistol 0.4 Shotgun 0.4 Smg 0.4	None 1	HardCloth 0.4 Cloth 0.2	HardCloth 0.4 Cloth 0.4	HardCloth 0.4 Cloth 0.4	HardCloth 0.4 Cloth 0.4	5 10	0 1	Food 0.20 Drink 0.20 Vest 0.05 Backpack 0.05 Pills 0.05 Syringe 0.05 MilitaryBarter 0.01		6	20	20	0	6 7 -0.20 -0.05		0	0.1	0	0	0		FALSE	FALSE	
+soldier_civ	man woman		class_military	human_military	CResistance 1	60 90	Shotgun 0.4 AssaultRifle 0.4 MarksmanRifle 0.2 Machinegun 0.2	None 1	LightArmor 0.2 MediumArmor 0.4 HeavyArmor 0.3 PowerArmor 0.2	LightArmor 0.2 MediumArmor 0.4 HeavyArmor 0.3 PowerArmor 0.2	LightArmor 0.2 MediumArmor 0.4 HeavyArmor 0.3 PowerArmor 0.2	LightArmor 0.2 MediumArmor 0.4 HeavyArmor 0.3 PowerArmor 0.2	8 16	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.25 Backpack 0.01 Pills 0.05 Medpack 0.05 Syringe 0.05 Turret 0.05 Mine 0.05		6	30	20	1	4 6 -0.15 0.05	blunt 2 pierce 2 lacer 2	0.05	0.15	0	0	0		FALSE	FALSE	
+enforcer_civ	man woman		class_military	human_military	Military 0.2 CResistance 0.8	80 100	AssaultRifle 0.2 Discthrower 0.2 Flamethrower 0.4 Machinegun 0.4 Minigun 0.4 GrenadeLauncher 0.4	None 1	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	MediumArmor 0.4 HeavyArmor 0.6 PowerArmor 0.4	5 10	0 2	Food 0.20 Drink 0.20 Grenade 0.10 Vest 0.20 Backpack 0.01 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05		6	40	40	1	4 6 -0.15 0.05		0	0	0	0	0		FALSE	FALSE	
+elite_civ	man woman		corp_civres	human_military	CResistance 1	75 85	Smg 0.4 AssaultRifle 0.4 Machinegun 0.4 MarksmanRifle 0.4	None 1	PowerArmor 0.5 HeavyArmor 0.5 MediumArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5 MediumArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5 MediumArmor 0.5	PowerArmor 0.5 HeavyArmor 0.5 MediumArmor 0.5	15 25	0 2	Food 0.10 Drink 0.10 Grenade 0.10 Pills 0.05 Medpack 0.05		6	60	30	1	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+elite_civ_colnode	man woman		corp_civres	human_military	CResistance 1	75 85	Smg 0.4 AssaultRifle 0.4 MarksmanRifle 0.4	None 1	None 1	None 1	None 1	None 1	15 25	0 2	Food 0.10 Drink 0.10 Grenade 0.10 Pills 0.05 Medpack 0.05	civ_medium_armor_2 civ_medium_helmet_2 civ_medium_pants_2 civ_medium_boots_2	6	60	30	1	4 6 -0.15 0.05	beam 1	0	0	0	1	0		FALSE	FALSE	
+quest_manager	man woman		class_civilian	human_armed_civilian	Managment 0.4 Faction 0.4	100 100	Pistol 0.4 Smg 0.4 Shotgun 0.4	None 1	None 0.4 Cloth 0.4 HardCloth 0.4 LightArmor 0.4	Cloth 0.4 HardCloth 0.4 LightArmor 0.4 MediumArmor 0.4	Cloth 0.4 HardCloth 0.4 LightArmor 0.4 MediumArmor 0.4	Cloth 0.4 HardCloth 0.4 LightArmor 0.4 MediumArmor 0.4	5 10	0 2	Food 0.20 Alcohol 0.15 Drink 0.25 Parts 0.25 RepairKit 0.05 Syringe 0.10 Data 0.05		6	70	8	0	2 4 -0.65 0.05		0.25	0.17	0.04	1	0		FALSE	FALSE	
+quest_professor	man woman		class_scientist	human_armed_civilian	Science 0.6 Faction 0.4	100 100	Pistol 0.2 Smg 0.4 Shotgun 0.4 AssaultRifle 0.2	None 0.6 Knife 0.4	Cloth 0.4 None 0.4 HardCloth 0.4	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	Cloth 0.5 HardCloth 0.5	5 15	0 2	Food 0.20 Drink 0.25 Parts 0.25 Medpack 0.01 Pills 0.05 Syringe 0.10 ScienceBarter 0.05 Data 0.05 Organ 0.15 Blueprint 0.001 ValuableBarter 0.005		6	70	8	0	4 6 -0.30 0.05	blunt 2 pierce 2 lacer 2 fire 1 cold 1 poison 1 shock 1 beam 1	0.25	0.15	0.04	1	0		FALSE	FALSE	
+quest_cresist_elite	man woman		class_military	human_military	Military 0.2 CResistance 0.8 Faction 0.2	100 100	Smg 0.2 Shotgun 0.4 AssaultRifle 0.4 MarksmanRifle 0.2 GrenadeLauncher 0.2	None 0.8 Club 0.1 Axe 0.1	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	4 16	0 2	Food 0.20 Drink 0.20 ThrowableWeapon 0.10 Vest 0.20 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05		6	110	10	0	10 14 -0.75 0.00	blunt 2 pierce 2 lacer 2 fire 1 cold 1 poison 1 shock 1 beam 1	0.25	0.27	0.04	1	0		FALSE	FALSE	
+quest_pirates_elite	man woman		class_military	human_military	Military 0.2 UnchainedBelt 0.8 Faction 0.2	100 100	Smg 0.2 Shotgun 0.4 AssaultRifle 0.4 MarksmanRifle 0.2 GrenadeLauncher 0.2	None 0.8 Club 0.1 Axe 0.1	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	MediumArmor 0.5 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.2 Cloth 0.2	4 16	0 2	Food 0.20 Drink 0.20 ThrowableWeapon 0.10 Vest 0.20 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05		6	110	10	0	10 14 -0.75 0.00	Blunt 1 pierce 1 lacer 1 fire 2 cold 2 poison 2 shock 2 beam 2	0.25	0.27	0.04	1	0		FALSE	FALSE	
+quest_mercury_force	man woman		class_military	human_military	Common 0.2 Military 0.4 Faction 0.4	100 100	AssaultRifle 0.4 MarksmanRifle 0.4 Machinegun 0.2	None 1	PowerArmor 0.4 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.4 Cloth 0.4	PowerArmor 0.4 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.4 Cloth 0.4	PowerArmor 0.4 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.4 Cloth 0.4	PowerArmor 0.4 HeavyArmor 0.4 LightArmor 0.4 HardCloth 0.4 Cloth 0.4	5 15	0 2	Food 0.20 Drink 0.20 ThrowableWeapon 0.10 Vest 0.25 Backpack 0.05 Pills 0.05 Medpack 0.05 Syringe 0.05 MilitaryBarter 0.01 Data 0.05 Turret 0.05 Cyborg 0.05 Mine 0.05		6	90	10	0	10 14 -0.75 0.00	Blunt 2 pierce 2 lacer 2	0.25	0.3	0.04	1	0		FALSE	FALSE	
+quest_cresist_agent	man		corp_civres	human_military	Common 0.2 Military 0.4 Faction 0.4	100 100	None 1	None 1	None 1	None 1	None 1	None 1	4 16	0 2		military_pistol_3 sbn_light_armor_1 sbn_light_helmet_1 sbn_light_pants_1 common_boots_1 quest_redChip	6	110	10	0	10 14 -0.75 0.00	blunt 2 pierce 2 lacer 2 fire 1 cold 1 poison 1 shock 1 beam 1	0.25	0.27	0.04	1	0		FALSE	FALSE	
+merc_phantom	merc_illusion_male merc_illusion_female		player	human_military	Common 0.5 Military 0.5	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0.1	0	0	0		FALSE	FALSE	
+quest_venus_demon_warrior	venusdemonwarrior		qmorph_venus_big	quasimorph_knight	Faction 1	100 100	None 1	None 1	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	0 0	0 0	Parts 0.3 QuasiArtefact 0.3 RepairKit 0.3	venus_battlefist_1	6	40	-20	0	0 0 0.0 0.00		0	0	0	1	0		FALSE	FALSE	
+quest_venus_bossfight	venusdemonwarrior		qmorph_venus_big	quasimorph_knight	Faction 1	100 100	None 1	None 1	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	0 0	0 0	Parts 0.3 QuasiArtefact 0.3 RepairKit 0.3	venus_battlefist_1	6	40	700	0	0 0 0.0 0.00		0	0	0	1	0		FALSE	FALSE	
+quest_venus_baron	venusdemonwarrior		qmorph_venus_big	quasimorph_baron	Faction 1	100 100	None 1	None 1	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	0 0	0 0			6	40	700	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Tezctlan
+workerrobot	cyborg		cyborg	robot	Common 0.4 Worker 0.6 Miner 0.4	50 100	Blade 0.2 Club 0.4 Axe 0.4 Chainsaw 0.2	None 1	None 1	None 1	None 1	None 1	5 10	0 1	Parts 0.35 RepairKit 0.20 IndustrialBarter 0.001 ThrowableWeapon 0.05		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+warrobot	cyborgbattle		cyborg	robot	Common 0.2 Military 0.4 Faction 0.4	70 100	Blade 0.3 Smg 0.4 AssaultRifle 0.4	None 0.8 Blade 0.2	None 1	None 1	None 1	None 1	4 16	0 1	Parts 0.15 RepairKit 0.25 ThrowableWeapon 0.15		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+recreationrobot	cyborgrecreation		cyborg	robot	Common 0.4 Managment 0.6	70 100	Blade 0.4 Axe 0.2 Smg 0.2	None 1	None 1	None 1	None 1	None 1	0 0	0 1	Parts 0.25 Organ 0.05 Data 0.05 ValuableBarter 0.001		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+turretbalistic	turret		turret	turret	Common 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0		minigun_turret	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+turretfire	fireturret		turret	turret	Common 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0		firethrower_turret	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+turretenergy	energyturret		turret	turret	Common 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0		laser_turret	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+turretempquest	empturret		turret	turret	Common 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+venus_jaguar_knight	aztknight		qmorph_venus	quasimorph_knight	Faction 1	60 100	None 0.2 Club 0.4 Axe 0.4 Knife 0.4 Fist 0.4	None 1	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	0 0	0 1	Food 0.15 Organ 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	20	0	0	0 0 0.0 0.00		0.05	-0.05	0	0	0		FALSE	FALSE	Tezctlan
+venus_eagle_knight	aztknight		qmorph_venus	quasimorph_knight	Faction 1	60 100	Pistol 0.2 Smg 0.3 Shotgun 0.3 AssaultRifle 0.2 MarksmanRifle 0.1	None 1	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	4 12	0 1	Food 0.15 Organ 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Tezctlan
+venus_acolyte	aztservitor		qmorph_venus	quasimorph	Faction 1	45 75	Fist 0.2 Knife 0.4 Axe 0.2 Pistol 0.6	None 1	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	0 12	0 1	Food 0.15 Organ 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	20	0	0	0 0 0.0 0.00		0.3	0.1	0	0	0		FALSE	FALSE	Tezctlan
+venus_slave	aztservitor		qmorph_venus	quasimorph	Faction 1	20 50	None 0.5 Club 0.5 Knife 0.2 Fist 0.2 Axe 0.2	None 1	Cloth 0.4 LightArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 None 0.4	0 0	0 1	Food 0.15 Organ 0.25 Parts 0.15		6	0	0	0	0 0 0.0 0.00		0	0	0	1	0		FALSE	FALSE	Tezctlan
+venus_taskmaster	aztservitor		qmorph_venus	quasimorph	Faction 1	40 75	Axe 0.2 Club 0.4 AssaultRifle 0.4 MarksmanRifle 0.2	None 1	Cloth 0.4 LightArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 None 0.4	2 16	0 1	Food 0.15 Organ 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	40	0	0	0 0 0.0 0.00		0.35	0.1	-0.05	0	0		FALSE	FALSE	Tezctlan
+venus_custodian	aztservitor		qmorph_venus	quasimorph	Faction 1	50 90	Pistol 0.4 Smg 0.4 Shotgun 0.2 AssaultRifle 0.2 MarksmanRifle 0.2	None 1	Cloth 0.2 LightArmor 0.4 HeavyArmor 0.4 None 0.2	Cloth 0.2 LightArmor 0.4 HeavyArmor 0.4 None 0.2	Cloth 0.2 LightArmor 0.4 HeavyArmor 0.4 None 0.2	Cloth 0.2 LightArmor 0.4 HeavyArmor 0.4 None 0.2	4 18	0 1	Food 0.15 QuasiOrgan 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	60	0	0	0 0 0.0 0.00		0.3	0.2	-0.05	0	0		FALSE	FALSE	Tezctlan
+venus_demon_cat	venusdemoncat		qmorph_venus_big	quasimorph	Faction 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Tezctlan
+venus_demon_warrior	venusdemonwarrior		qmorph_venus_big	quasimorph_knight	Faction 1	100 100	None 1	None 1	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4 None 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	Cloth 0.4 LightArmor 0.4 HeavyArmor 0.4	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Tezctlan
+venus_ksiomara	venusdemonspider	char_xiomara	qmorph_venus_big	quasimorph_baron	XiomaraMasks 1	100 100	None 1	None 1	LightArmor 0.5 None 0.5	LightArmor 0.2 None 0.8	None 1	None 1	0 0	0 0		venus_hand	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	XiomaraMasks
+venus_baron	venusdemonspider	char_venus_baron	qmorph_venus_big	quasimorph_baron	Faction 1	100 100	None 1	None 1	Cloth 0.5 LightArmor 0.2 HeavyArmor 0.5 None 0.5	Cloth 0.5 LightArmor 0.2 HeavyArmor 0.5 None 0.5	None 1	None 1	0 0	0 0		venus_hand	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Tezctlan
+bigpossessed_arm	bigposman		possessed_bigarm	possesed	Possesed 0.8 Common 0.2	30 60	None 0.2 Club 0.4 Axe 0.4	None 1	None 1	None 0.5 Cloth 0.5	Cloth 1	Cloth 0.5 None 0.5	0 0	0 1	Dressing 0.1 Pills 0.1 Parts 0.1 Drink 0.1 Food 0.1		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+bigpossessed_blob	blobposman		possessed_blob	possesed	Possesed 0.8 Common 0.2	100 100	None 1	None 1	None 1	Cloth 0.5 None 0.5	Cloth 1	Cloth 0.5 None 0.5	0 0	0 1	Dressing 0.1 Pills 0.1 Parts 0.1 Drink 0.1 Food 0.1		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+bigpossessed_centaur	centaurposman		possessed_centaur	possesed	Possesed 0.8 Common 0.2	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 1			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+cattaram_baron	cattarambaron	char_cattaram_baron	qmorph_cattaram	quasimorph_baron	Cattaram 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Cattaram
+cattaram_knight	cattaramknight		qmorph_cattaram	quasimorph_knight	Cattaram 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Cattaram
+cattaram_servitor	cattaramservitor		qmorph_cattaram	quasimorph	Cattaram 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Cattaram
+mars_baron	marsbaron	char_mars_baron	qmorph_mars_urparp	quasimorph_baron	Mars 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mars
+mars_battle_flame	marsbattle		qmorph_mars_big	quasimorph_knight	Mars 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0		mars_flamehead	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mars
+mars_battle_gun	marsbattle		qmorph_mars_big	quasimorph_knight	Mars 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0		mars_headgun	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mars
+mars_crab	marscrab		qmorph_mars	quasimorph	Mars 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mars
+mars_support	marssupport		qmorph_mars	quasimorph	Mars 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0		mars_grenade_launcher	6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mars
+mercury_baron	mercurybaron	char_mercury_baron	qmorph_mercury_big	quasimorph_baron	Mercury 1	100 100	None 1	None 1	None 0.2 Cloth 0.2 LightArmor 0.4 MediumArmor 0.4 HeavyArmor 0.4	None 0.2 Cloth 0.2 LightArmor 0.4 MediumArmor 0.4 HeavyArmor 0.4	None 0.2 Cloth 0.2 LightArmor 0.4 MediumArmor 0.4 HeavyArmor 0.4	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mercury
+mercury_head	mercuryhead		qmorph_mercury	quasimorph	Mercury 1	100 100	None 1	None 1	None 0.2 Cloth 0.2 LightArmor 0.4 MediumArmor 0.4 HeavyArmor 0.4	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mercury
+mercury_knight	mercuryknight		qmorph_mercury_big	quasimorph_knight	Mercury 1	100 100	None 1	None 1	None 0.2 Cloth 0.2 LightArmor 0.4 MediumArmor 0.4 HeavyArmor 0.4	None 1	None 1	None 1	0 0	0 1	Food 0.15 Organ 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mercury
+mercury_slave	mercuryslave		qmorph_mercury	quasimorph	Mercury 1	30 50	None 0.2 Pistol 0.4 Shotgun 0.4 AssaultRifle 0.4 Machinegun 0.2 MarksmanRifle 0.2 Knife 0.4 Blade 0.4	None 1	None 1	None 0.6 Cloth 0.6 LightArmor 0.2 MediumArmor 0.2 HeavyArmor 0.2	None 0.6 Cloth 0.6 LightArmor 0.2 MediumArmor 0.2 HeavyArmor 0.2	None 0.6 Cloth 0.6 LightArmor 0.2 MediumArmor 0.2 HeavyArmor 0.2	5 16	0 1	Food 0.15 Organ 0.25 Parts 0.15 QuasiArtefact 0.01		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Mercury
+moon_baron	moonbaron	char_moon_baron	qmorph_moon_big	quasimorph_baron	Moon 1	100 100	None 1	None 1	MediumArmor 1	None 1	MediumArmor 1	MediumArmor 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Moon
+moon_cage	mooncage		qmorph_moon_big	quasimorph	Moon 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Moon
+moon_knight	moonknight		qmorph_moon_big	quasimorph_knight	Moon 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 1	Food 0.15 QuasiOrgan 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Moon
+moon_servitor	moonservitor		qmorph_moon	quasimorph	Moon 1	50 80	None 0.2 Blade 0.4 Axe 0.4 Club 0.4 AssaultRifle 0.2 MarksmanRifle 0.2 Machinegun 0.1	None 1	None 0.5 Cloth 0.5 LightArmor 0.3 MediumArmor 0.2 HeavyArmor 0.1	None 0.5 Cloth 0.5 LightArmor 0.3 MediumArmor 0.2 HeavyArmor 0.1	None 0.5 Cloth 0.5 LightArmor 0.3 MediumArmor 0.2 HeavyArmor 0.1	None 0.5 Cloth 0.5 LightArmor 0.3 MediumArmor 0.2 HeavyArmor 0.1	4 12	0 1	Food 0.15 Organ 0.25 Parts 0.15 QuasiArtefact 0.01 RepairKit 0.05		6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Moon
+moon_slave	moonslave		qmorph_moon	quasimorph	Moon 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Moon
+ron_baron	ronbaron	char_ron_baron	qmorph_ron	quasimorph_baron	Ron 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Ron
+ron_knight	ronknight		qmorph_ron	quasimorph_knight	Ron 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Ron
+ron_slave	ronslave		qmorph_ron	quasimorph	Ron 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Ron
+scrivnus_baron	scrivnusbaron	char_scrivnus_baron	qmorph_scrivnus	quasimorph_baron	Scrivnus 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Scrivnus
+scrivnus_knight	scrivnusknight		qmorph_scrivnus	quasimorph_knight	Scrivnus 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Scrivnus
+scrivnus_servitor	scrivnusservitor		qmorph_scrivnus	quasimorph	Scrivnus 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Scrivnus
+jungle_spider	spider		spider	spider	Faction 1	100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0			6	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	Tezctlan
+urparp_boss	urparpboss	char_urparp	qmorph_mars_urparp	urparp		100 100	None 1	None 1	None 1	None 1	None 1	None 1	0 0	0 0		mars_urparp_headgun	10	0	0	0	0 0 0.0 0.00		0	0	0	0	0		FALSE	FALSE	
+#end																															
+																															
+#ai-presets																															
+Id	ShootChance	GrenadeChance	UltimateChance	HuntMemory	SomniaBehave	EndlessHuntBehave	CoverBehave	IgnoreAllies	CanBeTraitor	CanOpenDoor	CanMeleeAttackDoor	AvoidMineChance	AvoidDangerTerrainChance	MinMigratePause	MaxMigratePause	MinMigrateDistance	MaxMigrateDistance	IdleFollowDistance	MigrateFollowDistance	FollowLatency	BestFiremodeChance										
+human_armed_civilian	1	0.3	0	24	Ignore	Hunt	None	FALSE	TRUE	TRUE	TRUE	0.6	0.6	50	75	20	35	6	3	2	0.3										
+human_military	1	0.6	0	24	Ignore	Ignore	TakeCoverOneTurn	FALSE	FALSE	TRUE	TRUE	0.8	0.8	30	45	20	35	6	3	2	0.8										
+robot	1	0.3	0	24	Ignore	Ignore	None	FALSE	TRUE	TRUE	TRUE	0	0	80	100	20	35	6	3	2	0.6										
+turret	1	0.3	0	24	Ignore	Ignore	None	FALSE	FALSE	FALSE	TRUE	0	0	100	100	20	35	6	3	2	1										
+spider	0	0.3	0	24	Sleep	Hunt	None	TRUE	TRUE	FALSE	TRUE	0.3	0.3	20	35	20	35	6	3	2	0.2										
+possesed	1	0.3	0	24	Sleep	Hunt	None	TRUE	TRUE	FALSE	TRUE	0.2	0.2	50	75	20	35	6	3	2	0.3										
+quasimorph	1	0.3	0	24	EccolapseBack	Hunt	None	TRUE	TRUE	FALSE	TRUE	0.3	0.3	40	65	20	35	6	3	2	0.6										
+quasimorph_knight	1	0.3	0	24	EccolapseBack	Hunt	None	TRUE	FALSE	FALSE	TRUE	0.5	0.5	30	45	20	35	6	3	2	0.8										
+quasimorph_baron	1	0.3	0.35	24	EccolapseBack	Hunt	None	TRUE	FALSE	FALSE	TRUE	0.6	0.6	20	35	20	35	6	3	2	0.9										
+urparp	1	0.3	0.35	24	Ignore	Hunt	None	TRUE	FALSE	FALSE	TRUE	0	0	20	35	20	35	6	3	2	0.9										
+#end																															
+																															
+#actors																															
+Id	Gender																														
+human_male	Male																														
+human_female	Female																														
+cyborg_civil	None																														
+cyborg_battle	None																														
+cyborg_recreation	None																														
+turret_firearm	None																														
+turret_emp	None																														
+turret_firethrower	None																														
+turret_energy	None																														
+fauna_spider	None																														
+possessed_male	Male																														
+possessed_female	Female																														
+possessed_blob	None																														
+possessed_bigarm	None																														
+possessed_centaur	None																														
+qmorph_mercury_baron	None																														
+qmorph_mercury_knight	None																														
+qmorph_mercury_head	None																														
+qmorph_mercury_slave	None																														
+qmorph_venus_baron	None																														
+qmorph_venus_knight	None																														
+qmorph_venus_lesser_knight	None																														
+qmorph_venus_cat	None																														
+qmorph_venus_servitor	None																														
+qmorph_moon_baron	None																														
+qmorph_moon_knight	None																														
+qmorph_moon_cage	None																														
+qmorph_moon_servitor	None																														
+qmorph_moon_slave	None																														
+qmorph_mars_urparp	None																														
+qmorph_mars_baron	None																														
+qmorph_mars_battle	None																														
+qmorph_mars_support	None																														
+qmorph_mars_crab	None																														
+qmorph_ron_baron	None																														
+qmorph_ron_knight	None																														
+qmorph_ron_slave	None																														
+qmorph_scrivnus_baron	None																														
+qmorph_scrivnus_knight	None																														
+qmorph_scrivnus_servitor	None																														
+qmorph_cattaram_baron	None																														
+qmorph_cattaram_knight	None																														
+qmorph_cattaram_servitor	None																														
+#end																															
+																															
+#voicebanks																															
+Id																															
+player_male																															
+player_female																															
+cyborg																															
+turret																															
+spider																															
+corp_ancom_male																															
+corp_ancom_female																															
+corp_sbn_male																															
+corp_sbn_female																															
+corp_realware_male																															
+corp_realware_female																															
+corp_daydream_male																															
+corp_daydream_female																															
+corp_planetbridge_male																															
+corp_planetbridge_female																															
+corp_grasshopper_male																															
+corp_grasshopper_female																															
+corp_sunlight_male																															
+corp_sunlight_female																															
+corp_franche_male																															
+corp_franche_female																															
+corp_church_male																															
+corp_church_female																															
+corp_coreward_male																															
+corp_coreward_female																															
+corp_dilthey_male																															
+corp_dilthey_female																															
+corp_unchained_male																															
+corp_unchained_female																															
+corp_civres_male																															
+corp_civres_female																															
+corp_shedu_male																															
+corp_shedu_female																															
+class_civilian_male																															
+class_civilian_female																															
+class_scientist_male																															
+class_scientist_female																															
+class_medic_male																															
+class_medic_female																															
+class_prisonier_male																															
+class_prisonier_female																															
+class_military_male																															
+class_military_female																															
+class_worker_male																															
+class_worker_female																															
+class_miner_male																															
+class_miner_female																															
+class_police_male																															
+class_police_female																															
+possessed_male																															
+possessed_female																															
+possessed_bigarm																															
+possessed_blob																															
+possessed_centaur																															
+qmorph_mercury																															
+qmorph_mercury_big																															
+qmorph_venus																															
+qmorph_venus_big																															
+qmorph_venus_small																															
+qmorph_venus_fly																															
+qmorph_moon																															
+qmorph_moon_big																															
+qmorph_mars																															
+qmorph_mars_big																															
+qmorph_mars_urparp																															
+qmorph_ron																															
+qmorph_scrivnus																															
+qmorph_cattaram																															
+qmorph_saturn																															
+qmorph_saturn_big																															
+#end																															
+																															
+#portraits																															
+Id																															
+char_bramph_realware																															
+char_cattaram_baron																															
+char_corporate1																															
+char_corporate2																															
+char_eipschwitz_head																															
+char_eipschwitz_normal																															
+char_jane																															
+char_kilgor																															
+char_mars_baron																															
+char_mercury_baron																															
+char_moon_baron																															
+char_quazizombie																															
+char_ron_baron																															
+char_scrivnus_baron																															
+char_urparp																															
+char_xiomara																															
+char_tezctlan																															
+char_venus_baron																															
+faction_AnCom																															
+faction_ChurchRevelation																															
+faction_CoreWard																															
+faction_CResistance																															
+faction_DaydreamChems																															
+faction_Dilthey																															
+faction_FrancheComte																															
+faction_Grasshopper																															
+faction_PlanetBridge																															
+faction_RealWare																															
+faction_SBN																															
+faction_SheduThousand																															
+faction_Sunlight																															
+faction_Tezctlan																															
+faction_UnchainedBelt_Defense																															
+faction_UnchainedBelt_Expansion																															
+faction_UnchainedBelt_Scouting																															
+faction_XiomaraMasks																															
+obstacle_lift																															
+obstacle_shuttle																															
+obstacle_splatter																															
+obstacle_terminal																															
+obstacle_workbench																															
+spaceobject_ceres																															
+spaceobject_citadel																															
+spaceobject_deimos																															
+spaceobject_earth																															
+spaceobject_fuller																															
+spaceobject_geist																															
+spaceobject_havoc																															
+spaceobject_interamnia																															
+spaceobject_mars																															
+spaceobject_mechta																															
+spaceobject_mercury																															
+spaceobject_moon																															
+spaceobject_pallas																															
+spaceobject_phobos																															
+spaceobject_tsiolkovsky																															
+spaceobject_venus																															
+spaceobject_vesta																															
+spaceobject_volcano																															
+spaceobject_wernher																															
+spaceobject_hungary																															
+spaceobject_hygeia																															
+spaceobject_annaherman																															
+#end																															

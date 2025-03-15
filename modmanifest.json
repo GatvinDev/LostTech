@@ -1,0 +1,7 @@
+{
+  "UniqueModName": "HelloWorld",
+  "Assemblies": [
+    "HelloWorld.dll"
+  ],
+  "Dependencies": []
+}
