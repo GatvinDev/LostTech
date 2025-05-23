@@ -11,8 +11,10 @@ namespace LostTech
 {
     [HarmonyPatch(typeof(Player), "ProcessDamage")]
     public static class PlayerArmorDamagePatch {
-        public static void Prefix(Player __instance, DamageHitInfo hitInfo, float visualDelay, out List<int> __state) {
-            
+        public static void Prefix(Player __instance, DamageHitInfo hitInfo, float visualDelay, out List<int> __state)
+        {
+            //var visCreaturesCount = AccessTools.FieldRefAccess<Player, CreatureMovementState>("_movementStateOnSkipTurn")(__instance);
+            //Debug.Log("Private member access for creature movement state: " + visCreaturesCount);
             var possibleSlots = 0;
             List<BreakableItemComponent> hitList = new List<BreakableItemComponent>();
 
